@@ -1,0 +1,30 @@
+var util={Global:{init:function(){this.ajaxSubmit(),this.masterheadEffects(),this.anchorLinks(),this.stickyNav(),this.selectColor(),this.imgdatahover(),this.contact()},ajaxSubmit:function(){$("#contact-form").submit(function(e){e.preventDefault();var t=$(this).validationEngine("validate");if(t)return $.ajax({url:"includes/contact-form.php",type:"post",data:$(this).serialize(),dataType:"json",asynce:!1,beforeSend:function(){$("div.main-content").before('<span class="loading"></span>')},success:function(e){return"ok"===e.result?(setTimeout(function(){$("#contact-form").get(0).reset()},1500),$("#contact-form").hide(),$("span.loading").remove(),$("#contact-message").addClass("is-success"),void $("#contact-message").html("<p>Thank you for your interest. One of our friendly customer service officers will get back to you as soon as possible.</p>").show()):void 0}}),!1})},contact:function(){$(".contact-form .form-control").focus(function(){$(this).parent().removeClass("round"),$(this).parent().addClass("focused")}).blur(function(){$(this).parent().removeClass("focused"),$(this).parent().addClass("round")})},imgdatahover:function(){var e="";$(".features-item").on("mouseover",function(){var t=$(this).attr("data-color");$(".features").removeClass(e),$(".features").addClass(t),e=t})},stickyNav:function(){$(window).scroll(function(){clearTimeout($.data(this,"scrollCheck")),$.data(this,"scrollCheck",setTimeout(function(){$(window).scrollTop()>160?$("body").addClass("navbar-shrink"):$("body").removeClass("navbar-shrink")},10))})},anchorLinks:function(){$(".anchor-links").singlePageNav({offset:66,filter:":not(.external)",updateHash:!0,beforeStart:function(){},onComplete:function(){}})},selectColor:function(){$("#colorselector_1").colorselector({callback:function(e){$(".device-colorselector-color").css({background:"url(img/detector-colors/"+e+".png)"})}}),$("#colorselector_2").colorselector({callback:function(e,t){$(".device-colorselector-holder").css("background-color",t)}})},masterheadEffects:function(){function e(){$(".masterhead").css({height:a-40}),$(".masterhead-img").css("height",a),$(".masterhead-detector img").mouseleave(function(){$(".masterhead-img-hover").animate({height:a},200)})}function t(){return $("body").addClass("masterhead-detector-hovered"),$(".masterhead-intro-front .animated").removeClass("go"),$(".masterhead-intro-back .animated").addClass("go"),$(".masterhead-img-hover").animate({height:0,opacity:1},200),!1}function o(){return $("body").removeClass("masterhead-detector-hovered"),$(".masterhead-intro-front .animated").addClass("go"),$(".masterhead-intro-back .animated").removeClass("go"),$(".masterhead-img-hover").animate({height:a},300),!1}var a=$(window).height();$(document).ready(function(){e()}),window.onresize=function(){e()},$(window).load(function(){function e(){o(),$(".masterhead-detector").mouseenter(function(){t()}),$(".masterhead-detector").mouseleave(function(){o()})}t(),window.setTimeout(e,5e3)})}}};$(window).ready(function(){util.Global.init()}),jQuery(document).ready(function($){$(window).load(function(){$("#preloader").fadeOut("slow",function(){$(this).remove()})})});
+if ( jQuery('#map-canvas').length != 0 ) {
+
+    // if (!document.getElementById('map-canvas')) return;
+
+    var $el = jQuery('#map-canvas'),
+        lat = parseInt($el.data('lat')) != 0 ? $el.data('lat'): -25.363882,
+        lng = parseInt($el.data('lng')) != 0 ? $el.data('lng'): 131.044922,
+        title = $el.data('title'),
+        myLatlng = new google.maps.LatLng(lat, lng),
+        mapOptions = {
+            zoom: 15,
+            center: myLatlng
+        },
+        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions),
+        marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: title
+        });
+
+    var infowindow = new google.maps.InfoWindow({
+        content: title
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+    });
+
+}
