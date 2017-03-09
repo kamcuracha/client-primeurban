@@ -6,7 +6,7 @@
 get_header(); // Loads the header.php template. ?>
 
 
-<div class="anchor-links">
+<!-- <div class="anchor-links">
   <a itemprop="relatedLink" class="active current" href="#top">
     <i></i>
     <span>Prime Urban</span>
@@ -27,6 +27,21 @@ get_header(); // Loads the header.php template. ?>
     <i></i>
     <span>Footer</span>
   </a>
+</div> -->
+
+<div class="anchor-links-v2">
+  <a itemprop="relatedLink" class="active current" href="/">
+    <i class="icon icon-hands"></i>
+  </a>
+  <a itemprop="relatedLink" href="/">
+    <i class="icon icon-home"></i>
+  </a>
+  <a itemprop="relatedLink" href="/">
+    <i class="icon icon-graph"></i>
+  </a>
+  <a itemprop="relatedLink" href="/">
+    <i class="icon icon-person"></i>
+  </a>
 </div>
 
 
@@ -37,35 +52,29 @@ get_header(); // Loads the header.php template. ?>
         <h2 class="h1 animated growIn go" data-id="1">
           Respect
         </h2>
-        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>
-          suppliers and the community</p>
+        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>suppliers and the community</p>
       </div>
       <div class="masterhead-intro masterhead-intro-back animatedParent" data-sequence="500">
         <h2 class="h1 animated growIn" data-id="1">
           Respect
         </h2>
-        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>
-          suppliers and the community</p>
+        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>suppliers and the community</p>
       </div>
     </div>
-    <div class="masterhead-img" style="height: 648px;">
+    <div class="masterhead-img">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
     </div>
-    <div class="masterhead-img masterhead-img-hover" style="height: 648px; opacity: 1;">
+    <div class="masterhead-img masterhead-img-hover">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
     </div>
   </div>
-  <!-- <span class="masterhead-detector">
-      <img src="assets/images/detector-white.png" alt="Gen6 Detector">
-  </span> -->
-  <!-- <img class="vshape" alt="" src="assets/images/vshape-white.png"> -->
 </div>
 
 <div class="section section-post-masterhead">
   <div class="section-heading post-masterhead copy animatedParent">
     <h3 class="section-title animated fadeInDownShort">Welcome to Prime Urban</h3>
 
-    <p class="animated fadeInDownShort go" data-id="2">Prime Urban is a dynamic, privately owned property development company specializing in the growing demand for medium density residential and mixed-use projects located in prestigious inner suburban Melbourne locations.</p>
+    <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company specializing in the growing demand for medium density residential and mixed-use projects located in prestigious inner suburban Melbourne locations.</p>
   </div>
 </div>
 

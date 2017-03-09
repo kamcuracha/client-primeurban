@@ -17,7 +17,7 @@
 
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" class="home">
+<body itemscope="" itemtype="http://schema.org/WebPage" class="<?php echo (is_front_page()) ? 'home' : 'inner-page'; ?>">
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand prime-urban-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-prime-urban.png" alt=""></a>
+      <a class="navbar-brand prime-urban-brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-prime-urban.png" alt=""></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

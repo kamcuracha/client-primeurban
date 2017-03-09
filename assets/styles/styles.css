@@ -6334,6 +6334,9 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
+.center {
+  text-align: center;
+}
 .center-block {
   display: block;
   margin-left: auto;
@@ -8996,7 +8999,7 @@ svg {
     padding-left: 0;
   }
   .navbar-fixed-top .container .navbar-collapse {
-    background: #056eb2;
+    background: #c5d616;
   }
   .navbar-fixed-top .container .navbar-collapse {
     padding-right: 0;
@@ -9072,9 +9075,9 @@ svg {
   }
 }
 .navbar-toggle {
-  border-color: #056eb2;
+  border-color: #c5d616;
   margin: 0;
-  background-color: #056eb2;
+  background-color: #c5d616;
 }
 .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -9083,7 +9086,7 @@ svg {
   background-color: transparent;
 }
 .navbar-toggle.collapsed .icon-bar {
-  background-color: #056eb2;
+  background-color: #c5d616;
 }
 @media (max-width: 991px) {
   .navbar-nav {
@@ -9188,7 +9191,7 @@ svg {
 }
 .navbar-left > li.active > a {
   pointer-events: none;
-  color: #056eb2;
+  color: #f0c62d;
 }
 .navbar-left > li.active > a:before {
   -webkit-transform: scale(1);
@@ -10356,6 +10359,74 @@ svg {
   background: url(../images/bg-projects.jpg) center bottom no-repeat;
   background-size: cover;
 }
+.section-about-vm {
+  background: url(../images/bg-about-vm.jpg) center bottom no-repeat;
+  background-size: cover;
+}
+.section-services-xp {
+  background: url(../images/bg-services-xp.jpg) center bottom no-repeat;
+  background-size: cover;
+}
+.section-about-vm .col-sm-10,
+.section-services-xp .col-sm-10 {
+  background: #fff;
+  padding: 30px 40px;
+}
+.section-about-vm .about-tab,
+.section-services-xp .service-tab {
+  display: block;
+  height: 165px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 20px;
+  padding-top: 24px;
+}
+.section-about-vm .about-tab a,
+.section-services-xp .service-tab a {
+  display: block;
+  width: 86px;
+  height: 86px;
+  text-align: center;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  background: #1d2832;
+  border-radius: 50%;
+}
+.section-about-vm .about-tab a.active,
+.section-services-xp .service-tab a.active {
+  background: #c5d616;
+}
+.section-about-vm .about-tab i,
+.section-services-xp .service-tab i {
+  display: inline-block;
+}
+.section-about-vm .about-tab h3,
+.section-services-xp .service-tab h3 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin: 0;
+}
+.section-about-team .container {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+.section-about-team .team-member {
+  text-align: center;
+}
+.section-about-team .member-name {
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+.section-services-detail img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 270px;
+  height: 300px;
+  margin-bottom: 27px;
+}
 .main-content {
   background-color: #fff;
   padding: 1em 0;
@@ -10368,18 +10439,26 @@ svg {
 }
 .contact-form {
   /*max-width: 600px;*/
-  margin: 3em auto;
+  margin: 2em auto;
 }
-.contact-form .form-group label:after {
-  content: '*';
+.contact-form .frm_required, .contact-form .frm_error {
   color: red;
-  padding-left: 5px;
+}
+.contact-form .frm_error_style {
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 12px;
 }
 /*@media (max-width: 991px) {
   .contact-form {
     margin-top: 4em;
   }
 }*/
+.contact-form .frm_message p {
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 3em 0;
+}
 .contact-form .input-group {
   min-height: 76px;
   background-color: #f5f5f5;
@@ -10422,7 +10501,7 @@ svg {
   box-shadow: none;
   background-color: transparent;
   border: 1px solid #e9e9e9;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   height: 45px;
 }
 .contact-form .form-control.non-addon {
@@ -11168,7 +11247,7 @@ svg {
   font-size: 48px;
 }
 .inner-page .masterhead .h1 {
-  text-align: center;
+  text-align: right;
 }
 @media (max-width: 1199px) {
   .masterhead .h1 {
@@ -11236,6 +11315,9 @@ svg {
 }
 @media (min-width: 992px) {
   .masterhead-intro {
+    padding-top: 20em;
+  }
+  .inner-page .masterhead-intro {
     padding-top: 25em;
   }
 }
@@ -11323,6 +11405,9 @@ svg {
   .masterhead-img img {
     float: right;
     margin-top: -160px;
+  }
+  .inner-page .masterhead-img img {
+    margin-top: 0;
   }
 }
 @media (max-width: 1199px) {
@@ -11551,7 +11636,8 @@ svg {
   padding-bottom: 40px;
 }
 .section-latest .container,
-.section-contact-us .container {
+.section-contact-us .container,
+.inner-page div.section.section-padded > .container {
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -11693,6 +11779,9 @@ svg {
     padding: 42px 0;
     margin: 0 auto;
     text-align: center;
+}
+.footer-social a:hover i {
+  color: #c5d616;
 }
 .footer-social i {
   display: inline-block;
@@ -12517,17 +12606,19 @@ svg {
     /* Firefox 16+, IE 10+, Opera */
   }
 }
-.anchor-links {
+.anchor-links,
+.anchor-links-v2 {
   position: fixed;
   z-index: 99999;
   list-style: none;
   padding: 0;
-  margin: 0 0 0 17px;
+  /*margin: 0 0 0 17px;*/
   top: 42%;
   right: 0;
 }
 @media (max-width: 480px) {
-  .anchor-links {
+  .anchor-links,
+  .anchor-links-v2 {
     display: none;
   }
 }
@@ -12543,6 +12634,23 @@ svg {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+.anchor-links-v2 a {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 7px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.anchor-links-v2 a:after {
+  content: '';
+  display: inline-block;
+  background: #7d7d7d;
+  opacity: 0.45;
+  width: 42px;
+  height: 42px;
+}
 .anchor-links a i {
   text-indent: -9999em;
   display: inline-block;
@@ -12551,6 +12659,16 @@ svg {
   background: white;
   box-shadow: rgba(125, 125, 125, 0.45) 0 0 0 4px;
   margin-right: 6px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.anchor-links-v2 a i {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 9px;
+  z-index: 1;
+  /*box-shadow: rgba(125, 125, 125, 0.45) 0 0 0 4px;*/
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -12937,6 +13055,83 @@ svg {
   }
 }
 
+.masterhead {
+  height: 608px;
+}
+.inner-page .masterhead {
+  height: 525px;
+}
 .white {
   color: #fff;
+}
+
+.icon-hands {
+  background: url(../images/icon-hands.png) no-repeat;
+  width: 30px;
+  height: 22px;
+}
+
+.icon-home { 
+  background: url(../images/icon-home.png) no-repeat;
+  width: 25px;
+  height: 24px;
+}
+
+.icon-graph {
+  background: url(../images/icon-graph.png) no-repeat;
+  width: 26px;
+  height: 24px;
+}
+
+.icon-person {
+  background: url(../images/icon-person.png) no-repeat;
+  width: 21px;
+  height: 26px;
+}
+
+.icon-vision {
+  background: url(../images/icon-about-vision.png) no-repeat;
+  width: 48px;
+  height: 30px;
+}
+
+.icon-values {
+  background: url(../images/icon-about-values.png) no-repeat;
+  width: 46px;
+  height: 43px;
+}
+
+.icon-development {
+  background: url(../images/icon-service-development.png) no-repeat;
+  width: 49px;
+  height: 46px;
+}
+
+.icon-planning {
+  background: url(../images/icon-service-planning.png) no-repeat;
+  width: 44px;
+  height: 47px;
+}
+
+.icon-design {
+  background: url(../images/icon-service-design.png) no-repeat;
+  width: 54px;
+  height: 53px;
+}
+
+.icon-marketing {
+  background: url(../images/icon-service-marketing.png) no-repeat;
+  width: 46px;
+  height: 43px;
+}
+
+.icon-funding {
+  background: url(../images/icon-service-funding.png) no-repeat;
+  width: 53px;
+  height: 52px;
+}
+
+.about-info {
+  font-size: 17px;
+  font-weight: bolder;
 }
