@@ -48,27 +48,22 @@ get_header(); // Loads the header.php template. ?>
         <div class="service-tab">
           <a href="#"><i class="icon-development"></i></a>
           <h3>Development</h3>
-          <hr align="center" width="20%">
         </div>
         <div class="service-tab">
           <a href="#"><i class="icon-planning"></i></a>
           <h3>Planning</h3>
-          <hr align="center" width="20%">
         </div>
         <div class="service-tab">
           <a href="#" class="active"><i class="icon-design"></i></a>
           <h3>Design</h3>
-          <hr align="center" width="20%">
         </div>
         <div class="service-tab">
           <a href="#"><i class="icon-marketing"></i></a>
           <h3>Marketing</h3>
-          <hr align="center" width="20%">
         </div>
         <div class="service-tab">
           <a href="#"><i class="icon-funding"></i></a>
           <h3>Funding</h3>
-          <hr align="center" width="20%">
         </div>
       </div>
       <div class="col-sm-10 animated fadeInRight">

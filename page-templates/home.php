@@ -49,16 +49,16 @@ get_header(); // Loads the header.php template. ?>
   <div class="masterhead">
     <div class="container">
       <div class="masterhead-intro masterhead-intro-front animatedParent" data-sequence="500">
-        <h2 class="h1 animated growIn go" data-id="1">
-          Respect
+        <h2 class="animated growIn go" data-id="1">
+          <div class="h2 white">Welcome to</div>
+          <div class="h1">Prime Urban</div>
         </h2>
-        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>suppliers and the community</p>
       </div>
       <div class="masterhead-intro masterhead-intro-back animatedParent" data-sequence="500">
-        <h2 class="h1 animated growIn" data-id="1">
-          Respect
+        <h2 class="animated growIn" data-id="1">
+          <div class="h2 white">Welcome to</div>
+          <div class="h1">Prime Urban</div>
         </h2>
-        <p class="white animated fadeInUpShort" data-id="2">We respect our people, our clients, our <br>suppliers and the community</p>
       </div>
     </div>
     <div class="masterhead-img">
@@ -70,23 +70,26 @@ get_header(); // Loads the header.php template. ?>
   </div>
 </div>
 
-<div class="section section-post-masterhead">
-  <div class="section-heading post-masterhead copy animatedParent">
-    <h3 class="section-title animated fadeInDownShort">Welcome to Prime Urban</h3>
+<div id="post-masterhead" class="section section-post-masterhead">
+  <div class="container">
+    <div class="section-heading copy animatedParent">
+      <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company specializing in the growing demand for medium density residential and mixed-use projects located in prestigious inner suburban Melbourne locations.</p>
+    </div>
+  </div>
+</div>
 
-    <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company specializing in the growing demand for medium density residential and mixed-use projects located in prestigious inner suburban Melbourne locations.</p>
+<div id="pre-qualities" class="section section-pre-qualities">
+  <div class="container">
+    <div class="section-heading p0 copy animatedParent">
+      <h3 class="section-title white animated fadeInDownShort">Key Qualities</h3>
+
+      <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. em sequi nesciunt. Neque porro quisquam est.
+      </p>
+    </div>    
   </div>
 </div>
 
 <div id="qualities" class="section section-vshape-bottom section-qualities overflow-hidden">
-  
-  <div class="section-heading plus copy animatedParent">
-    <h3 class="section-title animated fadeInDownShort">Key Qualities</h3>
-
-    <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-    </p>
-
-  </div>
 
   <div class="features light-green animatedParent">
     <div class="features-holder">
@@ -174,8 +177,7 @@ get_header(); // Loads the header.php template. ?>
 </div>
 
 <div id="projects" class="section section-projects">
-  <!-- <img class="vshape" alt="" src="assets/images/vshape-t-white.png"> -->
-  <div class="section-heading copy copy-inverted animatedParent">
+  <div class="section-heading half copy copy-inverted animatedParent">
     <h3 id="comparison" class="section-title animated fadeInDownShort">Featured Projects</h3>
     <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
   </div>

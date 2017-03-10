@@ -1209,8 +1209,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Titillium Regular", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   line-height: 1.1;
   color: inherit;
 }
@@ -1313,7 +1312,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 24px 0;
 }
 .lead {
   margin-bottom: 20px;
@@ -3117,10 +3116,10 @@ fieldset[disabled] .btn-default.active {
   color: #555;
   background-color: #e5e5e5;
   border-color: #e5e5e5;
-  -webkit-transition: background-color 500ms linear;
+  /*-webkit-transition: background-color 500ms linear;
   -ms-transition: background-color 500ms linear;
   -o-transition: background-color 500ms linear;
-  transition: background-color 500ms linear;
+  transition: background-color 500ms linear;*/
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -9028,7 +9027,7 @@ svg {
   .navbar-fixed-top .container .navbar-header {
     margin-right: 15px;
     margin-left: 15px;
-    margin-bottom: 14px;
+    margin-bottom: 13px;
   }
   .navbar-fixed-top .container .navbar-holder {
     padding: 10px 15px 15px;
@@ -9051,8 +9050,8 @@ svg {
     margin-top: 6px;
     border-color: #fff!important;
   }
-  .navbar-fixed-top .container .navbar-nav .active {
-    opacity: 0.5;
+  .navbar-fixed-top .container .navbar-nav .active a {
+    color: #898989;
   }
   .navbar-shrink .navbar-fixed-top {
     padding-top: 12px;
@@ -9179,7 +9178,7 @@ svg {
   width: 100%;
   height: 38px;
   display: block;
-  border: 1px solid #f0c62d;
+  /*border: 1px solid #f0c62d;*/
   border-radius: 42px;
   background-clip: padding-box;
   -webkit-box-sizing: border-box;
@@ -10034,8 +10033,8 @@ svg {
   padding-top: 20px;
   width: 90%;
 }
-.section .section-heading.plus {
-  padding-top: 36px;
+.section .section-heading.p0 {
+  padding-top: 0;
 }
 .section .section-heading p {
   margin-bottom: 20px;
@@ -10064,7 +10063,7 @@ svg {
   }
 }
 @media (min-width: 480px) {
-  .section .section-heading {
+  .section .section-heading.half {
     width: 50%;
   }
   .section .section-heading .btn {
@@ -10072,7 +10071,7 @@ svg {
   }
 }
 .section-title {
-  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Bold", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 200;
   margin-bottom: 16px;
@@ -10390,7 +10389,7 @@ svg {
   background: url(../images/bg-services-xp.jpg) center bottom no-repeat;
   background-size: cover;
 }
-.section-about-vm .col-sm-10,
+.section-about-vm .col-sm-12,
 .section-services-xp .col-sm-10 {
   background: #fff;
   padding: 30px 40px;
@@ -10398,12 +10397,19 @@ svg {
 .section-about-vm .about-tab,
 .section-services-xp .service-tab {
   display: block;
-  height: 165px;
+  height: 150px;
   width: 100%;
-  background: #fff;
-  margin-bottom: 20px;
+  /*background: #fff;
+  margin-bottom: 20px;*/
   padding-top: 24px;
 }
+.section-about-intro .about-tab {
+  display: inline-block;
+  height: 150px;
+  padding-top: 24px;
+  padding-right: 30px;
+}
+.section-about-intro .about-tab a,
 .section-about-vm .about-tab a,
 .section-services-xp .service-tab a {
   display: block;
@@ -10415,14 +10421,17 @@ svg {
   background: #1d2832;
   border-radius: 50%;
 }
+.section-about-intro .about-tab a.active,
 .section-about-vm .about-tab a.active,
 .section-services-xp .service-tab a.active {
   background: #c5d616;
 }
+.section-about-intro .about-tab i,
 .section-about-vm .about-tab i,
 .section-services-xp .service-tab i {
   display: inline-block;
 }
+.section-about-intro .about-tab h3,
 .section-about-vm .about-tab h3,
 .section-services-xp .service-tab h3 {
   font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
@@ -10432,6 +10441,7 @@ svg {
   padding-top: 10px;
   margin: 0;
 }
+.section-about-info hr,
 .section-about-vm hr,
 .section-services-xp hr {
   margin-top: 5px;
@@ -10881,6 +10891,7 @@ svg {
 }
 .features-item-icon {
   display: block;
+  background-color: #fff;
   border: 7px solid #ddd;
   border-radius: 100%;
   width: 65px;
@@ -11599,13 +11610,6 @@ svg {
     height: 400px;
   }
 }
-.post-masterhead {
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-.post-masterhead p {
-  margin-bottom: 0 !important;
-}
 .section-post-masterhead img {
   position: absolute;
   left: 0px;
@@ -11719,6 +11723,16 @@ svg {
 .inner-page div.section.section-padded > .container {
   padding-top: 4em;
   padding-bottom: 4em;
+}
+.section-post-masterhead .container,
+.section-pre-qualities .container,
+.section-about-intro .container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.section-pre-qualities {
+  background-color: #c5d616;
+  color: #fff;
 }
 .section-latest .section-heading {
   text-align: left;
@@ -13207,6 +13221,6 @@ svg {
 
 .about-info {
   font-family: "Titillium Bold", Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bolder;
 }
