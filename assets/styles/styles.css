@@ -3097,10 +3097,10 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   background-color: #c5d616;
   border-color: #c5d616;
-  -webkit-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  -o-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -11624,6 +11624,12 @@ svg {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+}
+.section-projects-all .card-filte{
+  text-align: center;
+}
+.section-projects-all .card h4 {
+  opacity: 1;
 }
 .card:hover h4 {
     opacity: 0.8;

@@ -163,14 +163,15 @@ get_header(); // Loads the header.php template. ?>
         </div>
       </div>
 
-      <img class="features-holder-img black" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sm.png" alt="">
-      <img class="features-holder-img blue" src="<?php echo get_template_directory_uri(); ?>/assets/images/blue-sm.png" alt="">
-      <img class="features-holder-img light-green" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed.png" alt="">
-      <img class="features-holder-img green" src="<?php echo get_template_directory_uri(); ?>/assets/images/green-sm.png" alt="">
-      <img class="features-holder-img orange" src="<?php echo get_template_directory_uri(); ?>/assets/images/orange-sm.png" alt="">
-      <img class="features-holder-img yellow" src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow-sm.png" alt="">
+      <img class="features-holder-img black" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-black.png" alt="">
+      <img class="features-holder-img blue" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-blue.png" alt="">
+      <img class="features-holder-img light-green" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-lgreen.png" alt="">
+      <img class="features-holder-img green" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-green.png" alt="">
+      <img class="features-holder-img orange" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-orange.png" alt="">
+      <img class="features-holder-img yellow" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-yellow.png" alt="">
     </div>
-    </div></div>
+  </div>
+</div>
 
 <div id="projects" class="section section-projects">
   <!-- <img class="vshape" alt="" src="assets/images/vshape-t-white.png"> -->
