@@ -31,9 +31,11 @@ get_header(); // Loads the header.php template. ?>
 <div id="projects-all" class="section section-padded section-projects-all">
   <div class="container">
     <div class="card-filter">
-      <a href="#">All</a></li>
-      <a href="#">Current Projects</a>
-      <a href="#">Previous Projects</a>
+      <ul>
+        <li><a href="#" class="active">All</a></li>
+        <li><a href="#">Current Projects</a></li>
+        <li><a href="#">Previous Projects</a></li>
+      </ul>
     </div>
     <div class="cards card-holder animatedParent">
       <div class="card card-1 animated fadeIn go" data-id="1">
@@ -90,6 +92,14 @@ get_header(); // Loads the header.php template. ?>
         </div>
         <h4 class="card-title"><a href="#">The Quad <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
       </div>
+    </div>
+    <div class="card-pagination">
+      <ul>
+        <li><a href="#" class="active">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#" class="button">Next</a></li>
+      </ul>
     </div>
   </div>
 </div>

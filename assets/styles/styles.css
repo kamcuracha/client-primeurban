@@ -1,18 +1,38 @@
-/*@font-face {
-  font-family: 'UniversLTStd55Roman';
-  src: url('../fonts/universltstd.eot');
-  src: url('../fonts/universltstd.eot') format('embedded-opentype'), url('../fonts/universltstd.woff2') format('woff2'), url('../fonts/universltstd.woff') format('woff'), url('../fonts/universltstd.ttf') format('truetype'), url('../fonts/universltstd.svg#UniversLTStd55Roman') format('svg');
+@font-face {
+  font-family: 'Titillium Black';
+  src: url('../fonts/titillium-black-webfont.eot');
+  src: url('../fonts/titillium-black-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-black-webfont.woff2') format('woff2'), url('../fonts/titillium-black-webfont.woff') format('woff'), url('../fonts/titillium-black-webfont.ttf') format('truetype'), url('../fonts/titillium-black-webfont.svg') format('svg');
 }
 @font-face {
-  font-family: 'ProximaNova-Reg';
-  src: url('"../fonts/ProximaNova-Reg.eot');
-  src: url('../fonts/ProximaNova-Reg.eot') format('embedded-opentype'), url('../fonts/ProximaNova-Reg.woff') format('woff'), url('../fonts/ProximaNova-Reg.ttf') format('truetype'), url('../fonts/ProximaNova-Reg.svg#ProximaNova-Reg') format('svg');
+  font-family: 'Titillium Bold';
+  src: url('../fonts/titillium-bold-webfont.eot');
+  src: url('../fonts/titillium-bold-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-bold-webfont.woff2') format('woff2'), url('../fonts/titillium-bold-webfont.woff') format('woff'), url('../fonts/titillium-bold-webfont.ttf') format('truetype'), url('../fonts/titillium-bold-webfont.svg') format('svg');
 }
 @font-face {
-  font-family: 'UniversLTStd65Bold';
-  src: url('../fonts/universltstd-bold.eot');
-  src: url('../fonts/universltstd-bold.eot') format('embedded-opentype'), url('../fonts/universltstd-bold.woff2') format('woff2'), url('../fonts/universltstd-bold.woff') format('woff'), url('../fonts/universltstd-bold.ttf') format('truetype'), url('../fonts/universltstd-bold.svg#UniversLTStd65Bold') format('svg');
-}*/
+  font-family: 'Titillium Itallic';
+  src: url('../fonts/titillium-regularitalic-webfont.eot');
+  src: url('../fonts/titillium-regularitalic-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-regularitalic-webfont.woff2') format('woff2'), url('../fonts/titillium-regularitalic-webfont.woff') format('woff'), url('../fonts/titillium-regularitalic-webfont.ttf') format('truetype'), url('../fonts/titillium-regularitalic-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Titillium Regular';
+  src: url('../fonts/titillium-regular-webfont.eot');
+  src: url('../fonts/titillium-regular-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-regular-webfont.woff2') format('woff2'), url('../fonts/titillium-regular-webfont.woff') format('woff'), url('../fonts/titillium-regular-webfont.ttf') format('truetype'), url('../fonts/titillium-regular-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Titillium Semi-Bold-It';
+  src: url('../fonts/titillium-semibolditalic-webfont.eot');
+  src: url('../fonts/titillium-semibolditalic-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-semibolditalic-webfont.woff2') format('woff2'), url('../fonts/titillium-semibolditalic-webfont.woff') format('woff'), url('../fonts/titillium-semibolditalic-webfont.ttf') format('truetype'), url('../fonts/titillium-semibolditalic-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Titillium Semi-Bold';
+  src: url('../fonts/titillium-semibold-webfont.eot');
+  src: url('../fonts/titillium-semibold-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-semibold-webfont.woff2') format('woff2'), url('../fonts/titillium-semibold-webfont.woff') format('woff'), url('../fonts/titillium-semibold-webfont.ttf') format('truetype'), url('../fonts/titillium-semibold-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Titillium Thin-It';
+  src: url('../fonts/titillium-thinitalic-webfont.eot');
+  src: url('../fonts/titillium-thinitalic-webfont.eot') format('embedded-opentype'), url('../fonts/titillium-thinitalic-webfont.woff2') format('woff2'), url('../fonts/titillium-thinitalic-webfont.woff') format('woff'), url('../fonts/titillium-thinitalic-webfont.ttf') format('truetype'), url('../fonts/titillium-thinitalic-webfont.svg') format('svg');
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1087,7 +1107,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "UniversLTStd55Roman", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1107,7 +1127,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #034068;
+  color: #898989;
   text-decoration: underline;
 }
 a:focus {
@@ -1189,7 +1209,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "Titillium Regular", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -3094,9 +3114,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #ffffff;
-  background-color: #c5d616;
-  border-color: #c5d616;
+  color: #555;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
   -webkit-transition: background-color 500ms linear;
   -ms-transition: background-color 500ms linear;
   -o-transition: background-color 500ms linear;
@@ -5841,7 +5861,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "UniversLTStd55Roman", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5948,7 +5968,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "UniversLTStd55Roman", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -9107,6 +9127,8 @@ svg {
   padding-top: 14px;
   padding-bottom: 14px;
   text-transform: uppercase;
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
+  font-size: 15px;
   font-weight: 600;
   line-height: 11px;
   color: #fff;
@@ -10050,10 +10072,11 @@ svg {
   }
 }
 .section-title {
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
+  font-size: 36px;
   font-weight: 200;
-  font-size: 40px;
   margin-bottom: 16px;
-  color: #5B5B5B;
+  color: #000;
 }
 .copy-inverted .section-title {
   color: #fff;
@@ -10402,11 +10425,17 @@ svg {
 }
 .section-about-vm .about-tab h3,
 .section-services-xp .service-tab h3 {
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   padding-top: 10px;
   margin: 0;
+}
+.section-about-vm hr,
+.section-services-xp hr {
+  margin-top: 5px;
+  border-top-width: 3px;
 }
 .section-about-team .container {
   padding-top: 2em;
@@ -10416,6 +10445,7 @@ svg {
   text-align: center;
 }
 .section-about-team .member-name {
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   font-size: 21px;
   text-transform: uppercase;
   margin-top: 18px;
@@ -10495,7 +10525,6 @@ svg {
 .contact-form .form-control {
   margin-top: 15px;
   padding: 11px 18px 6px;
-  font-family: 'UniversLTStd55Roman';
   font-size: 18px;
   color: #989898;
   box-shadow: none;
@@ -10571,7 +10600,6 @@ svg {
   background-color: #056eb2;
   color: #fff;
   text-decoration: none;
-  font-family: 'UniversLTStd55Roman';
   font-size: 16px;
   padding: 7px 20px 6px;
   border-radius: 60px;
@@ -10780,8 +10808,8 @@ svg {
   border-color: #ebe38c;
 }
 .features .features-item[data-color="yellow"]:hover .features-item-body h3 {
-  color: #ebe38c;
   font-size: 18px;
+  color: #ebe38c;
 }
 .features .features-item[data-color="blue"]:hover {
   border-color: #008abc;
@@ -10880,6 +10908,7 @@ svg {
   }
 }
 .features-item-body h3 {
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   margin: 0 0 6px;
   font-size: 18px;
   text-transform: uppercase;
@@ -11245,6 +11274,7 @@ svg {
   font-weight: 200;
   color: #fff;
   font-size: 48px;
+  text-transform: uppercase;
 }
 .inner-page .masterhead .h1 {
   text-align: right;
@@ -11610,13 +11640,14 @@ svg {
   max-height: 375px;
 }
 .card h4 {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   bottom: 0px;
   left: 0px;
   right: 0px;
   padding: 16px 0px;
   margin-bottom: 0;
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   background: #fff;
   text-decoration: none;
   text-align: center;
@@ -11625,11 +11656,53 @@ svg {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
-.section-projects-all .card-filte{
+.section-projects-all .card-filter {
   text-align: center;
+  margin-bottom: 2em;
 }
-.section-projects-all .card h4 {
+.section-projects-all .card-filter li,
+.section-projects-all .card-pagination li {
+  display: inline-block;
+  padding-right: 7px;
+}
+.section-projects-all .card-filter a {
+  color: #898989;
+}
+.section-projects-all .card-filter a.active,
+.section-projects-all .card-filter a:hover {
+  color: #c5d616;
+}
+/*.section-projects-all .card h4 {
   opacity: 1;
+}*/
+.section-projects-all .card-pagination {
+  text-align: right;
+  margin-right: 88px;
+}
+.section-projects-all .card-pagination a {
+  color: #555;
+  background-color: #e5e5e5;
+  border: solid 1px #e5e5e5;
+  padding: 7px 10px;
+}
+.section-projects-all .card-pagination a.active {
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+}
+.section-projects-all .card-pagination a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #cfcfcf;
+  border: solid 1px #cfcfcf;
+}
+.section-projects-all .card-pagination a.button {
+  color: #fff;
+  background-color: #c5d616;
+  border: solid 1px #c5d616;
+}
+.section-projects-all .card-pagination a.button:hover {
+  background-color: #d4e517;
+  border: solid 1px #d4e517;
 }
 .card:hover h4 {
     opacity: 0.8;
@@ -11662,6 +11735,7 @@ svg {
   border-top-width: 3px;
 }
 .section-latest .entry-title {
+  font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -12136,7 +12210,6 @@ svg {
   text-align: left;
 }
 .buttons h4 {
-  font-family: 'UniversLTStd65Bold';
   color: #fff;
   font-size: 22px;
   line-height: 1.1;
@@ -12188,7 +12261,6 @@ svg {
 }
 .details ul li h3 {
   font-size: 22px;
-  font-family: 'UniversLTStd65Bold';
   text-align: left;
   color: #333;
   margin-top: 30px;
@@ -13045,10 +13117,6 @@ svg {
   #navbar-primary .navbar-nav > li:nth-of-type(3) {
     margin-left: 175px;
   }
-  #navbar-primary .navbar-nav > li > a {
-    /*padding-left: 30px;
-    padding-right: 30px;*/
-  }
   #menu-primary {
     width: 777px;
   }
@@ -13138,6 +13206,7 @@ svg {
 }
 
 .about-info {
+  font-family: "Titillium Bold", Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: bolder;
 }

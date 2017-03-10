@@ -48,10 +48,12 @@ get_header(); // Loads the header.php template. ?>
         <div class="about-tab">
           <a href="#" class="active"><i class="icon-vision"></i></a>
           <h3>Our Vision</h3>
+          <hr align="center" width="20%">
         </div>
         <div class="about-tab">
           <a href="#"><i class="icon-values"></i></a>
           <h3>Our Values</h3>
+          <hr align="center" width="20%">
         </div>
       </div>
       <div class="col-sm-10 animated fadeInRight">
