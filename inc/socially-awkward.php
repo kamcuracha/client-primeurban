@@ -71,7 +71,7 @@ function socially_awkward_enqueue_scripts() {
         //wp_enqueue_script('home' , hybrid_locate_theme_file( array( 'assets/scripts/home.js' ) ), array( 'jquery' ), '232232123213', true);
     }
 
-    if ( is_singular('products') ) {
+    if ( is_singular('projects') ) {
         wp_enqueue_script('map' , hybrid_locate_theme_file( array( '/assets/plugins/galleria/galleria-1.4.2.js' ) ), array( 'jquery' ), '32232123213', true);
         wp_enqueue_script('map-api' , hybrid_locate_theme_file( array( '/assets/plugins/galleria/galleria.classic.js' ) ), array( 'jquery' ), '32232123213', true);
     }

@@ -30,7 +30,7 @@ get_header(); // Loads the header.php template. ?>
 
 <?php
 
-$term = wp_get_post_terms($post->ID, 'product_category');
+$term = wp_get_post_terms($post->ID, 'project_category');
 if($term[0]->parent != 0)
     $parent = get_term($term[0]->parent, get_query_var('taxonomy') );
 ?>

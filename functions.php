@@ -181,7 +181,7 @@ function wds_cpt_search( $query ) {
 
 	if ( is_search() && $query->is_main_query() && $query->get( 's' ) ){
 
-		$query->set('post_type', array('products'));
+		$query->set('post_type', array('projects'));
 	}
 
 	return $query;

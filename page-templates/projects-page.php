@@ -60,7 +60,7 @@ get_header(); // Loads the header.php template. ?>
         <div class="card-image">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-clarence2.jpg" alt="">
         </div>
-        <h4 class="card-title"><a href="#">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
+        <h4 class="card-title"><a href="/projects/the-clarence/">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
       </div>
       <div class="card card-1 animated fadeIn go" data-id="2">
         <div class="card-image">
@@ -78,7 +78,7 @@ get_header(); // Loads the header.php template. ?>
         <div class="card-image">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-clarence3.jpg" alt="">
         </div>
-        <h4 class="card-title"><a href="#">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
+        <h4 class="card-title"><a href="/projects/the-clarence/">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
       </div>
       <div class="card card-1 animated fadeIn go" data-id="2">
         <div class="card-image">

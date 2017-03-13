@@ -4,7 +4,7 @@
  * This Class Holds Postype Code For MJA Theme.
  */
 
-class Products_PostType
+class Projects_PostType
 {
 
 
@@ -45,10 +45,10 @@ class Products_PostType
 
 
         /**
-         * Sets Up The Args And Initialises Products Post Type
+         * Sets Up The Args And Initialises Projects Post Type
          */
 
-        register_taxonomy('product_category', 'products', array(
+        register_taxonomy('project_category', 'projects', array(
             'hierarchical' => true,
             'labels' => array(
                 'name' => __('Categories'),
@@ -72,20 +72,20 @@ class Products_PostType
         ));
 
 
-        $productsargs = array(
+        $projectsargs = array(
             'labels' => array(
-                'name' => 'Products',
-                'singular_name' => 'product',
-                'add_new' => 'New Product',
-                'add_new_item' => 'Add New product',
-                'edit_item' => 'Edit product Details',
-                'new_item' => 'New product',
-                'view_item' => 'View product',
-                'search_items' => 'Search Products',
-                'not_found' => 'No Products Found',
-                'not_found_in_trash' => 'No Products In The Trash'
+                'name' => 'Projects',
+                'singular_name' => 'project',
+                'add_new' => 'New Project',
+                'add_new_item' => 'Add New project',
+                'edit_item' => 'Edit project Details',
+                'new_item' => 'New project',
+                'view_item' => 'View project',
+                'search_items' => 'Search Projects',
+                'not_found' => 'No Projects Found',
+                'not_found_in_trash' => 'No Projects In The Trash'
             ),
-            'has_archive' => true,
+            'has_archive' => false,
             'public' => true,
             'show_ui' => true,
             'capability_type' => 'post',
@@ -96,13 +96,13 @@ class Products_PostType
                 'thumbnail'
             ),
             'menu_position' => 7,
-            'taxonomies' => array('product_category')
+            'taxonomies' => array('project_category')
         );
-        register_post_type('products', $productsargs);
+        register_post_type('projects', $projectsargs);
 
     }
 
 }
 
-new Products_PostType();
+new Projects_PostType();
 
