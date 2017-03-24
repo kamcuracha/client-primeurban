@@ -6,34 +6,11 @@
 get_header(); // Loads the header.php template. ?>
 
 
-<!-- <div class="anchor-links">
-  <a itemprop="relatedLink" class="active current" href="#top">
-    <i></i>
-    <span>Prime Urban</span>
-  </a>
-  <a itemprop="relatedLink" href="#qualities">
-    <i></i>
-    <span>Qualities</span>
-  </a>
-  <a itemprop="relatedLink" href="#projects">
-    <i></i>
-    <span>Projects</span>
-  </a>
-  <a itemprop="relatedLink" href="#latest">
-    <i></i>
-    <span>Latest News</span>
-  </a>
-  <a itemprop="relatedLink" href="#prefooter">
-    <i></i>
-    <span>Footer</span>
-  </a>
-</div> -->
-
 <div class="anchor-links-v2">
-  <a itemprop="relatedLink" class="active current" href="/projects">
+  <a itemprop="relatedLink" href="/projects">
     <i class="icon icon-hands"></i>
   </a>
-  <a itemprop="relatedLink" href="/">
+  <a itemprop="relatedLink" class="current" href="/">
     <i class="icon icon-home"></i>
   </a>
   <a itemprop="relatedLink" href="/our-services">
@@ -66,6 +43,11 @@ get_header(); // Loads the header.php template. ?>
     </div>
     <div class="masterhead-img masterhead-img-hover">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
+    </div>
+    <div class="masterhear-accent">
+      <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
+      <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
+      <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
     </div>
   </div>
 </div>

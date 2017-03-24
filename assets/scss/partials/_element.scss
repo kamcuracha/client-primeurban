@@ -4811,3 +4811,55 @@ a.list-group-item-danger.active:focus {
     text-align: center;
   }
 }
+.masterhear-accent {
+    position: absolute;
+    top: 0;
+    left: -100%;
+
+    .accent {
+      position: absolute;
+    }
+
+    .accent1 {
+      transition: all 0.75s ease-in-out;
+      -webkit-transition: all 0.75s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 0.75s ease-in-out; /** Firefox **/
+      -o-transition: all 0.75s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          transform: translate(70%,0);
+          -webkit-transform: translate(70%,0); /** Chrome & Safari **/
+          -o-transform: translate(70%,0); /** Opera **/
+          -moz-transform: translate(70%,0); /** Firefox **/
+      }
+    }
+
+    .accent2 {
+      transition: all 1s ease-in-out;
+      -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 1s ease-in-out; /** Firefox **/
+      -o-transition: all 1s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          transform: translate(80%,0);
+          -webkit-transform: translate(80%,0); /** Chrome & Safari **/
+          -o-transform: translate(80%,0); /** Opera **/
+          -moz-transform: translate(80%,0); /** Firefox **/
+      }
+    }
+
+    .accent3 {
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+      -o-transition: all 0.5s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          transform: translate(90%,0);
+          -webkit-transform: translate(90%,0); /** Chrome & Safari **/
+          -o-transform: translate(90%,0); /** Opera **/
+          -moz-transform: translate(90%,0); /** Firefox **/
+      }
+    }
+}
+    
