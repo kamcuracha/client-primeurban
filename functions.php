@@ -41,7 +41,7 @@ add_action( 'after_setup_theme', 'socially_awkward_theme_setup' );
 
 function lmtheme_custom_styles() {
 
-    wp_enqueue_style( 'lmtheme', get_template_directory_uri() . '/assets/styles/styles.css' );
+    // wp_enqueue_style( 'lmtheme', get_template_directory_uri() . '/assets/styles/styles.css' );
     wp_enqueue_style( 'lmtheme-main', get_template_directory_uri() . '/assets/styles/main.css' );
 
 }

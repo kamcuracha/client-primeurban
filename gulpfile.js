@@ -13,7 +13,7 @@ gulp.task('styles', function() {
         // .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass({
-            outputStyle: 'expanded'
+            outputStyle: 'compressed'
         }))
         .on('error', sass.logError)
         .pipe(autoprefixer({
