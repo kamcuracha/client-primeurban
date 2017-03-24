@@ -30,16 +30,16 @@ get_header(); // Loads the header.php template. ?>
 </div> -->
 
 <div class="anchor-links-v2">
-  <a itemprop="relatedLink" class="active current" href="/">
+  <a itemprop="relatedLink" class="active current" href="/projects">
     <i class="icon icon-hands"></i>
   </a>
   <a itemprop="relatedLink" href="/">
     <i class="icon icon-home"></i>
   </a>
-  <a itemprop="relatedLink" href="/">
+  <a itemprop="relatedLink" href="/our-services">
     <i class="icon icon-graph"></i>
   </a>
-  <a itemprop="relatedLink" href="/">
+  <a itemprop="relatedLink" href="/contact-us">
     <i class="icon icon-person"></i>
   </a>
 </div>
@@ -73,7 +73,7 @@ get_header(); // Loads the header.php template. ?>
 <div id="post-masterhead" class="section section-post-masterhead">
   <div class="container">
     <div class="section-heading copy animatedParent">
-      <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company specializing in the growing demand for medium density residential and mixed-use projects located in prestigious inner suburban Melbourne locations.</p>
+      <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company. We specialize in the growing demand for residential and mixed-use project located in the prestigious inner suburbs of Melbourne.</p>
     </div>
   </div>
 </div>
@@ -85,8 +85,11 @@ get_header(); // Loads the header.php template. ?>
 
       <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. em sequi nesciunt. Neque porro quisquam est.
       </p>
-    </div>    
+    </div>
   </div>
+  <div class="arrow-up">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-main-prime-urban.png" alt="">
+  </div> 
 </div>
 
 <div id="qualities" class="section section-vshape-bottom section-qualities overflow-hidden">
@@ -102,7 +105,7 @@ get_header(); // Loads the header.php template. ?>
 
         <div class="features-item-body">
           <h3>Personalized Approach</h3>
-          <p>We take great care to listen to our clients and build lasting relationships – they are our past, present and future. Our proven ability to translate our client’s ideas and aspirations into reality continues to deliver outstanding sustainable built environments.</p>
+          <p>We take great care to listen to our clients and build lasting relationships – they are our past, present and future. Our proven ability to translate our client's ideas and aspirations into reality continues to deliver outstanding sustainable built environments.</p>
         </div>
       </div>
 
@@ -114,7 +117,7 @@ get_header(); // Loads the header.php template. ?>
 
         <div class="features-item-body">
           <h3>Proven Team Experience</h3>
-          <p>Comprising a unique Time Saver Mount, you can commission detectors before a ceiling is installed, reducing installation time and saving money on installation and labour costs. </p>
+          <p>We pride ourselves on engaging and working with only Australia's most visionary architects, interior designers and consultants that consistently display a reputation of trust, strong support, performance and demonstrate a continuing passion for innovation and excellence in design.</p>
         </div>
       </div>
 
@@ -125,8 +128,8 @@ get_header(); // Loads the header.php template. ?>
         </div>
 
         <div class="features-item-body">
-          <h3>Sophisticated Feasibility Analysis</h3>
-          <p>Forget about that ladder. Thanks to infrared technology, you can program detectors remotely – with your feet planted safely on the ground.</p>
+          <h3>Feasibility Analysis</h3>
+          <p>The success of all our projects revolves around the accuracy of our project feasibility analysis. Our feasibilities employ sophisticated in-house software that has evolved and developed over many years.</p>
         </div>
       </div>
 
@@ -138,7 +141,7 @@ get_header(); // Loads the header.php template. ?>
 
         <div class="features-item-body">
           <h3>Premium Site Selection</h3>
-          <p>Test and commission detectors fast. Avoid unnecessary delays, keep your business moving, and turnaround projects (and cashflow) more quickly. Providing you the opportunity to take on new projects quicker to improve business revenue.</p>
+          <p>Careful, well researched selection of premium development sites in inner Melbourne suburbs delivers not only exceptional lifestyle potential but prospective long term capital growth for our clients as either an owner occupied site or property investment.</p>
         </div>
       </div>
 
@@ -150,7 +153,7 @@ get_header(); // Loads the header.php template. ?>
 
         <div class="features-item-body">
           <h3>Valued Relationships</h3>
-          <p>Our non-proprietary products are developed with the world’s best technology experts so you can rely on us for the most advanced solutions to any project.</p>
+          <p>We place great importance on each and every client, ensuring that we establish a lasting connection throughout this long term relationship. We strive to create and deliver best possible value for our clients both on build quality and affordability.</p>
         </div>
       </div>
 
@@ -162,7 +165,7 @@ get_header(); // Loads the header.php template. ?>
 
         <div class="features-item-body">
           <h3>Unrivalled Delivery Ability</h3>
-          <p>Featuring backward and forward capability, you can upgrade without the stress, labour and downtime involved with replacing entire systems.</p>
+          <p>Our thorough knowledge of residential building practice and the players in this market ensures certainty of delivery. We drive each project by a well resourced, coordinated consultant team with strong leadership and unbridled commitment.</p>
         </div>
       </div>
 
@@ -179,28 +182,34 @@ get_header(); // Loads the header.php template. ?>
 <div id="projects" class="section section-projects">
   <div class="section-heading half copy copy-inverted animatedParent">
     <h3 id="comparison" class="section-title animated fadeInDownShort">Featured Projects</h3>
-    <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    <p class="animated fadeInUpShort">We are proud of all the projects the Prime Urban team have completed. Ranging across a wide variety of sites and developments, Prime Urban continually set the bar for design, quality and deliverability.</p>
   </div>
 
   <div class="container">
     <div class="cards card-holder animatedParent">
       <div class="card card-1 animated fadeIn go" data-id="1">
-        <div class="card-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-clarence.jpg" alt="">
-        </div>
-        <h4 class="card-title"><a href="#">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
+        <a href="/projects/the-clarence">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-clarence.jpg" alt="">
+          </div>
+          <h4 class="card-title">The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+        </a>
       </div>
       <div class="card card-1 animated fadeIn go" data-id="2">
-        <div class="card-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-vivida.jpg" alt="">
-        </div>
-        <h4 class="card-title"><a href="#">Vivida <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
+        <a href="#">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-vivida.jpg" alt="">
+          </div>
+          <h4 class="card-title">Vivida <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+        </a>
       </div>
       <div class="card card-1 animated fadeIn go" data-id="3">
-        <div class="card-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-quad.jpg" alt="">
-        </div>
-        <h4 class="card-title"><a href="#">The Quad <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
+        <a href="#">
+          <div class="card-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-quad.jpg" alt="">
+          </div>
+          <h4 class="card-title">The Quad <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+        </a>
       </div>
     </div>
     <div class="card-link">

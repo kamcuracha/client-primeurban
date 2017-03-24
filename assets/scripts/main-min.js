@@ -28,3 +28,27 @@ if ( jQuery('#map-canvas').length != 0 ) {
     });
 
 }
+
+$(document).ready(function() {    
+
+    $('.tabs div a:first').addClass('active');
+    $('.tabs div a:not(:first)').addClass('inactive');
+    $('.section-about-vm .row, .section-services-xp .row .row').hide();
+    $('.section-about-vm .row:first, .section-services-xp .row .row:first').show();
+        
+    $('.tabs div a').click(function(e){
+        e.preventDefault();
+        var t = $(this).attr('id');
+
+        if($(this).hasClass('inactive')){ //this is the start of our condition 
+            $('.tabs div a').addClass('inactive');
+            $('.tabs div a').removeClass('active');      
+            $(this).removeClass('inactive');
+            $(this).addClass('active');
+
+            $('.section-about-vm .row, .section-services-xp .row .row').hide();
+            $('#'+ t + '-row').fadeIn('fast');
+        }
+    });
+
+});
