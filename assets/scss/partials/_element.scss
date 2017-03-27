@@ -3452,6 +3452,10 @@ a.list-group-item-danger.active:focus {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+
+  .home & {
+    height: 50px;
+  }
 }
 .card h4 {
   position: relative;
@@ -3459,6 +3463,11 @@ a.list-group-item-danger.active:focus {
   -webkit-transform: translateY(-75%);
   -ms-transform: translateY(-75%);
   transform: translateY(-75%);
+
+  .home & {
+    top: 0;
+    transform: translateY(-50%);
+  }
 }
 .card:hover h4 {
     opacity: 0.8;
@@ -3471,7 +3480,7 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 40px;
 }
 .masterhead {
-  height: 608px;
+  height: 540px;
 }
 .inner-page .masterhead {
   height: 525px;
@@ -3594,7 +3603,7 @@ a.list-group-item-danger.active:focus {
     padding-top: 8em;
     margin-left: 0;
     padding-top: 7em;
-    padding-bottom: 9em;
+    padding-bottom: 7em;
     text-align: center;
   }
 }
@@ -3652,6 +3661,7 @@ a.list-group-item-danger.active:focus {
   overflow: hidden;
   margin: auto;
   text-align: center;
+  height: 100%;
 }
 .masterhead-img span {
   position: absolute;
@@ -3662,11 +3672,15 @@ a.list-group-item-danger.active:focus {
   height: 100%;
   background: url('../images/banner.jpg') no-repeat center;
 }
+
+.masterhead-img img {
+  /*float: right;
+  margin-top: -160px;*/
+  width: 100%;
+  height: 100%;
+  background-size: 100% auto !important;
+}
 @media (max-width: 1520px) {
-  .masterhead-img img {
-    float: right;
-    margin-top: -160px;
-  }
   .inner-page .masterhead-img img {
     margin-top: 0;
   }
@@ -3678,18 +3692,18 @@ a.list-group-item-danger.active:focus {
 }
 @media (max-width: 767px) {
   .masterhead-img {
-    margin: 59px auto 0;
+    /*margin: 59px auto 0;*/
   }
   .masterhead-img img {
-    width: 100%;
+    /*width: 100%;
     float: none;
-    margin: 0;
+    margin: 0;*/
   }
 }
 @media (max-width: 480px) {
   .masterhead-img img {
-    width: auto;
-    height: 100%;
+    /*width: auto;
+    height: 100%;*/
   }
 }
 .masterhead-img-hover {
@@ -4844,6 +4858,7 @@ a.list-group-item-danger.active:focus {
     .accent {
       position: absolute;
       overflow: hidden;
+      opacity: 0;
     }
 
     .accent1 {
@@ -4853,6 +4868,7 @@ a.list-group-item-danger.active:focus {
       -o-transition: all 0.75s ease-in-out; /** Opera **/
 
       #top:hover &.move-right {
+          opacity: 1;
           transform: translate(70%,0);
           -webkit-transform: translate(70%,0); /** Chrome & Safari **/
           -o-transform: translate(70%,0); /** Opera **/
@@ -4867,6 +4883,7 @@ a.list-group-item-danger.active:focus {
       -o-transition: all 1s ease-in-out; /** Opera **/
 
       #top:hover &.move-right {
+          opacity: 1;
           transform: translate(80%,0);
           -webkit-transform: translate(80%,0); /** Chrome & Safari **/
           -o-transform: translate(80%,0); /** Opera **/
@@ -4881,6 +4898,7 @@ a.list-group-item-danger.active:focus {
       -o-transition: all 0.5s ease-in-out; /** Opera **/
 
       #top:hover &.move-right {
+          opacity: 1;
           transform: translate(90%,0);
           -webkit-transform: translate(90%,0); /** Chrome & Safari **/
           -o-transform: translate(90%,0); /** Opera **/
