@@ -121,16 +121,29 @@
   border-style: solid;
   border-width: 0 100px 100px 100px;
   border-color: transparent transparent #fff transparent;
+
+  @media (max-width: 560px) {
+    border-width: 0 50px 50px 50px;
+  }
+
+  img {
+    position: relative;
+    display: block;
+    left: -49px;
+    top: 30px;
+
+    @media (max-width: 560px) {
+      left: -35px;
+      top: 18px;
+      width: 69px;
+      height: 86px;
+    }
+      
+  }
 }
-.section-pre-qualities .arrow-up img {
-  position: relative;
-  direction: block;
-  left: -49px;
-  top: 30px;
+.section-qualities {
+  padding-top: 30px;
 }
-/*.section-qualities {
-  z-index: -1;
-}*/
 .section-latest .section-heading {
   text-align: left;
   width: 100%;
@@ -196,16 +209,27 @@
 .section-projects-all .card-pagination {
   text-align: right;
   margin-right: 88px;
+
+  @media (max-width: 560px) {
+    text-align: center;
+    margin-right: 0;
+  }
 }
 .section-projects-all .card-pagination a {
+  display: block;
   color: #555;
   background-color: #e5e5e5;
   border: solid 1px #e5e5e5;
   padding: 7px 10px;
+  margin-bottom: 16px;
 }
+.section-projects-all .card-pagination li.active a,
 .section-projects-all .card-pagination a.active {
   background-color: #fff;
   border: solid 1px #e5e5e5;
+}
+.section-projects-all .card-pagination li.active a:hover {
+  color: #cfcfcf;
 }
 .section-projects-all .card-pagination a:hover {
   color: #fff;
@@ -213,11 +237,13 @@
   background-color: #cfcfcf;
   border: solid 1px #cfcfcf;
 }
+.section-projects-all .card-pagination li.pagi-nav a,
 .section-projects-all .card-pagination a.button {
   color: #fff;
   background-color: #c5d616;
   border: solid 1px #c5d616;
 }
+.section-projects-all .card-pagination li.pagi-nav a:hover,
 .section-projects-all .card-pagination a.button:hover {
   background-color: #d4e517;
   border: solid 1px #d4e517;
@@ -318,7 +344,12 @@
     }
   }
 }
-.section-services-xp .col-sm-2:after {
+.section-services-xp .col-xs-2 {
+  @media (max-width: 560px) {
+    padding: 0;
+  }
+}
+.section-services-xp .col-xs-2:after {
   content: "";
   background: white;
   border-radius: 5px;
@@ -332,10 +363,15 @@
   z-index: -1;
 }
 .section-about-vm .col-sm-12,
-.section-services-xp .col-sm-10 {
+.section-services-xp .col-xs-10 {
   background: #fff;
   padding: 30px 40px;
   border-radius: 7px;
+}
+.section-services-xp .col-xs-10 {
+  @media (max-width: 560px) {
+    border-radius: 0;
+  }
 }
 .section-about-vm .about-tab,
 .section-services-xp .service-tab {
@@ -346,16 +382,43 @@
   margin-bottom: 20px;*/
   padding-top: 24px;
 }
-.section-services-xp .service-tab a.active:after{
-  content: "";
-  position: absolute;
-  margin-top: -36px;
-  right: 0;
-  border-width: 15px 15px 15px 0;
-  border-style: solid;
-  border-color: transparent #fff;
-  display: block;
-  width: 0;
+.section-services-xp .service-tab {
+  @media (max-width: 560px) {
+    height: auto;
+    padding-top: 0;
+
+    a {
+      border-bottom: solid 1px #333;
+      border-radius: 0 !important;
+      width: auto !important;
+    }
+
+    &:last-child a {
+      border-bottom: none;
+    }
+
+    i {
+      background-size: 75% 75%;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  a.active:after{
+    content: "";
+    position: absolute;
+    margin-top: -36px;
+    right: 0;
+    border-width: 15px 15px 15px 0;
+    border-style: solid;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+
+    @media (max-width: 560px) {
+      display: none;
+    }
+  }
 }
 .section-about-intro .about-tab {
   display: inline-block;
@@ -394,6 +457,14 @@
   text-transform: uppercase;
   padding-top: 10px;
   margin: 0;
+}
+.section-services-xp .service-tab h3 {
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+  @media (max-width: 560px) {
+    display: none;
+  }
 }
 .section-about-info hr,
 .section-about-vm hr,

@@ -160,6 +160,10 @@ fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
+
+  .contact-form & {
+    border: none;
+  }
 }
 legend {
   border: 0;
@@ -1073,7 +1077,7 @@ html {
 }
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;

@@ -3395,9 +3395,24 @@ a.list-group-item-danger.active:focus {
   }
 }
 .cards {
+  max-width: 960px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 36px;
+  clear: both;
+
+  @media (max-width: 687px) {
+    max-width: 320px
+  }
+}
+.cards.no-transition,
+.cards.no-transition .card,
+.cards .card.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
 }
 .card {
   background: #fff;
@@ -3418,6 +3433,7 @@ a.list-group-item-danger.active:focus {
 .card img {
   width: 100%;
   max-height: 375px;
+  height: 360px;
 }
 .card h4 {
   opacity: 1;
@@ -4818,6 +4834,7 @@ a.list-group-item-danger.active:focus {
 
     .accent {
       position: absolute;
+      overflow: hidden;
     }
 
     .accent1 {
@@ -4862,4 +4879,25 @@ a.list-group-item-danger.active:focus {
       }
     }
 }
-    
+
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+ 
+.isotope-item {
+  z-index: 2;
+}
+ 
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/*.card-holder .card {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property:    -moz-transform, opacity;
+    transition-property:         transform, opacity;
+}*/

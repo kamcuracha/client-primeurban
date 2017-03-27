@@ -753,8 +753,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
 }
 .navbar-shrink .navbar-fixed-top {
-  padding-top: 27px;
-  height: 110px;
+  padding-top: 30px;
+  height: 120px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   background-color: #fff;
@@ -764,14 +764,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .navbar-shrink .navbar-fixed-top .navbar-nav li.active a,
 .navbar-shrink .navbar-fixed-top .navbar-nav li a:hover {
-  color: #f0c62d;
+  color: #898989;
 }
 .navbar-shrink .navbar-fixed-top .navbar-nav img,
 .navbar-shrink .navbar-fixed-top .prime-urban-brand img {
-  height: 81.5px;
+  height: 104px;
 }
 .navbar-shrink .navbar-fixed-top .prime-urban-brand {
-  margin: 0px 0 0 -63.5px !important;
+  margin: -25px 0 0 -90.5px !important;
 }
 .navbar-shrink #menu-primary {
   padding-top: 0;
@@ -1043,7 +1043,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     float: none !important;
   }
   #menu-primary li:nth-of-type(3) {
-    margin-left: 167px;
+    margin-left: 192px;
   }
 }
 

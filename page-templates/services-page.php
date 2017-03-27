@@ -44,7 +44,7 @@ get_header(); // Loads the header.php template. ?>
 <div class="section section-padded section-services-xp">
     <div class="container">
     <div class="row animatedParent">
-      <div class="col-sm-2 tabs animated fadeInLeft">
+      <div class="col-xs-2 tabs animated fadeInLeft">
         <div class="service-tab">
           <a href="#" id="tab-team"><i class="icon-team"></i></a>
           <h3>Team</h3>
@@ -70,7 +70,7 @@ get_header(); // Loads the header.php template. ?>
           <h3>Development</h3>
         </div>
       </div>
-      <div class="col-sm-10 animated fadeInRight">
+      <div class="col-xs-10 animated fadeInRight">
         <div class="row" id="tab-team-row">
           <h3 class="section-title center">Team</h3>
           <p>We pride ourselves on hand picking and forming close working relationships with some of Australia's most visionary architects, interior designers and consultants that consistently display a reputation of ability, trust, commitment and performance. Our project teams demonstrate a continuing passion for innovation and excellence in design.</p>
