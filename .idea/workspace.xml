@@ -1,6 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="a882ba50-7ca8-4d99-93ce-3131e6bde873" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-RegularItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-SemiboldItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/Titillium-ThinItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-black-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-black-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-black-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-black-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-bold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regular-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regularitalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regularitalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regularitalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-regularitalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibolditalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibolditalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibolditalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-semibolditalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-thinitalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-thinitalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-thinitalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/titillium-thinitalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-about-vm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-about.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-accent-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-accent-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-accent-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-accent-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-accent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-contact.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-projects.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-banner-services.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-hr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-projects.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-services-xp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-square-qualities.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-about-values.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-about-vision.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-graph-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-graph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-lgreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-guaranteed-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-hands-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-hands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-home-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-key-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-person-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-design.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-feasibility.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-funding.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-planning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-selection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/icon-service-team.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-clarence.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-clarence2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-clarence3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-jardinier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-member1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-member2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-member3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-quad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-quad2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-quad3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-service1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-service2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-single-clarence1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-single-clarence2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-single-clarence3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-single-clarence4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-single-main-clarence.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-velocity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-vivida.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/img-vivida2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo-alt-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo-main-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo-prime-urban-alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/logo-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/no-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/galleria/classic-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/galleria/classic-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/galleria/galleria-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/galleria/galleria.classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/galleria/galleria.classic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/images/img7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/jquery.mCustomScrollbar.concat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/jquery.mCustomScrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/jquery.mCustomScrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plugins/scroll/mCSB_buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/jquery-1.11.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/main-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/bs/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/galleria/classic-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/galleria/classic-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/galleria/galleria-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/galleria/galleria.classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/galleria/galleria.classic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/plugins/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/vendor/jquery-1.11.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_element.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_section.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/partials/_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scss/vendor/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/maps/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comment/comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comment/ping.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/aside.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/attachment-audio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/attachment-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/attachment-video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/attachment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/audio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/chat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/portfolio_item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/psychologist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/quote.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/status.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/content/video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/hybrid-core-x.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/socially-awkward.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/socially-awkward.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/post_type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/shortcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/admin/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/admin/meta-box-post-template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/admin/theme-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/customize-control-background-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/customize-control-textarea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/hybrid-media-grabber.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/hybrid-media-meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-archives.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-authors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-bookmarks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-categories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-nav-menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-pages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/classes/widget-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/admin-widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/admin-widgets.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/one-five.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/one-five.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/css/reset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/breadcrumb-trail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/cleaner-caption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/cleaner-gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/color-palette.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/featured-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/get-the-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/loop-pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/post-stylesheets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/random-custom-background.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/theme-fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/extensions/theme-layouts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/attr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/context.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/customize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/i18n.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/post-formats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/shortcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/sidebars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/styles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template-comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template-general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template-hierarchy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template-media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template-post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/functions/wp_bootstrap_navwalker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/hybrid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/mobile-toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/mobile-toggle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menu/formats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menu/mobile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menu/primary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menu/secondary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/banner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/comments-error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/comments-nav.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/faq-repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/file-repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/find-location.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/loop-meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/loop-nav.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/page-block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/social-media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/about-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/contact-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/finance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/projects-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/services-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page-templates/thankyou.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sidebar-primary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/single-products.php.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/single-projects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taxonomy-product_category.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-Black.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-RegularItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-SemiboldItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/Titillium-ThinItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-black-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-black-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-black-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-black-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-bold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-bold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-bold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regular-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regular-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regular-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regularitalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regularitalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regularitalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-regularitalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibolditalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibolditalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibolditalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-semibolditalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-thinitalic-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-thinitalic-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-thinitalic-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/fonts/titillium-thinitalic-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-about-vm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-about.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-accent-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-accent-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-accent-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-accent-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-accent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-contact.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-projects.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-banner-services.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-hr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-projects.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-services-xp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/bg-square-qualities.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-about-values.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-about-vision.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-graph-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-graph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-lgreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-guaranteed-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-hands-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-hands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-home-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-key-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-person-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-design.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-feasibility.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-funding.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-planning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-selection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/icon-service-team.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-clarence.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-clarence2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-clarence3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-jardinier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-member1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-member2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-member3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-quad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-quad2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-quad3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-service1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-service2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-single-clarence1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-single-clarence2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-single-clarence3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-single-clarence4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-single-main-clarence.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-velocity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-vivida.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/img-vivida2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/logo-alt-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/logo-main-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/logo-prime-urban-alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/logo-prime-urban.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/images/no-thumbnail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/galleria/classic-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/galleria/classic-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/galleria/galleria-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/galleria/galleria.classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/galleria/galleria.classic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/images/img7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/jquery.mCustomScrollbar.concat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/jquery.mCustomScrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/jquery.mCustomScrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/plugins/scroll/mCSB_buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/jquery-1.11.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/main-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/bs/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/galleria/classic-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/galleria/classic-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/galleria/galleria-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/galleria/galleria.classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/galleria/galleria.classic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/plugins/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/vendor/jquery-1.11.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scripts/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_element.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_section.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/partials/_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/scss/vendor/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/assets/styles/maps/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/comment/comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/comment/ping.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/aside.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/attachment-audio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/attachment-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/attachment-video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/attachment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/audio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/chat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/portfolio_item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/psychologist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/quote.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/status.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/content/video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/inc/hybrid-core-x.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/inc/socially-awkward.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/languages/socially-awkward.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/lib/post_type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/lib/shortcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/admin/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/admin/meta-box-post-template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/admin/theme-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/customize-control-background-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/customize-control-textarea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/hybrid-media-grabber.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/hybrid-media-meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-archives.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-authors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-bookmarks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-categories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-nav-menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-pages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/classes/widget-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/admin-widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/admin-widgets.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/one-five.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/one-five.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/css/reset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/breadcrumb-trail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/cleaner-caption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/cleaner-gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/color-palette.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/featured-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/get-the-image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/loop-pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/post-stylesheets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/random-custom-background.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/theme-fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/extensions/theme-layouts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/attr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/context.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/customize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/i18n.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/post-formats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/shortcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/sidebars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/styles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template-comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template-general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template-hierarchy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template-media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template-post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/utility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/functions/wp_bootstrap_navwalker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/hybrid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/js/mobile-toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/js/mobile-toggle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/library/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/menu/formats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/menu/mobile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/menu/primary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/menu/secondary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/banner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/comments-error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/comments-nav.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/faq-repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/file-repeater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/find-location.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/loop-meta.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/loop-nav.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/page-block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/social-media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/misc/video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/about-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/contact-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/finance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/projects-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/services-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page-templates/thankyou.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/sidebar-primary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/single-products.php.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/single-projects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/prime-urban/taxonomy-product_category.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <ignored path="prime-urban.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +704,110 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="prime-urban" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="img-single-clarence1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence3.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence3.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence4.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence4.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-main-clarence.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-main-clarence.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence1-150x150.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-150x150.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence1-175x131.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-175x131.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence1-300x170.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-300x170.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence2-150x150.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2-150x150.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-single-clarence2-175x131.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2-175x131.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/wp-content/themes/lmtheme/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2879" />
+    <option name="y" value="-349" />
+    <option name="width" value="1104" />
+    <option name="height" value="1412" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -20,6 +819,77 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime-urban" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -28,18 +898,105 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/uploads" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="a882ba50-7ca8-4d99-93ce-3131e6bde873" name="Default" comment="" />
       <created>1490631206157</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490631206157</updated>
+      <workItem from="1490631209938" duration="1144000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1144000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2879" y="-349" width="1104" height="1412" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24952918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -47,5 +1004,73 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-main-clarence.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-150x150.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-175x131.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence1-300x170.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2-150x150.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2017/03/img-single-clarence2-175x131.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
   </component>
 </project>
