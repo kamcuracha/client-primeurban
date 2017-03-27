@@ -3916,7 +3916,7 @@ a.list-group-item-danger.active:focus {
   }
 }
 .features-holder {
-  margin: 20px auto 40px;
+  margin: 20px auto 60px;
   padding: 0;
   text-align: center;
   position: relative;
@@ -3926,7 +3926,7 @@ a.list-group-item-danger.active:focus {
     width: 330px;
     height: 560px;
     display: block;
-    margin-top: 60px;
+    margin-top: 80px;
     border: 1px dashed #CBCBCB;
     border-radius: 160px;
   }
@@ -4548,7 +4548,7 @@ a.list-group-item-danger.active:focus {
 }
 .about-info {
   font-family: "Titillium Bold", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bolder;
 }
 .post-thumb {
@@ -4763,7 +4763,8 @@ a.list-group-item-danger.active:focus {
 }
 .copy p {
   line-height: 1.8;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 300;
 }
 @media (max-width: 1199px) {
   .copy p {

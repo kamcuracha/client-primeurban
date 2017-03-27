@@ -1076,7 +1076,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
   color: #333333;
@@ -1100,7 +1100,7 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted;
+  outline: none;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1282,6 +1282,8 @@ h6,
 }
 p {
   margin: 0 0 24px 0;
+  line-height: 27px;
+  font-size: 18px;
 }
 .lead {
   margin-bottom: 20px;

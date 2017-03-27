@@ -7,14 +7,14 @@ get_header(); // Loads the header.php template. ?>
 
 
 <div class="anchor-links-v2">
-  <a itemprop="relatedLink" href="/projects">
-    <i class="icon icon-hands"></i>
-  </a>
-  <a itemprop="relatedLink" class="current" href="/">
+  <a itemprop="relatedLink" class="current" href="#post-masterhead">
     <i class="icon icon-home"></i>
   </a>
-  <a itemprop="relatedLink" href="/our-services">
+  <a itemprop="relatedLink" href="#qualities">
     <i class="icon icon-graph"></i>
+  </a>
+  <a itemprop="relatedLink" href="#projects">
+    <i class="icon icon-hands"></i>
   </a>
   <a itemprop="relatedLink" href="/contact-us">
     <i class="icon icon-person"></i>
@@ -45,8 +45,8 @@ get_header(); // Loads the header.php template. ?>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
     </div>
     <div class="masterhear-accent">
-      <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
-      <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
+      <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
+      <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
       <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
     </div>
   </div>
@@ -216,7 +216,7 @@ get_header(); // Loads the header.php template. ?>
         </header>
         <div class="entry-content">
           <h3 class="entry-title">Architecture design</h3> 
-          <p>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</p>
+          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
          </div>
          <footer class="entry-footer">
            <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
@@ -231,7 +231,7 @@ get_header(); // Loads the header.php template. ?>
         </header>
         <div class="entry-content">
           <h3 class="entry-title">Development update</h3> 
-          <p>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</p>
+          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
          </div>
          <footer class="entry-footer">
            <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
@@ -246,7 +246,7 @@ get_header(); // Loads the header.php template. ?>
         </header>
         <div class="entry-content">
           <h3 class="entry-title">Property market</h3> 
-          <p>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</p>
+          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
          </div>
          <footer class="entry-footer">
            <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>

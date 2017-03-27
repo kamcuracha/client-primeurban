@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content=""> 
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/font-awesome/css/font-awesome.min.css">
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/modernizr-2.8.3.min.js"></script>
