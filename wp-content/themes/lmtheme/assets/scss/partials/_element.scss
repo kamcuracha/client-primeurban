@@ -3465,7 +3465,7 @@ a.list-group-item-danger.active:focus {
 .masterhead {
   height: 608px;
 }
-.inner-page .masterhead {
+.singular-page .masterhead {
   height: 525px;
 }
 .masterhead {
@@ -3499,7 +3499,7 @@ a.list-group-item-danger.active:focus {
   font-size: 48px;
   text-transform: uppercase;
 }
-.inner-page .masterhead .h1 {
+.singular-page .masterhead .h1 {
   text-align: right;
 }
 @media (max-width: 1199px) {
@@ -3553,7 +3553,7 @@ a.list-group-item-danger.active:focus {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
-.inner-page .masterhead-intro {
+.singular-page .masterhead-intro {
   width: inherit;
 }
 @media (min-width: 480px) {
@@ -3570,7 +3570,7 @@ a.list-group-item-danger.active:focus {
   .masterhead-intro {
     padding-top: 20em;
   }
-  .inner-page .masterhead-intro {
+  .singular-page .masterhead-intro {
     padding-top: 25em;
   }
 }
@@ -3659,7 +3659,7 @@ a.list-group-item-danger.active:focus {
     float: right;
     margin-top: -160px;
   }
-  .inner-page .masterhead-img img {
+  .singular-page .masterhead-img img {
     margin-top: 0;
   }
 }

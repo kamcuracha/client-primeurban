@@ -1,45 +1,27 @@
-var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    sourcemaps = require('gulp-sourcemaps'), 
-    // livereload = require('gulp-livereload'), // not working
-    imagemin = require('gulp-imagemin'),
-    autoprefixer = require('gulp-autoprefixer'),
-    concat = require('gulp-concat'); 
-    // plumber = require('gulp-plumber');
+var elixir = require('laravel-elixir');
 
-// Styles Task
-gulp.task('styles', function() {
-    return gulp.src('./assets/scss/**/*.scss')
-        // .pipe(plumber())
-        .pipe(sourcemaps.init())
-        .pipe(sass({
-            outputStyle: 'compressed'
-        }))
-        .on('error', sass.logError)
-        .pipe(autoprefixer({
-            // browsers: ['last 2 versions'],
-            cascade: true
-        }))
-        .pipe(concat('main.css'))
-        .pipe(sourcemaps.write('./maps'))
-        .pipe(gulp.dest('./assets/styles/'))
-        // .pipe(livereload())
-    ;
+elixir((mix) => {
+	mix
+	.sass('styles.scss', 'themes/admin/assets/css/styles.css', 'src/admin/sass')
+	.sass('styles.scss', 'themes/frontend/assets/css/styles.css', 'src/sass')
+	.scripts([
+
+		'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+		'node_modules/bootbox/bootbox.min.js',
+		'src/admin/js/plugins/jquery.treeview.js',
+
+		'src/admin/js/main.js',
+	], 'themes/admin/assets/js/all.js', './')
+
+
+	/// Frontend Scripts
+
+	.scripts([
+		'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+		'node_modules/jquery-colorbox/jquery.colorbox.js',
+		'node_modules/select2/dist/js/select2.js',
+		'node_modules/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js',
+		'src/js/plugins/uisearch.js',
+		'src/js/plugins/slick.min.js',
+	], 'themes/frontend/assets/js/all.js', './')
 });
-
-// Image Task
-gulp.task('image', function() {
-    return gulp.src('./assets/images/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('./assets/images'))
-    ;
-});
-
-// Watch Task
-gulp.task('watch', function() {
-    // var server = livereload();
-
-    gulp.watch('./assets/scss/**/*.scss', ['styles']);
-});
-
-gulp.task('default', ['styles', 'watch']);

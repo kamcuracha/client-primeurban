@@ -12,13 +12,12 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/font-awesome/css/font-awesome.min.css">
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/modernizr-2.8.3.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/jquery-1.11.2.js"></script>
 
   <?php wp_head(); // Hook required for scripts, styles, and other <head> items. ?>
-
-
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" class="<?php echo (is_front_page()) ? 'home' : 'inner-page'; ?>">
+<body itemscope="" itemtype="http://schema.org/WebPage" <?php body_class(); ?>>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->

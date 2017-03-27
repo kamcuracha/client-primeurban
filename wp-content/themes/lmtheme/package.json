@@ -1,26 +1,19 @@
 {
-  "name": "LM",
-  "version": "1.0.0",
-  "description": "LM NPM Packages for GULP.JS",
-  "main": " ",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "LM Developer",
-  "license": "MIT",
+  "name": "cachet",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^2.1.0",
-    "gulp-concat": "^2.5.0",
-    "gulp-cssmin": "^0.1.6",
-    "gulp-jshint": "^1.9.2",
-    "gulp-less": "^3.0.0",
-    "gulp-load-plugins": "^1.0.0-rc.1",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.6",
-    "jshint-stylish": "^1.0.0"
-  }
+    "bootbox": "^4.4.0",
+    "bootstrap-sass": "^3.3.6",
+    "bootstrap-touchspin": "^3.1.1",
+    "gulp": "~3.9.1",
+    "gulp-modules-version-check": "^0.1.0",
+    "gulp-sass": "^3.1.0",
+    "ionicons-npm": "^2.0.1",
+    "jquery": "~2.2",
+    "jquery-colorbox": "^1.6.4",
+    "laravel-elixir": "~6.0.0-9",
+    "parsleyjs": "^2.7.0",
+    "sass-font-awesome": "^1.0.0",
+    "select2": "^4.0.3"
+  },
+  "private": true
 }
