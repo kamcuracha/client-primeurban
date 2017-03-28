@@ -69,7 +69,7 @@ get_header(); // Loads the header.php template. ?>
               $termsString == 'uncategorize';
             }
           ?>
-          <div class="<?php echo $termsString; ?> card card-1 no-transition" data-id="2">
+          <div class="<?php echo $termsString; ?> card card-1 no-transition" data-id="1">
             <a href="<?php the_permalink(); ?>">
               <div class="card-image">
                 <?php if ( has_post_thumbnail() ) : ?>

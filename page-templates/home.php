@@ -167,43 +167,41 @@ get_header(); // Loads the header.php template. ?>
     <p class="animated fadeInUpShort">We are proud of all the projects the Prime Urban team have completed. Ranging across a wide variety of sites and developments, Prime Urban continually set the bar for design, quality and deliverability.</p>
   </div>
 
+  <?php
+    $args = array(
+      'posts_per_page' => 3,
+      'post_type' => 'projects',
+      'meta_key' => 'meta-checkbox',
+      'meta_value' => 'yes'
+    );
+    $featured = new WP_Query($args);
+
+    if ($featured->have_posts()):
+  ?>
   <div class="container">
     <div class="cards card-holder animatedParent">
+      <?php while($featured->have_posts()): $featured->the_post(); ?>
       <div class="card card-1 animated fadeIn go" data-id="1">
-        <a href="/projects/the-clarence">
+        <a href="<?php the_permalink(); ?>">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-clarence.jpg" alt="">
+            <?php if ( has_post_thumbnail() ) : ?>
+              <?php the_post_thumbnail('medium_large', ['class' => 'img-responsive']); ?>
+            <?php else : ?>
+              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/no-thumbnail.jpg" alt="">
+            <?php endif; ?>
           </div>
           <div class="card-title">
-            <h4>The Clarence <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+            <h4><?php the_title(); ?> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
           </div>
         </a>
       </div>
-      <div class="card card-1 animated fadeIn go" data-id="2">
-        <a href="#">
-          <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-vivida.jpg" alt="">
-          </div>
-          <div class="card-title">
-            <h4>Vivida <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
-          </div>
-        </a>
-      </div>
-      <div class="card card-1 animated fadeIn go" data-id="3">
-        <a href="#">
-          <div class="card-image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-quad.jpg" alt="">
-          </div>
-          <div class="card-title">
-            <h4>The Quad <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
-          </div>
-        </a>
-      </div>
+      <?php endwhile; ?>
     </div>
     <div class="card-link">
       <a itemprop="significantLink" href="/projects" class="btn btn-primary btn-blink  animated fadeInUpShort go">Find out more</a>
     </div>
   </div>
+  <?php endif; ?>
 </div>
 
 <div id="latest" class="section section-latest animatedParent">
