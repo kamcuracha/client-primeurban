@@ -19,4 +19,5 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 .idea/
 
-/wp-content/themes/prime-urban/node_modules/
+/wp-content/themes/lmtheme/node_modules/
+node_modules

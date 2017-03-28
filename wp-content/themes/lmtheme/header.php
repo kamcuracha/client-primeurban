@@ -1,23 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="keywords" content=""> 
+<!DOCTYPE html>
+<html <?php language_attributes( 'html' ); ?>>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/font-awesome/css/font-awesome.min.css">
-
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/modernizr-2.8.3.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/jquery-1.11.2.js"></script>
-
+<head <?php hybrid_attr( 'head' ); ?>>
   <?php wp_head(); // Hook required for scripts, styles, and other <head> items. ?>
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" <?php body_class(); ?>>
+<body <?php hybrid_attr( 'body' ); ?>>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->

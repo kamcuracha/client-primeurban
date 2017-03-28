@@ -1,19 +1,14 @@
 {
   "name": "cachet",
   "devDependencies": {
-    "bootbox": "^4.4.0",
     "bootstrap-sass": "^3.3.6",
-    "bootstrap-touchspin": "^3.1.1",
     "gulp": "~3.9.1",
     "gulp-modules-version-check": "^0.1.0",
     "gulp-sass": "^3.1.0",
-    "ionicons-npm": "^2.0.1",
     "jquery": "~2.2",
-    "jquery-colorbox": "^1.6.4",
+    "jquery.appear": "^1.0.1",
     "laravel-elixir": "~6.0.0-9",
-    "parsleyjs": "^2.7.0",
-    "sass-font-awesome": "^1.0.0",
-    "select2": "^4.0.3"
+    "sass-font-awesome": "^1.0.0"
   },
   "private": true
 }

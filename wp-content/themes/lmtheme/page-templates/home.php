@@ -25,23 +25,14 @@ get_header(); // Loads the header.php template. ?>
 <div id="top" class="section section-vshape-bottom">
   <div class="masterhead">
     <div class="container">
-      <div class="masterhead-intro masterhead-intro-front animatedParent" data-sequence="500">
-        <h2 class="animated growIn go" data-id="1">
+      <div class="masterhead-intro animatedParent" data-sequence="500">
+        <div class="animated growIn go" data-id="1">
           <div class="h2 white">Welcome to</div>
           <div class="h1">Prime Urban</div>
-        </h2>
-      </div>
-      <div class="masterhead-intro masterhead-intro-back animatedParent" data-sequence="500">
-        <h2 class="animated growIn" data-id="1">
-          <div class="h2 white">Welcome to</div>
-          <div class="h1">Prime Urban</div>
-        </h2>
+        </div>
       </div>
     </div>
     <div class="masterhead-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
-    </div>
-    <div class="masterhead-img masterhead-img-hover">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
     </div>
     <div class="masterhear-accent">
