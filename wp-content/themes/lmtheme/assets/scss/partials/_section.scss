@@ -361,6 +361,11 @@
   left: 14px;
   z-index: -1;
 }
+.section-services-xp .col-xs-10 {
+  @media (min-width : 768px) {
+    min-height: 900px;
+  }
+}
 .section-about-vm .col-sm-12,
 .section-services-xp .col-xs-10 {
   background: #fff;
