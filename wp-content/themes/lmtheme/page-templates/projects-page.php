@@ -69,7 +69,7 @@ get_header(); // Loads the header.php template. ?>
               $termsString == 'uncategorize';
             }
           ?>
-          <div class="<?php echo $termsString; ?> card card-1 no-transition" data-id="2">
+          <div class="<?php echo $termsString; ?> card card-1 no-transition" data-id="1">
             <a href="<?php the_permalink(); ?>">
               <div class="card-image">
                 <?php if ( has_post_thumbnail() ) : ?>
@@ -78,7 +78,9 @@ get_header(); // Loads the header.php template. ?>
                   <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/no-thumbnail.jpg" alt="">
                 <?php endif; ?>
               </div>
-              <h4 class="card-title"><?php the_title(); ?> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+              <div class="card-title">
+                <h4><?php the_title(); ?> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+              </div>
             </a>
           </div>
         <?php endwhile; ?>
