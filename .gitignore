@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### WordPress template
 *.log
@@ -22,6 +21,5 @@ wp-content/plugins/hello.php
 
 /wp-content/themes/lmtheme/node_modules/
 node_modules
-=======
-node_modules/
->>>>>>> be318f785bcfa84d1cbf0407baa62ca6d08dac8f
+
+*.zip

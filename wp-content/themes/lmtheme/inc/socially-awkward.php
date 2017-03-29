@@ -64,11 +64,9 @@ function stargazer_register_styles() {
  */
 function socially_awkward_enqueue_scripts() {
 
-
-
     wp_enqueue_script(
 		'modernizr',
-		hybrid_locate_theme_file( array( 'assets/scripts/modernizr-2.8.3.min.js' ) ),
+		hybrid_locate_theme_file( array( 'assets/scripts/vendor/modernizr-2.8.3.min.js' ) ),
 		array( 'jquery' ),
 		'20130812',
 		false
@@ -101,7 +99,7 @@ function socially_awkward_enqueue_scripts() {
 			hybrid_locate_theme_file( array( 'assets/scripts/all-project.js' ) ),
 			array( 'jquery' ),
 			'20130812',
-			truef
+			true
 		);
 	}
 

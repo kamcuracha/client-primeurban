@@ -3,7 +3,7 @@
 * Bounce in right *
 *******************/
 @media (min-width: 1199px) {
-  .csstransformspreserve3d {
+  .csstransitions {
     /* Added by Andy Meetan */
     /***********
   * bounceIn *
@@ -168,136 +168,136 @@
   * fadeInLeftShort
   *********************/
   }
-  .csstransformspreserve3d .animated {
+  .csstransitions .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
-  .csstransformspreserve3d .slow {
+  .csstransitions .slow {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
-  .csstransformspreserve3d .slower {
+  .csstransitions .slower {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
-  .csstransformspreserve3d .slowest {
+  .csstransitions .slowest {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
-  .csstransformspreserve3d .delay-250 {
+  .csstransitions .delay-250 {
     -webkit-animation-delay: 0.25s;
     -moz-animation-delay: 0.25s;
     -o-animation-delay: 0.25s;
     animation-delay: 0.25s;
   }
-  .csstransformspreserve3d .delay-500 {
+  .csstransitions .delay-500 {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
     -o-animation-delay: 0.5s;
     animation-delay: 0.5s;
   }
-  .csstransformspreserve3d .delay-750 {
+  .csstransitions .delay-750 {
     -webkit-animation-delay: 0.75s;
     -moz-animation-delay: 0.75s;
     -o-animation-delay: 0.75s;
     animation-delay: 0.75s;
   }
-  .csstransformspreserve3d .delay-1000 {
+  .csstransitions .delay-1000 {
     -webkit-animation-delay: 1.0s;
     -moz-animation-delay: 1.0s;
     -o-animation-delay: 1.0s;
     animation-delay: 1.0s;
   }
-  .csstransformspreserve3d .delay-1250 {
+  .csstransitions .delay-1250 {
     -webkit-animation-delay: 1.25s;
     -moz-animation-delay: 1.25s;
     -o-animation-delay: 1.25s;
     animation-delay: 1.25s;
   }
-  .csstransformspreserve3d .delay-1500 {
+  .csstransitions .delay-1500 {
     -webkit-animation-delay: 1.5s;
     -moz-animation-delay: 1.5s;
     -o-animation-delay: 1.5s;
     animation-delay: 1.5s;
   }
-  .csstransformspreserve3d .delay-1750 {
+  .csstransitions .delay-1750 {
     -webkit-animation-delay: 1.75s;
     -moz-animation-delay: 1.75s;
     -o-animation-delay: 1.75s;
     animation-delay: 1.75s;
   }
-  .csstransformspreserve3d .delay-2000 {
+  .csstransitions .delay-2000 {
     -webkit-animation-delay: 2.0s;
     -moz-animation-delay: 2.0s;
     -o-animation-delay: 2.0s;
     animation-delay: 2.0s;
   }
-  .csstransformspreserve3d .delay-2500 {
+  .csstransitions .delay-2500 {
     -webkit-animation-delay: 2.5s;
     -moz-animation-delay: 2.5s;
     -o-animation-delay: 2.5s;
     animation-delay: 2.5s;
   }
-  .csstransformspreserve3d .delay-2000 {
+  .csstransitions .delay-2000 {
     -webkit-animation-delay: 2.0s;
     -moz-animation-delay: 2.0s;
     -o-animation-delay: 2.0s;
     animation-delay: 2.0s;
   }
-  .csstransformspreserve3d .delay-2500 {
+  .csstransitions .delay-2500 {
     -webkit-animation-delay: 2.5s;
     -moz-animation-delay: 2.5s;
     -o-animation-delay: 2.5s;
     animation-delay: 2.5s;
   }
-  .csstransformspreserve3d .delay-3000 {
+  .csstransitions .delay-3000 {
     -webkit-animation-delay: 3.0s;
     -moz-animation-delay: 3.0s;
     -o-animation-delay: 3.0s;
     animation-delay: 3.0s;
   }
-  .csstransformspreserve3d .delay-3500 {
+  .csstransitions .delay-3500 {
     -webkit-animation-delay: 3.5s;
     -moz-animation-delay: 3.5s;
     -o-animation-delay: 3.5s;
     animation-delay: 3.5s;
   }
-  .csstransformspreserve3d .bounceInRight,
-  .csstransformspreserve3d .bounceInLeft,
-  .csstransformspreserve3d .bounceInUp,
-  .csstransformspreserve3d .bounceInDown {
+  .csstransitions .bounceInRight,
+  .csstransitions .bounceInLeft,
+  .csstransitions .bounceInUp,
+  .csstransitions .bounceInDown {
     opacity: 0;
     -webkit-transform: translateX(400px);
     transform: translateX(400px);
   }
-  .csstransformspreserve3d .fadeInRight,
-  .csstransformspreserve3d .fadeInLeft,
-  .csstransformspreserve3d .fadeInUp,
-  .csstransformspreserve3d .fadeInDown {
+  .csstransitions .fadeInRight,
+  .csstransitions .fadeInLeft,
+  .csstransitions .fadeInUp,
+  .csstransitions .fadeInDown {
     opacity: 0;
     -webkit-transform: translateX(400px);
     transform: translateX(400px);
   }
-  .csstransformspreserve3d .flipInX,
-  .csstransformspreserve3d .flipInY,
-  .csstransformspreserve3d .rotateIn,
-  .csstransformspreserve3d .rotateInUpLeft,
-  .csstransformspreserve3d .rotateInUpRight,
-  .csstransformspreserve3d .rotateInDownLeft,
-  .csstransformspreserve3d .rotateDownUpRight,
-  .csstransformspreserve3d .rollIn {
+  .csstransitions .flipInX,
+  .csstransitions .flipInY,
+  .csstransitions .rotateIn,
+  .csstransitions .rotateInUpLeft,
+  .csstransitions .rotateInUpRight,
+  .csstransitions .rotateInDownLeft,
+  .csstransitions .rotateDownUpRight,
+  .csstransitions .rollIn {
     opacity: 0;
   }
-  .csstransformspreserve3d .lightSpeedInRight,
-  .csstransformspreserve3d .lightSpeedInLeft {
+  .csstransitions .lightSpeedInRight,
+  .csstransitions .lightSpeedInLeft {
     opacity: 0;
     -webkit-transform: translateX(400px);
     transform: translateX(400px);
@@ -334,7 +334,7 @@
       transform: scale(1);
     }
   }
-  .csstransformspreserve3d .bounceIn.go {
+  .csstransitions .bounceIn.go {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
   }
@@ -370,7 +370,7 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .bounceInRight.go {
+  .csstransitions .bounceInRight.go {
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
   }
@@ -406,7 +406,7 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .bounceInLeft.go {
+  .csstransitions .bounceInLeft.go {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
   }
@@ -442,7 +442,7 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .bounceInUp.go {
+  .csstransitions .bounceInUp.go {
     -webkit-animation-name: bounceInUp;
     animation-name: bounceInUp;
   }
@@ -478,7 +478,7 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .bounceInDown.go {
+  .csstransitions .bounceInDown.go {
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
   }
@@ -500,10 +500,10 @@
       display: block;
     }
   }
-  .csstransformspreserve3d .fadeIn {
+  .csstransitions .fadeIn {
     opacity: 0;
   }
-  .csstransformspreserve3d .fadeIn.go {
+  .csstransitions .fadeIn.go {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
@@ -533,12 +533,12 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .growIn {
+  .csstransitions .growIn {
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
     opacity: 0;
   }
-  .csstransformspreserve3d .growIn.go {
+  .csstransitions .growIn.go {
     -webkit-animation-name: growIn;
     animation-name: growIn;
   }
@@ -580,7 +580,7 @@
       transform: translateX(10px);
     }
   }
-  .csstransformspreserve3d .shake.go {
+  .csstransitions .shake.go {
     -webkit-animation-name: shake;
     animation-name: shake;
   }
@@ -622,7 +622,7 @@
       transform: translateY(10px);
     }
   }
-  .csstransformspreserve3d .shakeUp.go {
+  .csstransitions .shakeUp.go {
     -webkit-animation-name: shakeUp;
     animation-name: shakeUp;
   }
@@ -652,12 +652,12 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .fadeInLeft {
+  .csstransitions .fadeInLeft {
     opacity: 0;
     -webkit-transform: translateX(-400px);
     transform: translateX(-400px);
   }
-  .csstransformspreserve3d .fadeInLeft.go {
+  .csstransitions .fadeInLeft.go {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
   }
@@ -687,12 +687,12 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .fadeInRight {
+  .csstransitions .fadeInRight {
     opacity: 0;
     -webkit-transform: translateX(400px);
     transform: translateX(400px);
   }
-  .csstransformspreserve3d .fadeInRight.go {
+  .csstransitions .fadeInRight.go {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
   }
@@ -722,12 +722,12 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .fadeInUp {
+  .csstransitions .fadeInUp {
     opacity: 0;
     -webkit-transform: translateY(400px);
     transform: translateY(400px);
   }
-  .csstransformspreserve3d .fadeInUp.go {
+  .csstransitions .fadeInUp.go {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
   }
@@ -757,12 +757,12 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .fadeInDown {
+  .csstransitions .fadeInDown {
     opacity: 0;
     -webkit-transform: translateY(-400px);
     transform: translateY(-400px);
   }
-  .csstransformspreserve3d .fadeInDown.go {
+  .csstransitions .fadeInDown.go {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
   }
@@ -790,7 +790,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .rotateIn.go {
+  .csstransitions .rotateIn.go {
     -webkit-animation-name: rotateIn;
     animation-name: rotateIn;
   }
@@ -818,7 +818,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .rotateInUpLeft.go {
+  .csstransitions .rotateInUpLeft.go {
     -webkit-animation-name: rotateInUpLeft;
     animation-name: rotateInUpLeft;
   }
@@ -846,7 +846,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .rotateInDownLeft.go {
+  .csstransitions .rotateInDownLeft.go {
     -webkit-animation-name: rotateInDownLeft;
     animation-name: rotateInDownLeft;
   }
@@ -874,7 +874,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .rotateInUpRight.go {
+  .csstransitions .rotateInUpRight.go {
     -webkit-animation-name: rotateInUpRight;
     animation-name: rotateInUpRight;
   }
@@ -902,7 +902,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .rotateInDownRight.go {
+  .csstransitions .rotateInDownRight.go {
     -webkit-animation-name: rotateInDownRight;
     animation-name: rotateInDownRight;
   }
@@ -926,7 +926,7 @@
       transform: translateX(0px) rotate(0deg);
     }
   }
-  .csstransformspreserve3d .rollIn.go {
+  .csstransitions .rollIn.go {
     -webkit-animation-name: rollIn;
     animation-name: rollIn;
   }
@@ -1000,7 +1000,7 @@
       transform: skewX(0deg);
     }
   }
-  .csstransformspreserve3d .wiggle.go {
+  .csstransitions .wiggle.go {
     -webkit-animation-name: wiggle;
     animation-name: wiggle;
     -webkit-animation-timing-function: ease-in;
@@ -1047,7 +1047,7 @@
       transform: rotate(0deg);
     }
   }
-  .csstransformspreserve3d .swing.go {
+  .csstransitions .swing.go {
     -webkit-transform-origin: top center;
     transform-origin: top center;
     -webkit-animation-name: swing;
@@ -1099,7 +1099,7 @@
       transform: scale(1) rotate(0);
     }
   }
-  .csstransformspreserve3d .tada.go {
+  .csstransitions .tada.go {
     -webkit-animation-name: tada;
     animation-name: tada;
   }
@@ -1149,7 +1149,7 @@
       transform: translateX(0%);
     }
   }
-  .csstransformspreserve3d .wobble.go {
+  .csstransitions .wobble.go {
     -webkit-animation-name: wobble;
     animation-name: wobble;
   }
@@ -1175,7 +1175,7 @@
       transform: scale(1);
     }
   }
-  .csstransformspreserve3d .pulse.go {
+  .csstransitions .pulse.go {
     -webkit-animation-name: pulse;
     animation-name: pulse;
   }
@@ -1215,7 +1215,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .lightSpeedInRight.go {
+  .csstransitions .lightSpeedInRight.go {
     -webkit-animation-name: lightSpeedInRight;
     animation-name: lightSpeedInRight;
     -webkit-animation-timing-function: ease-out;
@@ -1257,7 +1257,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .lightSpeedInLeft.go {
+  .csstransitions .lightSpeedInLeft.go {
     -webkit-animation-name: lightSpeedInLeft;
     animation-name: lightSpeedInLeft;
     -webkit-animation-timing-function: ease-out;
@@ -1307,7 +1307,7 @@
       animation-timing-function: ease-in;
     }
   }
-  .csstransformspreserve3d .flip.go {
+  .csstransitions .flip.go {
     -webkit-backface-visibility: visible !important;
     -webkit-animation-name: flip;
     backface-visibility: visible !important;
@@ -1345,7 +1345,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .flipInX.go {
+  .csstransitions .flipInX.go {
     -webkit-backface-visibility: visible !important;
     -webkit-animation-name: flipInX;
     backface-visibility: visible !important;
@@ -1383,7 +1383,7 @@
       opacity: 1;
     }
   }
-  .csstransformspreserve3d .flipInY.go {
+  .csstransitions .flipInY.go {
     -webkit-backface-visibility: visible !important;
     -webkit-animation-name: flipInY;
     backface-visibility: visible !important;
@@ -1421,7 +1421,7 @@
       transform: scale(0.3);
     }
   }
-  .csstransformspreserve3d .bounceOut.goAway {
+  .csstransitions .bounceOut.goAway {
     -webkit-animation-name: bounceOut;
     animation-name: bounceOut;
   }
@@ -1451,7 +1451,7 @@
       transform: translateY(-2000px);
     }
   }
-  .csstransformspreserve3d .bounceOutUp.goAway {
+  .csstransitions .bounceOutUp.goAway {
     -webkit-animation-name: bounceOutUp;
     animation-name: bounceOutUp;
   }
@@ -1481,7 +1481,7 @@
       transform: translateY(2000px);
     }
   }
-  .csstransformspreserve3d .bounceOutDown.goAway {
+  .csstransitions .bounceOutDown.goAway {
     -webkit-animation-name: bounceOutDown;
     animation-name: bounceOutDown;
   }
@@ -1511,7 +1511,7 @@
       transform: translateX(-2000px);
     }
   }
-  .csstransformspreserve3d .bounceOutLeft.goAway {
+  .csstransitions .bounceOutLeft.goAway {
     -webkit-animation-name: bounceOutLeft;
     animation-name: bounceOutLeft;
   }
@@ -1541,7 +1541,7 @@
       transform: translateX(2000px);
     }
   }
-  .csstransformspreserve3d .bounceOutRight.goAway {
+  .csstransitions .bounceOutRight.goAway {
     -webkit-animation-name: bounceOutRight;
     animation-name: bounceOutRight;
   }
@@ -1561,7 +1561,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .fadeOut.goAway {
+  .csstransitions .fadeOut.goAway {
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut;
   }
@@ -1585,7 +1585,7 @@
       transform: translateY(-2000px);
     }
   }
-  .csstransformspreserve3d .fadeOutUp.goAway {
+  .csstransitions .fadeOutUp.goAway {
     -webkit-animation-name: fadeOutUp;
     animation-name: fadeOutUp;
   }
@@ -1609,7 +1609,7 @@
       transform: translateY(2000px);
     }
   }
-  .csstransformspreserve3d .fadeOutDown.goAway {
+  .csstransitions .fadeOutDown.goAway {
     -webkit-animation-name: fadeOutDown;
     animation-name: fadeOutDown;
   }
@@ -1633,7 +1633,7 @@
       transform: translateX(-2000px);
     }
   }
-  .csstransformspreserve3d .fadeOutLeft.goAway {
+  .csstransitions .fadeOutLeft.goAway {
     -webkit-animation-name: fadeOutLeft;
     animation-name: fadeOutLeft;
   }
@@ -1657,7 +1657,7 @@
       transform: translateX(2000px);
     }
   }
-  .csstransformspreserve3d .fadeOutRight.goAway {
+  .csstransitions .fadeOutRight.goAway {
     -webkit-animation-name: fadeOutRight;
     animation-name: fadeOutRight;
   }
@@ -1681,7 +1681,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .flipOutX.goAway {
+  .csstransitions .flipOutX.goAway {
     -webkit-animation-name: flipOutX;
     -webkit-backface-visibility: visible !important;
     animation-name: flipOutX;
@@ -1707,7 +1707,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .flipOutY {
+  .csstransitions .flipOutY {
     -webkit-backface-visibility: visible !important;
     -webkit-animation-name: flipOutY;
     backface-visibility: visible !important;
@@ -1733,7 +1733,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .lightSpeedOutRight.goAway {
+  .csstransitions .lightSpeedOutRight.goAway {
     -webkit-animation-name: lightSpeedOutRight;
     animation-name: lightSpeedOutRight;
     -webkit-animation-timing-function: ease-in;
@@ -1759,7 +1759,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .lightSpeedOutLeft.goAway {
+  .csstransitions .lightSpeedOutLeft.goAway {
     -webkit-animation-name: lightSpeedOutLeft;
     animation-name: lightSpeedOutLeft;
     -webkit-animation-timing-function: ease-in;
@@ -1789,7 +1789,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .rotateOut.goAway {
+  .csstransitions .rotateOut.goAway {
     -webkit-animation-name: rotateOut;
     animation-name: rotateOut;
   }
@@ -1817,7 +1817,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .rotateOutUpLeft.goAway {
+  .csstransitions .rotateOutUpLeft.goAway {
     -webkit-animation-name: rotateOutUpLeft;
     animation-name: rotateOutUpLeft;
   }
@@ -1845,7 +1845,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .rotateOutDownLeft.goAway {
+  .csstransitions .rotateOutDownLeft.goAway {
     -webkit-animation-name: rotateOutDownLeft;
     animation-name: rotateOutDownLeft;
   }
@@ -1873,7 +1873,7 @@
       opacity: 0;
     }
   }
-  .csstransformspreserve3d .rotateOutUpRight.goAway {
+  .csstransitions .rotateOutUpRight.goAway {
     -webkit-animation-name: rotateOutUpRight;
     animation-name: rotateOutUpRight;
   }
@@ -1897,7 +1897,7 @@
       transform: translateX(100%) rotate(120deg);
     }
   }
-  .csstransformspreserve3d .rollOut.goAway {
+  .csstransitions .rollOut.goAway {
     -webkit-animation-name: rollOut;
     animation-name: rollOut;
   }
@@ -1921,12 +1921,12 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .fadeInUpShort {
+  .csstransitions .fadeInUpShort {
     opacity: 0;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
-  .csstransformspreserve3d .fadeInUpShort.go {
+  .csstransitions .fadeInUpShort.go {
     -webkit-animation-name: fadeInUpShort;
     animation-name: fadeInUpShort;
   }
@@ -1950,12 +1950,12 @@
       transform: translateY(0);
     }
   }
-  .csstransformspreserve3d .fadeInDownShort {
+  .csstransitions .fadeInDownShort {
     opacity: 0;
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
-  .csstransformspreserve3d .fadeInDownShort.go {
+  .csstransitions .fadeInDownShort.go {
     -webkit-animation-name: fadeInDownShort;
     animation-name: fadeInDownShort;
   }
@@ -1979,12 +1979,12 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .fadeInRightShort {
+  .csstransitions .fadeInRightShort {
     opacity: 0;
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
-  .csstransformspreserve3d .fadeInRightShort.go {
+  .csstransitions .fadeInRightShort.go {
     -webkit-animation-name: fadeInRightShort;
     animation-name: fadeInRightShort;
   }
@@ -2008,12 +2008,12 @@
       transform: translateX(0);
     }
   }
-  .csstransformspreserve3d .fadeInLeftShort {
+  .csstransitions .fadeInLeftShort {
     opacity: 0;
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
-  .csstransformspreserve3d .fadeInLeftShort.go {
+  .csstransitions .fadeInLeftShort.go {
     -webkit-animation-name: fadeInLeftShort;
     animation-name: fadeInLeftShort;
   }

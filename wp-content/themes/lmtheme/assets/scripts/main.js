@@ -76,9 +76,7 @@ jQuery(document).ready(function($) {
         })
     });
 
-
     util.Global.init();
-
 
     $(".animatedParent").appear();
 

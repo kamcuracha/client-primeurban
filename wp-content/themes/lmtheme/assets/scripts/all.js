@@ -2571,255 +2571,408 @@ if (typeof Object.create !== 'function') {
     
 })(jQuery, window, document);
 
-/* appear.js 1.0.3 */
-appear = (function(){
-  'use strict';
-  var scrollLastPos = null, scrollTimer = 0, scroll = {};
+/*
+ * jQuery appear plugin
+ *
+ * Copyright (c) 2012 Andrey Sidorov
+ * licensed under MIT license.
+ *
+ * https://github.com/morr/jquery.appear/
+ *
+ * Version: 0.3.6
+ */
+(function($) {
+  var selectors = [];
 
-  function track(){
-    var newPos = window.scrollY || window.pageYOffset;  // pageYOffset for IE9
-    if ( scrollLastPos != null ){
-      scroll.velocity = newPos - scrollLastPos;
-      scroll.delta = (scroll.velocity >= 0) ? scroll.velocity : (-1 * scroll.velocity);
-      
-    }
-    scrollLastPos = newPos;
-    if(scrollTimer){
-      clearTimeout(scrollTimer);
-    }
-    scrollTimer = setTimeout(function(){
-      scrollLastPos = null;
-    }, 30);
-  }
-  addEventListener('scroll', track, false);
-
-  // determine if a given element (plus an additional "bounds" area around it) is in the viewport
-  function viewable(el, bounds){
-    var rect = el.getBoundingClientRect();
-    return (
-      (rect.top + rect.height) >= 0 &&
-      (rect.left + rect.width) >= 0 &&
-      (rect.bottom - rect.height) <= ( (window.innerHeight || document.documentElement.clientHeight) + bounds) &&
-      (rect.right - rect.width) <= ( (window.innerWidth || document.documentElement.clientWidth) + bounds)
-    );
-  }
-
-  return function(obj){
-
-    return (function(obj){
-      var initd = false, elements = [], elementsLength, reappear = [],
-        appeared = 0, disappeared = 0, timer, deltaSet, opts = {}, done;
-
-      // handle debouncing a function for better performance on scroll
-      function debounce(fn, delay) {
-        return function () {
-          var self = this, args = arguments;
-          clearTimeout(timer);
-          
-          timer = setTimeout(function () {
-            fn.apply(self, args);
-          }, delay);
-        };
-      }
-
-      // called on scroll and resize event, so debounce the actual function that does
-      // the heavy work of determining if an item is viewable and then "appearing" it
-      function checkAppear() {
-        if(scroll.delta < opts.delta.speed) {
-          if(!deltaSet) {
-            deltaSet = true;
-            doCheckAppear();
-            setTimeout(function(){
-              deltaSet = false;
-            }, opts.delta.timeout);
-          }
-        }
-        (debounce(function() {
-          doCheckAppear();
-        }, opts.debounce)());
-      }
-
-      function begin() {
-        // initial appear check before any scroll or resize event
-        doCheckAppear();
-
-        // add relevant listeners
-        addEventListener('scroll', checkAppear, false);
-        addEventListener('resize', checkAppear, false);
-      }
-
-      function end() {
-        elements = [];
-        if(timer) {
-          clearTimeout(timer);
-        }
-        removeListeners();
-      }
-
-      function removeListeners() {
-        
-        removeEventListener('scroll', checkAppear, false);
-        removeEventListener('resize', checkAppear, false);
-      }
-
-      function doCheckAppear() {
-        if(done) {
-          return;
-        }
-        
-        elements.forEach(function(n, i){
-          if(n && viewable(n, opts.bounds)) {
-            // only act if the element is eligible to reappear
-            if(reappear[i]) {
-              // mark this element as not eligible to appear
-              reappear[i] = false;
-              // increment the count of appeared items
-              appeared++;
-              
-              // call the appear fn
-              if(opts.appear) {
-                opts.appear(n);
-              }
-              // if not tracking reappears or disappears, need to remove node here
-              if(!opts.disappear && !opts.reappear) {
-                // stop tracking this node, which is now viewable
-                elements[i] = null;
-              }
-            }
-          } else {
-            if(reappear[i] === false) {
-              if(opts.disappear) {
-                opts.disappear(n);
-              }
-              // increment the dissappeared count
-              disappeared++;
-              
-              // if not tracking reappears, need to remove node here
-              if(!opts.reappear) {
-                // stop tracking this node, which is now viewable
-                elements[i] = null;
-              }
-            }
-            // element is out of view and eligible to be appeared again
-            reappear[i] = true;
-          }
-        });
-
-        // remove listeners if all items have (re)appeared
-        if(!opts.reappear && (!opts.appear || opts.appear && appeared === elementsLength) && (!opts.disappear || opts.disappear && disappeared === elementsLength)) {
-          // ensure done is only called once (could be called from a trailing debounce/throttle)
-          done = true;
-          removeListeners();
-          // all items have appeared, so call the done fn
-          if(opts.done){
-            opts.done();
-          }
-        }
-      }
-
-      function init() {
-        // make sure we only init once
-        if(initd) {
-          return;
-        }
-        initd = true;
-
-        // call the obj init fn
-        if(opts.init) {
-          opts.init();
-        }
-        // get the elements to work with
-        var els;
-        if(typeof opts.elements === 'function') {
-          els = opts.elements();
-        } else {
-          els = opts.elements;
-        }
-        if(els) {
-          //  put elements into an array object to work with
-          elementsLength = els.length;
-          for(var i = 0; i < elementsLength; i += 1) {
-            elements.push(els[i]);
-            reappear.push(true);
-          }
-          begin();
-        }
-      }
-
-      return function(obj) {
-        obj = obj || {};
-
-        // assign the fn to execute when a node is visible
-        opts = {
-          // a function to be run when the dom is ready (allows for any setup work)
-          init: obj.init,
-          // either an array of elements or a function that will return an htmlCollection
-          elements: obj.elements,
-          // function to call when an element is "viewable", will be passed the element to work with
-          appear: obj.appear,
-          // function to call when an element is no longer "viewable", will be passed the element to work with
-          disappear: obj.disappear,
-          // function to call when all the elements have "appeared"
-          done: obj.done,
-          // keep tracking the elements
-          reappear: obj.reappear,
-          // the extra border around an element to make it viewable outside of the true viewport
-          bounds: obj.bounds || 0,
-          // the debounce timeout
-          debounce: obj.debounce || 50,
-          // appear.js will also check for items on continuous slow scrolling
-          // you can controll how slow the scrolling should be  (deltaSpeed)
-          // and when it will check again (deltaTimeout) after it has inspected the dom/viewport;
-          delta: {
-            speed: obj.deltaSpeed || 50,
-            timeout: obj.deltaTimeout || 500
-          }
-        };
-
-        // add an event listener to init when dom is ready
-        addEventListener('DOMContentLoaded', init, false);
-
-        var isIE10 = false;
-        if (Function('/*@cc_on return document.documentMode===10@*/')()){
-          isIE10 = true;
-        }
-        var completeOrLoaded = document.readyState === 'complete' || document.readyState === 'loaded';
-
-        // call init if document is ready to be worked with and we missed the event
-        if (isIE10) {
-          if (completeOrLoaded) {
-            init();
-          }
-        } else {
-          if (completeOrLoaded || document.readyState === 'interactive') {
-            init();
-          }
-        }
-
-        return {
-          // manually fire check for visibility of tracked elements
-          trigger: function trigger(){
-            doCheckAppear();
-          },
-          // pause tracking of elements
-          pause: function pause(){
-            removeListeners();
-          },
-          // resume tracking of elements after a pause
-          resume: function resume(){
-            begin();
-          },
-          // provide a means to stop monitoring all elements
-          destroy: function destroy() {
-            end();
-          }
-        };
-
-      };
-    }()(obj));
+  var check_binded = false;
+  var check_lock = false;
+  var defaults = {
+    interval: 250,
+    force_process: false
   };
-}());
+  var $window = $(window);
 
+  var $prior_appeared = [];
+
+  function appeared(selector) {
+    return $(selector).filter(function() {
+      return $(this).is(':appeared');
+    });
+  }
+
+  function process() {
+    check_lock = false;
+    for (var index = 0, selectorsLength = selectors.length; index < selectorsLength; index++) {
+      var $appeared = appeared(selectors[index]);
+
+      $appeared.trigger('appear', [$appeared]);
+
+      if ($prior_appeared[index]) {
+        var $disappeared = $prior_appeared[index].not($appeared);
+        $disappeared.trigger('disappear', [$disappeared]);
+      }
+      $prior_appeared[index] = $appeared;
+    }
+  }
+
+  function add_selector(selector) {
+    selectors.push(selector);
+    $prior_appeared.push();
+  }
+
+  // "appeared" custom filter
+  $.expr[':'].appeared = function(element) {
+    var $element = $(element);
+    if (!$element.is(':visible')) {
+      return false;
+    }
+
+    var window_left = $window.scrollLeft();
+    var window_top = $window.scrollTop();
+    var offset = $element.offset();
+    var left = offset.left;
+    var top = offset.top;
+
+    if (top + $element.height() >= window_top &&
+        top - ($element.data('appear-top-offset') || 0) <= window_top + $window.height() &&
+        left + $element.width() >= window_left &&
+        left - ($element.data('appear-left-offset') || 0) <= window_left + $window.width()) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  $.fn.extend({
+    // watching for element's appearance in browser viewport
+    appear: function(options) {
+      var opts = $.extend({}, defaults, options || {});
+      var selector = this.selector || this;
+      if (!check_binded) {
+        var on_check = function() {
+          if (check_lock) {
+            return;
+          }
+          check_lock = true;
+
+          setTimeout(process, opts.interval);
+        };
+
+        $(window).scroll(on_check).resize(on_check);
+        check_binded = true;
+      }
+
+      if (opts.force_process) {
+        setTimeout(process, opts.interval);
+      }
+      add_selector(selector);
+      return $(selector);
+    }
+  });
+
+  $.extend({
+    // force elements's appearance check
+    force_appear: function() {
+      if (check_binded) {
+        process();
+        return true;
+      }
+      return false;
+    }
+  });
+})(function() {
+  if (typeof module !== 'undefined') {
+    // Node
+    return require('jquery');
+  } else {
+    return jQuery;
+  }
+}());
+/*!
+ * jQuery doTimeout: Like setTimeout, but better! - v1.0 - 3/3/2010
+ * http://benalman.com/projects/jquery-dotimeout-plugin/
+ *
+ * Copyright (c) 2010 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+
+// Script: jQuery doTimeout: Like setTimeout, but better!
+//
+// *Version: 1.0, Last updated: 3/3/2010*
+//
+// Project Home - http://benalman.com/projects/jquery-dotimeout-plugin/
+// GitHub       - http://github.com/cowboy/jquery-dotimeout/
+// Source       - http://github.com/cowboy/jquery-dotimeout/raw/master/jquery.ba-dotimeout.js
+// (Minified)   - http://github.com/cowboy/jquery-dotimeout/raw/master/jquery.ba-dotimeout.min.js (1.0kb)
+//
+// About: License
+//
+// Copyright (c) 2010 "Cowboy" Ben Alman,
+// Dual licensed under the MIT and GPL licenses.
+// http://benalman.com/about/license/
+//
+// About: Examples
+//
+// These working examples, complete with fully commented code, illustrate a few
+// ways in which this plugin can be used.
+//
+// Debouncing      - http://benalman.com/code/projects/jquery-dotimeout/examples/debouncing/
+// Delays, Polling - http://benalman.com/code/projects/jquery-dotimeout/examples/delay-poll/
+// Hover Intent    - http://benalman.com/code/projects/jquery-dotimeout/examples/hoverintent/
+//
+// About: Support and Testing
+//
+// Information about what version or versions of jQuery this plugin has been
+// tested with, what browsers it has been tested in, and where the unit tests
+// reside (so you can test it yourself).
+//
+// jQuery Versions - 1.3.2, 1.4.2
+// Browsers Tested - Internet Explorer 6-8, Firefox 2-3.6, Safari 3-4, Chrome 4-5, Opera 9.6-10.1.
+// Unit Tests      - http://benalman.com/code/projects/jquery-dotimeout/unit/
+//
+// About: Release History
+//
+// 1.0 - (3/3/2010) Callback can now be a string, in which case it will call
+//       the appropriate $.method or $.fn.method, depending on where .doTimeout
+//       was called. Callback must now return `true` (not just a truthy value)
+//       to poll.
+// 0.4 - (7/15/2009) Made the "id" argument optional, some other minor tweaks
+// 0.3 - (6/25/2009) Initial release
+
+(function($){
+    '$:nomunge'; // Used by YUI compressor.
+
+    var cache = {},
+
+        // Reused internal string.
+        doTimeout = 'doTimeout',
+
+        // A convenient shortcut.
+        aps = Array.prototype.slice;
+
+    // Method: jQuery.doTimeout
+    //
+    // Initialize, cancel, or force execution of a callback after a delay.
+    //
+    // If delay and callback are specified, a doTimeout is initialized. The
+    // callback will execute, asynchronously, after the delay. If an id is
+    // specified, this doTimeout will override and cancel any existing doTimeout
+    // with the same id. Any additional arguments will be passed into callback
+    // when it is executed.
+    //
+    // If the callback returns true, the doTimeout loop will execute again, after
+    // the delay, creating a polling loop until the callback returns a non-true
+    // value.
+    //
+    // Note that if an id is not passed as the first argument, this doTimeout will
+    // NOT be able to be manually canceled or forced. (for debouncing, be sure to
+    // specify an id).
+    //
+    // If id is specified, but delay and callback are not, the doTimeout will be
+    // canceled without executing the callback. If force_mode is specified, the
+    // callback will be executed, synchronously, but will only be allowed to
+    // continue a polling loop if force_mode is true (provided the callback
+    // returns true, of course). If force_mode is false, no polling loop will
+    // continue, even if the callback returns true.
+    //
+    // Usage:
+    //
+    // > jQuery.doTimeout( [ id, ] delay, callback [, arg ... ] );
+    // > jQuery.doTimeout( id [, force_mode ] );
+    //
+    // Arguments:
+    //
+    //  id - (String) An optional unique identifier for this doTimeout. If id is
+    //    not specified, the doTimeout will NOT be able to be manually canceled or
+    //    forced.
+    //  delay - (Number) A zero-or-greater delay in milliseconds after which
+    //    callback will be executed.
+    //  callback - (Function) A function to be executed after delay milliseconds.
+    //  callback - (String) A jQuery method to be executed after delay
+    //    milliseconds. This method will only poll if it explicitly returns
+    //    true.
+    //  force_mode - (Boolean) If true, execute that id's doTimeout callback
+    //    immediately and synchronously, continuing any callback return-true
+    //    polling loop. If false, execute the callback immediately and
+    //    synchronously but do NOT continue a callback return-true polling loop.
+    //    If omitted, cancel that id's doTimeout.
+    //
+    // Returns:
+    //
+    //  If force_mode is true, false or undefined and there is a
+    //  yet-to-be-executed callback to cancel, true is returned, but if no
+    //  callback remains to be executed, undefined is returned.
+
+    $[doTimeout] = function() {
+        return p_doTimeout.apply( window, [ 0 ].concat( aps.call( arguments ) ) );
+    };
+
+    // Method: jQuery.fn.doTimeout
+    //
+    // Initialize, cancel, or force execution of a callback after a delay.
+    // Operates like <jQuery.doTimeout>, but the passed callback executes in the
+    // context of the jQuery collection of elements, and the id is stored as data
+    // on the first element in that collection.
+    //
+    // If delay and callback are specified, a doTimeout is initialized. The
+    // callback will execute, asynchronously, after the delay. If an id is
+    // specified, this doTimeout will override and cancel any existing doTimeout
+    // with the same id. Any additional arguments will be passed into callback
+    // when it is executed.
+    //
+    // If the callback returns true, the doTimeout loop will execute again, after
+    // the delay, creating a polling loop until the callback returns a non-true
+    // value.
+    //
+    // Note that if an id is not passed as the first argument, this doTimeout will
+    // NOT be able to be manually canceled or forced (for debouncing, be sure to
+    // specify an id).
+    //
+    // If id is specified, but delay and callback are not, the doTimeout will be
+    // canceled without executing the callback. If force_mode is specified, the
+    // callback will be executed, synchronously, but will only be allowed to
+    // continue a polling loop if force_mode is true (provided the callback
+    // returns true, of course). If force_mode is false, no polling loop will
+    // continue, even if the callback returns true.
+    //
+    // Usage:
+    //
+    // > jQuery('selector').doTimeout( [ id, ] delay, callback [, arg ... ] );
+    // > jQuery('selector').doTimeout( id [, force_mode ] );
+    //
+    // Arguments:
+    //
+    //  id - (String) An optional unique identifier for this doTimeout, stored as
+    //    jQuery data on the element. If id is not specified, the doTimeout will
+    //    NOT be able to be manually canceled or forced.
+    //  delay - (Number) A zero-or-greater delay in milliseconds after which
+    //    callback will be executed.
+    //  callback - (Function) A function to be executed after delay milliseconds.
+    //  callback - (String) A jQuery.fn method to be executed after delay
+    //    milliseconds. This method will only poll if it explicitly returns
+    //    true (most jQuery.fn methods return a jQuery object, and not `true`,
+    //    which allows them to be chained and prevents polling).
+    //  force_mode - (Boolean) If true, execute that id's doTimeout callback
+    //    immediately and synchronously, continuing any callback return-true
+    //    polling loop. If false, execute the callback immediately and
+    //    synchronously but do NOT continue a callback return-true polling loop.
+    //    If omitted, cancel that id's doTimeout.
+    //
+    // Returns:
+    //
+    //  When creating a <jQuery.fn.doTimeout>, the initial jQuery collection of
+    //  elements is returned. Otherwise, if force_mode is true, false or undefined
+    //  and there is a yet-to-be-executed callback to cancel, true is returned,
+    //  but if no callback remains to be executed, undefined is returned.
+
+    $.fn[doTimeout] = function() {
+        var args = aps.call( arguments ),
+            result = p_doTimeout.apply( this, [ doTimeout + args[0] ].concat( args ) );
+
+        return typeof args[0] === 'number' || typeof args[1] === 'number'
+            ? this
+            : result;
+    };
+
+    function p_doTimeout( jquery_data_key ) {
+        var that = this,
+            elem,
+            data = {},
+
+            // Allows the plugin to call a string callback method.
+            method_base = jquery_data_key ? $.fn : $,
+
+            // Any additional arguments will be passed to the callback.
+            args = arguments,
+            slice_args = 4,
+
+            id        = args[1],
+            delay     = args[2],
+            callback  = args[3];
+
+        if ( typeof id !== 'string' ) {
+            slice_args--;
+
+            id        = jquery_data_key = 0;
+            delay     = args[1];
+            callback  = args[2];
+        }
+
+        // If id is passed, store a data reference either as .data on the first
+        // element in a jQuery collection, or in the internal cache.
+        if ( jquery_data_key ) { // Note: key is 'doTimeout' + id
+
+            // Get id-object from the first element's data, otherwise initialize it to {}.
+            elem = that.eq(0);
+            elem.data( jquery_data_key, data = elem.data( jquery_data_key ) || {} );
+
+        } else if ( id ) {
+            // Get id-object from the cache, otherwise initialize it to {}.
+            data = cache[ id ] || ( cache[ id ] = {} );
+        }
+
+        // Clear any existing timeout for this id.
+        data.id && clearTimeout( data.id );
+        delete data.id;
+
+        // Clean up when necessary.
+        function cleanup() {
+            if ( jquery_data_key ) {
+                elem.removeData( jquery_data_key );
+            } else if ( id ) {
+                delete cache[ id ];
+            }
+        };
+
+        // Yes, there actually is a setTimeout call in here!
+        function actually_setTimeout() {
+            data.id = setTimeout( function(){ data.fn(); }, delay );
+        };
+
+        if ( callback ) {
+            // A callback (and delay) were specified. Store the callback reference for
+            // possible later use, and then setTimeout.
+            data.fn = function( no_polling_loop ) {
+
+                // If the callback value is a string, it is assumed to be the name of a
+                // method on $ or $.fn depending on where doTimeout was executed.
+                if ( typeof callback === 'string' ) {
+                    callback = method_base[ callback ];
+                }
+
+                callback.apply( that, aps.call( args, slice_args ) ) === true && !no_polling_loop
+
+                    // Since the callback returned true, and we're not specifically
+                    // canceling a polling loop, do it again!
+                    ? actually_setTimeout()
+
+                    // Otherwise, clean up and quit.
+                    : cleanup();
+            };
+
+            // Set that timeout!
+            actually_setTimeout();
+
+        } else if ( data.fn ) {
+            // No callback passed. If force_mode (delay) is true, execute the data.fn
+            // callback immediately, continuing any callback return-true polling loop.
+            // If force_mode is false, execute the data.fn callback immediately but do
+            // NOT continue a callback return-true polling loop. If force_mode is
+            // undefined, simply clean up. Since data.fn was still defined, whatever
+            // was supposed to happen hadn't yet, so return true.
+            delay === undefined ? cleanup() : data.fn( delay === false );
+            return true;
+
+        } else {
+            // Since no callback was passed, and data.fn isn't defined, it looks like
+            // whatever was supposed to happen already did. Clean up and quit!
+            cleanup();
+        }
+
+    };
+
+})(jQuery);
 jQuery(document).ready(function($) {
     var util = {
         Global: {
@@ -2898,9 +3051,7 @@ jQuery(document).ready(function($) {
         })
     });
 
-
     util.Global.init();
-
 
     $(".animatedParent").appear();
 

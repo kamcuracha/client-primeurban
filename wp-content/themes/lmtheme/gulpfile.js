@@ -7,6 +7,7 @@ elixir((mix) => {
 		'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
 		'assets/scripts/plugins/singlePageNav.js',
 		'assets/scripts/plugins/appear.js',
+		'assets/scripts/plugins/dotimeout.js',
 		'assets/scripts/main.js',
 	], 'assets/scripts/all.js', './')
 	.scripts([
