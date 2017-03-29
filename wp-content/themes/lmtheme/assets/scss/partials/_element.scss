@@ -3435,8 +3435,9 @@ a.list-group-item-danger.active:focus {
   max-height: 375px;
   height: 360px;
 }
-.card h4 {
+.card .card-title {
   opacity: 1;
+  height: 70px;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -3451,9 +3452,22 @@ a.list-group-item-danger.active:focus {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+  
+  .home & {
+    height: 50px;
+  }
 }
-.card:hover h4 {
-    opacity: 0.8;
+.card h4 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-75%);
+  -ms-transform: translateY(-75%);
+  transform: translateY(-75%);
+  
+  .home & {
+    top: 0;
+    transform: translateY(-50%);
+  }
 }
 .card a {
   color: #333;
@@ -4468,58 +4482,6 @@ a.list-group-item-danger.active:focus {
     margin-top: 10em;
     text-align: center;
   }
-}
-.masterhear-accent {
-    position: absolute;
-    top: 0;
-    left: -100%;
-
-    .accent {
-      position: absolute;
-      overflow: hidden;
-    }
-
-    .accent1 {
-      transition: all 0.75s ease-in-out;
-      -webkit-transition: all 0.75s ease-in-out; /** Chrome & Safari **/
-      -moz-transition: all 0.75s ease-in-out; /** Firefox **/
-      -o-transition: all 0.75s ease-in-out; /** Opera **/
-
-      #top:hover &.move-right {
-          transform: translate(70%,0);
-          -webkit-transform: translate(70%,0); /** Chrome & Safari **/
-          -o-transform: translate(70%,0); /** Opera **/
-          -moz-transform: translate(70%,0); /** Firefox **/
-      }
-    }
-
-    .accent2 {
-      transition: all 1s ease-in-out;
-      -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
-      -moz-transition: all 1s ease-in-out; /** Firefox **/
-      -o-transition: all 1s ease-in-out; /** Opera **/
-
-      #top:hover &.move-right {
-          transform: translate(80%,0);
-          -webkit-transform: translate(80%,0); /** Chrome & Safari **/
-          -o-transform: translate(80%,0); /** Opera **/
-          -moz-transform: translate(80%,0); /** Firefox **/
-      }
-    }
-
-    .accent3 {
-      transition: all 0.5s ease-in-out;
-      -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
-      -moz-transition: all 0.5s ease-in-out; /** Firefox **/
-      -o-transition: all 0.5s ease-in-out; /** Opera **/
-
-      #top:hover &.move-right {
-          transform: translate(90%,0);
-          -webkit-transform: translate(90%,0); /** Chrome & Safari **/
-          -o-transform: translate(90%,0); /** Opera **/
-          -moz-transform: translate(90%,0); /** Firefox **/
-      }
-    }
 }
 
 /* Start: Recommended Isotope styles */

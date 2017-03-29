@@ -15,6 +15,18 @@ jQuery(document).ready(function($) {
                         $(window).scrollTop() > 160 ? $("body").addClass("navbar-shrink").trigger('shrinked') : $("body").removeClass("navbar-shrink").trigger('unshrinked')
                     }, 10))
                 })
+
+                $('body').on('shrinked', function() {
+                    $('.prime-urban-brand img').attr({
+                        src: 'http://prime.urban/wp-content/themes/lmtheme/assets/images/logo-alt-prime-urban.png'
+                    });
+                });
+
+                $('body').on('unshrinked', function() {
+                    $('.prime-urban-brand img').attr({
+                        src: 'http://prime.urban/wp-content/themes/lmtheme/assets/images/logo-prime-urban.png'
+                    });
+                });
             },
             imgdatahover: function() {
                 var e = "";

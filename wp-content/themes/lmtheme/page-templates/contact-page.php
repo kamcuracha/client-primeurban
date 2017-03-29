@@ -17,7 +17,7 @@ get_header(); // Loads the header.php template. ?>
     <div class="masterhead-img">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-contact.jpg" alt="">
     </div>
-    <div class="masterhear-accent">
+    <div class="masterhead-accent">
       <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
       <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
       <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
@@ -33,20 +33,22 @@ get_header(); // Loads the header.php template. ?>
         <?php echo do_shortcode('[formidable id=2]'); ?>
       </div>
       <div class="col-sm-6 animated fadeInRight">
-        <h2>Contact Details</h2>
-        <ul class="contact">
-          <li><i class="fa fa-home" aria-hidden="true"></i> <span>Suite 522, St Kilda Road Towers<br>
-        1 Queens Road, Melbourne<br>
-        Victoria 3004</span></li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i> <span>03 9863 7997</span></li>
-          <li><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@primeurbangroup.com.au</span></li>
-          <li>
-            <div class="map-holder"> 
-              <div id="map-canvas" data-lat="-37.835768" data-lng="144.973876" data-title="Suite 522, St Kilda Road Towers 1 Queens Road, Melbourne Victoria 3004" style="width:420px;height:275px;"></div> 
-            </div>
-          </li>
-          <li><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="//goo.gl/kia3R2" target="_blank"><span>Get Directions</span></a></li>
-        </ul>
+        <div class="contact-details">
+          <h2>Contact Details</h2>
+          <ul class="contact">
+            <li><i class="fa fa-home" aria-hidden="true"></i> <span>Suite 522, St Kilda Road Towers<br>
+          1 Queens Road, Melbourne<br>
+          Victoria 3004</span></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span>03 9863 7997</span></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@primeurbangroup.com.au</span></li>
+            <li>
+              <div class="map-holder"> 
+                <div id="map-canvas" data-lat="-37.835768" data-lng="144.973876" data-title="Suite 522, St Kilda Road Towers 1 Queens Road, Melbourne Victoria 3004" style="width:420px;height:275px;"></div> 
+              </div>
+            </li>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="//goo.gl/kia3R2" target="_blank"><span>Get Directions</span></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

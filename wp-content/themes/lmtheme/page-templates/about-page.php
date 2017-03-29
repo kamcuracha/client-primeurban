@@ -16,7 +16,7 @@ get_header(); // Loads the header.php template. ?>
   <div class="masterhead-img">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-about.jpg" alt="">
   </div>
-  <div class="masterhear-accent">
+  <div class="masterhead-accent">
     <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
     <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
     <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">

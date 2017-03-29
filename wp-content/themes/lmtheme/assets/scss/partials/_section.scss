@@ -202,6 +202,11 @@
 .section-contact-us .contact a:hover span {
   border-bottom: none;
 }
+.section-contact-us .contact-details {
+  @media (min-width: 991px) {
+    float: right;
+  }
+}
 .section-contact-us .map-holder {
   padding-bottom: 12px;
 }
