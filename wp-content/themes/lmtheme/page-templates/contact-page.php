@@ -8,13 +8,8 @@ get_header(); // Loads the header.php template. ?>
 <div id="top" class="section section-vshape-bottom">
   <div class="masterhead">
     <div class="container">
-      <div class="masterhead-intro masterhead-intro-front animatedParent" data-sequence="500">
+      <div class="masterhead-intro animatedParent" data-sequence="500">
         <h2 class="h1 animated growIn go" data-id="1">
-          Contact
-        </h2>
-      </div>
-      <div class="masterhead-intro masterhead-intro-back animatedParent" data-sequence="500">
-        <h2 class="h1 animated growIn" data-id="1">
           Contact
         </h2>
       </div>
@@ -22,8 +17,10 @@ get_header(); // Loads the header.php template. ?>
     <div class="masterhead-img">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-contact.jpg" alt="">
     </div>
-    <div class="masterhead-img masterhead-img-hover">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-contact.jpg" alt="">
+    <div class="masterhear-accent">
+      <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
+      <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
+      <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">
     </div>
   </div>
 </div>
