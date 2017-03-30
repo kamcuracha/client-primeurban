@@ -47,104 +47,55 @@ get_header(); // Loads the header.php template. ?>
   </div>
 </div>
 
+<?php if ( get_field('post_masterhead') ): ?>
 <div id="post-masterhead" class="section section-post-masterhead">
   <div class="container">
     <div class="section-heading copy animatedParent">
-      <p class="animated fadeInDownShort go" data-id="3">Prime Urban is a dynamic, privately owned property development company. We specialize in the growing demand for residential and mixed-use project located in the prestigious inner suburbs of Melbourne.</p>
+      <p class="animated fadeInDownShort go" data-id="3"><?php echo the_field('post_masterhead'); ?></p>
     </div>
   </div>
 </div>
+<?php endif; ?>
 
+<?php if ( get_field('key_qualities') ): ?>
 <div id="pre-qualities" class="section section-pre-qualities">
   <div class="container">
     <div class="section-heading p0 copy animatedParent">
       <h3 class="section-title white animated fadeInDownShort">Key Qualities</h3>
 
-      <p class="animated fadeInUpShort">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. em sequi nesciunt. Neque porro quisquam est.
-      </p>
+      <p class="animated fadeInUpShort"><?php echo the_field('key_qualities'); ?></p>
     </div>
   </div>
   <div class="arrow-up">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-main-prime-urban.png" alt="">
   </div> 
 </div>
+<?php endif; ?>
 
 <div id="qualities" class="section section-vshape-bottom section-qualities overflow-hidden">
 
   <div class="features light-green animatedParent">
     <div class="features-holder">
+      
+      <?php if( have_rows('qualities') ): $rowctr = 1; ?>
 
-      <div class="features-item features-item-1 animated bounceInLeft" data-color="light-green" data-id="1">
+        <?php while( have_rows('qualities') ): the_row(); ?>
+          
+        <div class="features-item <?php if($rowctr > 3) { echo "features-item-right"; } ?> features-item-<?php echo $rowctr; ?> animated <?php if($rowctr > 3) { echo "bounceInRight"; } else { echo "bounceInLeft"; } ?>" data-color="<?php the_sub_field('colour'); ?>" data-id="<?php echo $rowctr; ?>">
 
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-1.png" alt="">
+          <div class="features-item-icon">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-1.png" alt="">
+          </div>
+
+          <div class="features-item-body">
+            <h3><?php the_sub_field('quality'); ?></h3>
+            <p><?php the_sub_field('description'); ?></p>
+          </div>
         </div>
 
-        <div class="features-item-body">
-          <h3>Personalized Approach</h3>
-          <p>We take great care to listen to our clients and build lasting relationships – they are our past, present and future. Our proven ability to translate our client's ideas and aspirations into reality continues to deliver outstanding sustainable built environments.</p>
-        </div>
-      </div>
+        <?php $rowctr++; endwhile; ?>
 
-      <div class="features-item features-item-2  animated bounceInLeft" data-color="yellow" data-id="2">
-
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-2.png" alt="">
-        </div>
-
-        <div class="features-item-body">
-          <h3>Proven Team Experience</h3>
-          <p>We pride ourselves on engaging and working with only Australia's most visionary architects, interior designers and consultants that consistently display a reputation of trust, strong support, performance and demonstrate a continuing passion for innovation and excellence in design.</p>
-        </div>
-      </div>
-
-      <div class="features-item features-item-3  animated bounceInLeft" data-color="black" data-id="3">
-
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-5.png" alt="">
-        </div>
-
-        <div class="features-item-body">
-          <h3>Feasibility Analysis</h3>
-          <p>The success of all our projects revolves around the accuracy of our project feasibility analysis. Our feasibilities employ sophisticated in-house software that has evolved and developed over many years.</p>
-        </div>
-      </div>
-
-      <div class="features-item features-item-right features-item-4 animated bounceInRight" data-color="orange" data-id="1">
-
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-3.png" alt="">
-        </div>
-
-        <div class="features-item-body">
-          <h3>Premium Site Selection</h3>
-          <p>Careful, well researched selection of premium development sites in inner Melbourne suburbs delivers not only exceptional lifestyle potential but prospective long term capital growth for our clients as either an owner occupied site or property investment.</p>
-        </div>
-      </div>
-
-      <div class="features-item features-item-right features-item-5 animated bounceInRight" data-color="blue" data-id="2">
-
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-4.png" alt="">
-        </div>
-
-        <div class="features-item-body">
-          <h3>Valued Relationships</h3>
-          <p>We place great importance on each and every client, ensuring that we establish a lasting connection throughout this long term relationship. We strive to create and deliver best possible value for our clients both on build quality and affordability.</p>
-        </div>
-      </div>
-
-      <div class="features-item features-item-right features-item-6  animated bounceInRight" data-color="green" data-id="3">
-
-        <div class="features-item-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-6.png" alt="">
-        </div>
-
-        <div class="features-item-body">
-          <h3>Unrivalled Delivery Ability</h3>
-          <p>Our thorough knowledge of residential building practice and the players in this market ensures certainty of delivery. We drive each project by a well resourced, coordinated consultant team with strong leadership and unbridled commitment.</p>
-        </div>
-      </div>
+      <?php endif; ?>
 
       <img class="features-holder-img black" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-black.png" alt="">
       <img class="features-holder-img blue" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-guaranteed-blue.png" alt="">
@@ -159,7 +110,10 @@ get_header(); // Loads the header.php template. ?>
 <div id="projects" class="section section-projects">
   <div class="section-heading half copy copy-inverted animatedParent">
     <h3 id="comparison" class="section-title animated fadeInDownShort">Featured Projects</h3>
-    <p class="animated fadeInUpShort">We are proud of all the projects the Prime Urban team have completed. Ranging across a wide variety of sites and developments, Prime Urban continually set the bar for design, quality and deliverability.</p>
+    
+    <?php if ( get_field('featured_projects') ): ?>
+    <p class="animated fadeInUpShort"><?php echo the_field('featured_projects'); ?></p>
+    <?php endif; ?>
   </div>
 
   <?php
