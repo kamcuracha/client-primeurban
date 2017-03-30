@@ -2989,18 +2989,6 @@ jQuery(document).ready(function($) {
                     clearTimeout($.data(this, "scrollCheck")), $.data(this, "scrollCheck", setTimeout(function() {
                         $(window).scrollTop() > 160 ? $("body").addClass("navbar-shrink").trigger('shrinked') : $("body").removeClass("navbar-shrink").trigger('unshrinked')
                     }, 10))
-                })
-
-                $('body').on('shrinked', function() {
-                    $('.prime-urban-brand img').attr({
-                        src: '/wp-content/themes/lmtheme/assets/images/logo-alt-prime-urban.png'
-                    });
-                });
-
-                $('body').on('unshrinked', function() {
-                    $('.prime-urban-brand img').attr({
-                        src: '/wp-content/themes/lmtheme/assets/images/logo-prime-urban.png'
-                    });
                 });
             },
             imgdatahover: function() {
@@ -3054,6 +3042,7 @@ jQuery(document).ready(function($) {
                 //         src: '/wp-content/themes/lmtheme/assets/images/logo-prime-urban.png'
                 //     });
                 // });
+
             },
             gmap: function() {
                 if ( jQuery('#map-canvas').length != 0 ) {
