@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Services
+ * Template Name: Development
  */
 
 get_header(); // Loads the header.php template. ?>
@@ -10,12 +10,11 @@ get_header(); // Loads the header.php template. ?>
     <div class="container">
       <div class="masterhead-intro animatedParent" data-sequence="500">
         <h2 class="h1 animated growIn go" data-id="1">
-          Our Services
+          Development
         </h2>
       </div>
     </div>
-    <div class="masterhead-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-services.jpg" alt="">
+    <div class="masterhead-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-services.jpg');">
     </div>
     <div class="masterhead-accent">
       <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">

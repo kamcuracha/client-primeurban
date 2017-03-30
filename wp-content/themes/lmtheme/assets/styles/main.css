@@ -10659,6 +10659,7 @@ select[multiple].form-group-lg .form-control {
   background: url(../images/icon-about-vision.png) no-repeat;
   width: 48px;
   height: 30px;
+  margin-top: 10px;
 }
 
 .icon-values {
@@ -11609,7 +11610,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .home .navbar-fixed-top,
-.singular-page .navbar-fixed-top {
+.singular .navbar-fixed-top {
   background-color: transparent;
   box-shadow: none;
 }

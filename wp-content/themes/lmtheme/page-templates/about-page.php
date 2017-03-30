@@ -13,8 +13,7 @@ get_header(); // Loads the header.php template. ?>
       </h2>
     </div>
   </div>
-  <div class="masterhead-img">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-about.jpg" alt="">
+  <div class="masterhead-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-about.jpg');">
   </div>
   <div class="masterhead-accent">
     <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
