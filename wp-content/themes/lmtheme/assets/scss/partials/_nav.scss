@@ -629,7 +629,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   transition: all 0.4s;
 }
 .home .navbar-fixed-top,
-.singular-page .navbar-fixed-top {
+.singular-page .navbar-fixed-top,
+.singular-projects .navbar-fixed-top {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
