@@ -28,12 +28,17 @@ get_header(); // Loads the header.php template. ?>
       <div class="masterhead-intro animatedParent" data-sequence="500">
         <div class="animated growIn go" data-id="1">
           <div class="h2 white">Welcome to</div>
-          <div class="h1">Prime Urban</div>
+          <div class="h1"><?php echo get_bloginfo('name'); ?></div>
         </div>
       </div>
     </div>
+    <?php if ( has_post_thumbnail() ) : $post_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+    <div class="masterhead-img" style="background-image: url('<?php echo $post_image[0]; ?>');">
+    </div>
+    <?php else: ?>
     <div class="masterhead-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg');">
     </div>
+    <?php endif; ?>
     <div class="masterhead-accent">
       <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
       <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
