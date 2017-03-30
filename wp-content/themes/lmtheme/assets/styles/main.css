@@ -11995,6 +11995,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin-left: auto;
   margin-right: auto;
   padding-top: 14px;
+  padding-bottom: 20px;
   width: 90%;
 }
 
@@ -12095,8 +12096,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .section-latest .container,
 .section-contact-us .container,
 .singular-page div.section.section-padded > .container {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .section-post-masterhead .container,
