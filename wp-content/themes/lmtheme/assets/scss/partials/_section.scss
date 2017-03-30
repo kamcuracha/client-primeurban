@@ -203,6 +203,11 @@
 .section-contact-us .contact a:hover span {
   border-bottom: none;
 }
+.section-contact-us .contact-details {
+  @media (min-width: 991px) {
+    float: right;
+  }
+}
 .section-contact-us .map-holder {
   padding-bottom: 12px;
 }
@@ -361,6 +366,11 @@
   bottom: 0;
   left: 14px;
   z-index: -1;
+}
+.section-services-xp .col-xs-10 {
+  @media (min-width : 768px) {
+    min-height: 900px;
+  }
 }
 .section-about-vm .col-sm-12,
 .section-services-xp .col-xs-10 {

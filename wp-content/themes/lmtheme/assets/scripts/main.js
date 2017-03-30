@@ -6,7 +6,8 @@ jQuery(document).ready(function($) {
                 this.imgdatahover(),
                 this.stickyNav(),
                 this.animate(),
-                this.site()
+                this.site(),
+                this.gmap()
             },
             stickyNav: function() {
                 $(window).scroll(function() {
@@ -14,6 +15,18 @@ jQuery(document).ready(function($) {
                         $(window).scrollTop() > 160 ? $("body").addClass("navbar-shrink").trigger('shrinked') : $("body").removeClass("navbar-shrink").trigger('unshrinked')
                     }, 10))
                 })
+
+                $('body').on('shrinked', function() {
+                    $('.prime-urban-brand img').attr({
+                        src: '/wp-content/themes/lmtheme/assets/images/logo-alt-prime-urban.png'
+                    });
+                });
+
+                $('body').on('unshrinked', function() {
+                    $('.prime-urban-brand img').attr({
+                        src: '/wp-content/themes/lmtheme/assets/images/logo-prime-urban.png'
+                    });
+                });
             },
             imgdatahover: function() {
                 var e = "";
@@ -66,6 +79,35 @@ jQuery(document).ready(function($) {
                 //         src: '/wp-content/themes/lmtheme/assets/images/logo-prime-urban.png'
                 //     });
                 // });
+            },
+            gmap: function() {
+                if ( jQuery('#map-canvas').length != 0 ) {
+
+                    var $el = jQuery('#map-canvas'),
+                        lat = parseInt($el.data('lat')) != 0 ? $el.data('lat'): -25.363882,
+                        lng = parseInt($el.data('lng')) != 0 ? $el.data('lng'): 131.044922,
+                        title = $el.data('title'),
+                        myLatlng = new google.maps.LatLng(lat, lng),
+                        mapOptions = {
+                            zoom: 15,
+                            center: myLatlng
+                        },
+                        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions),
+                        marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            title: title
+                        });
+
+                    var infowindow = new google.maps.InfoWindow({
+                        content: title
+                    });
+
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.open(map,marker);
+                    });
+
+                }
             }
         }
     };

@@ -32,10 +32,9 @@ get_header(); // Loads the header.php template. ?>
         </div>
       </div>
     </div>
-    <div class="masterhead-img">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg" alt="">
+    <div class="masterhead-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-main.jpg');">
     </div>
-    <div class="masterhear-accent">
+    <div class="masterhead-accent">
       <img class="accent accent1 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-1.png" alt="">
       <img class="accent accent2 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-2.png" alt="">
       <img class="accent accent3 move-right" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-accent-3.png" alt="">

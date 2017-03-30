@@ -66,12 +66,15 @@
   > img {
     max-width: 100%;
     display: block;
+
   }
 
-
   .navbar-shrink & {
-    height: 104px;
-    overflow: hidden;
+    height: 64px;
+
+    > img {
+      height: 96px;
+    }
   }
 }
 
@@ -626,7 +629,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   transition: all 0.4s;
 }
 .home .navbar-fixed-top,
-.singular-page .navbar-fixed-top {
+.singular-page .navbar-fixed-top,
+.singular-projects .navbar-fixed-top {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -639,14 +643,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
 }
 .navbar-shrink .navbar-fixed-top {
-  padding-top: 12px;
+  padding-top: 40px;
   padding-bottom: 12px;
-  height: 78px;
+  height: 130px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   background-color: #fff;
-
-
 
   &:after {
     content: '';
@@ -709,6 +711,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 13px;
+
+    .navbar-shrink & {
+      @media (max-width: 767px) {
+        margin-bottom: 7px;
+      }
+    }
   }
   .navbar-fixed-top .container .navbar-holder {
     padding: 10px 15px 15px;
@@ -740,6 +748,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   }
   .navbar-shrink .navbar-fixed-top .navbar-brand {
     margin: 0 !important;
+
+    @media (max-width: 767px) {
+      height: 46px;
+    }
   }
 
  .navbar-shrink .navbar-fixed-top .navbar-brand  > img {

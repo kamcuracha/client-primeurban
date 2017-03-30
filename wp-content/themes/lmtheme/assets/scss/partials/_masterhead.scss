@@ -117,16 +117,21 @@
   overflow: hidden;
   margin: auto;
   text-align: center;
+  height: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
+.masterhead-img img {
+  width: 100%;
+  height: 100%;
+  background-size: 100% auto !important;
+}
 
 @media (max-width: 1520px) {
   .masterhead-img img {
-    float: right;
     margin-top: 0;
-  }
-  .singular-page .masterhead-img img {
-
   }
 }
 @media (max-width: 1199px) {
@@ -134,7 +139,7 @@
     position: absolute;
   }
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .masterhead-img {
     margin: 59px auto 0;
   }
@@ -143,10 +148,69 @@
     float: none;
     margin: 0;
   }
-}
-@media (max-width: 480px) {
-  .masterhead-img img {
-    width: auto;
-    height: 100%;
+}*/
+@media (max-width: 560px) {
+  .masterhead {
+    height: 300px !important;
   }
+  .home .masterhead .masterhead-intro {
+    padding-top: 9em;
+  }
+}
+
+.masterhead-accent {
+    position: absolute;
+    top: 0;
+    left: -100%;
+
+    .accent {
+      position: absolute;
+      overflow: hidden;
+      opacity: 0;
+    }
+
+    .accent1 {
+      transition: all 0.75s ease-in-out;
+      -webkit-transition: all 0.75s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 0.75s ease-in-out; /** Firefox **/
+      -o-transition: all 0.75s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          opacity: 1;
+          transform: translate(70%,0);
+          -webkit-transform: translate(70%,0); /** Chrome & Safari **/
+          -o-transform: translate(70%,0); /** Opera **/
+          -moz-transform: translate(70%,0); /** Firefox **/
+      }
+    }
+
+    .accent2 {
+      transition: all 1s ease-in-out;
+      -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 1s ease-in-out; /** Firefox **/
+      -o-transition: all 1s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          opacity: 1;
+          transform: translate(80%,0);
+          -webkit-transform: translate(80%,0); /** Chrome & Safari **/
+          -o-transform: translate(80%,0); /** Opera **/
+          -moz-transform: translate(80%,0); /** Firefox **/
+      }
+    }
+
+    .accent3 {
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+      -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+      -o-transition: all 0.5s ease-in-out; /** Opera **/
+
+      #top:hover &.move-right {
+          opacity: 1;
+          transform: translate(90%,0);
+          -webkit-transform: translate(90%,0); /** Chrome & Safari **/
+          -o-transform: translate(90%,0); /** Opera **/
+          -moz-transform: translate(90%,0); /** Firefox **/
+      }
+    }
 }
