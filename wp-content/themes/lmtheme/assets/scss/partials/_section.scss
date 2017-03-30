@@ -334,6 +334,7 @@
 .section-projects {
   background: url(../images/bg-projects.jpg) center bottom no-repeat;
   background-size: cover;
+  padding-top: 30px;
 }
 .section-about-vm {
   background: url(../images/bg-about-vm.jpg) center bottom no-repeat;
@@ -348,6 +349,7 @@
      min-height: 898px;
     }
   }
+
 }
 .section-services-xp .col-xs-2 {
   @media (max-width: 560px) {
