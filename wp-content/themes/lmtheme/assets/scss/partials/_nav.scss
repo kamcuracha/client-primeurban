@@ -645,6 +645,20 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1px 1px;
   background-color: #fff;
+
+
+
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 71px solid transparent;
+    border-right: 67px solid transparent;
+    border-top: 59px solid white;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 .navbar-shrink .navbar-fixed-top .navbar-nav li a {
   color: #333;
