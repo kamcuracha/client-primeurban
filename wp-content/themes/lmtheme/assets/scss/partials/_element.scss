@@ -3453,7 +3453,8 @@ a.list-group-item-danger.active:focus {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
   
-  .home & {
+  .home &,
+  .singular-page & {
     height: 50px;
   }
 }
@@ -3464,7 +3465,8 @@ a.list-group-item-danger.active:focus {
   -ms-transform: translateY(-75%);
   transform: translateY(-75%);
   
-  .home & {
+  .home &,
+  .singular-page & {
     top: 0;
     transform: translateY(-50%);
   }

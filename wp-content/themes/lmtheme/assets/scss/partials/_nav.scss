@@ -68,10 +68,11 @@
     display: block;
   }
 
-
-  .navbar-shrink & {
-    height: 104px;
-    overflow: hidden;
+  @media (min-width: 768px) {
+    .navbar-shrink & {
+      height: 104px;
+      overflow: hidden;
+    }
   }
 }
 
@@ -647,17 +648,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #fff;
 
 
-
-  &:after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 71px solid transparent;
-    border-right: 67px solid transparent;
-    border-top: 59px solid white;
-    left: 0;
-    right: 0;
-    margin: auto;
+  @media (min-width: 768px) {
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 71px solid transparent;
+      border-right: 67px solid transparent;
+      border-top: 59px solid white;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
   }
 }
 .navbar-shrink .navbar-fixed-top .navbar-nav li a {

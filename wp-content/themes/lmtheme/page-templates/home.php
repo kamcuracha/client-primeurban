@@ -16,7 +16,7 @@ get_header(); // Loads the header.php template. ?>
   <a itemprop="relatedLink" href="#projects">
     <i class="icon icon-hands"></i>
   </a>
-  <a itemprop="relatedLink" href="/contact-us">
+  <a itemprop="relatedLink" href="#latest">
     <i class="icon icon-person"></i>
   </a>
 </div>
