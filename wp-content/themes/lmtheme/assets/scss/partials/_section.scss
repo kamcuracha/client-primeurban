@@ -501,9 +501,43 @@
 .section-about-team .container {
   padding-top: 2em;
   padding-bottom: 4em;
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-nav {
+    margin-top: 24px;
+  }
+
+  .owl-carousel {
+    @media (max-width: 767px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .owl-stage-outer {
+    @media (max-width: 600px) {
+      margin-left: 0;
+    }
+  }
+
 }
 .section-about-team .team-member {
   text-align: center;
+
+  img {
+    max-height: 245px;
+
+    @media (max-width: 1200px) {
+      max-height: 195px;
+    }
+
+    @media (max-width: 600px) {
+      max-height: 320px;
+    }
+  }
 }
 .section-about-team .member-name {
   font-family: "Titillium Semi-Bold", Helvetica, Arial, sans-serif;

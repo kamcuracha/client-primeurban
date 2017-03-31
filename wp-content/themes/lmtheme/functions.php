@@ -51,7 +51,7 @@ function socially_awkward_theme_setup() {
 	/* Load styles. */
 	add_theme_support(
 		'hybrid-core-styles',
-		array( 'font-main', 'map-api', 'isotope',  'modernizr', 'isotope', 'theme-mediaelement' )
+		array( 'font-main', 'map-api', 'isotope',  'modernizr', 'isotope', 'theme-mediaelement', 'owl-carousel', 'owl-carousel-theme' )
 	);
 
 	/* Load shortcodes. */

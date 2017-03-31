@@ -38,10 +38,10 @@ get_header(); // Loads the header.php template. ?>
   
   <?php if( have_rows('team_members') ): $rowctr = 1; ?>
   <div class="container">
-    <div class="row animatedParent">
+    <div class="row owl-carousel owl-theme animatedParent">
 
       <?php while( have_rows('team_members') ): the_row(); ?>
-      <div class="col-sm-4 animated fadeIn go" data-id="<?php echo $rowctr; ?>">
+      <div class="item animated fadeIn go" data-id="<?php echo $rowctr; ?>">
         <div class="team-member">
           <div class="member-img">
             <?php if ( get_sub_field('image') ) : ?>

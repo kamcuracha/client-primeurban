@@ -14,4 +14,8 @@ elixir((mix) => {
 		'assets/scripts/plugins/isotope.pkgd.min.js',
 		'assets/scripts/project.js',
 	], 'assets/scripts/all-project.js', './')
+	.scripts([
+		'assets/scripts/plugins/owl.carousel.min.js',
+		'assets/scripts/about.js',
+	], 'assets/scripts/all-about.js', './')
 });

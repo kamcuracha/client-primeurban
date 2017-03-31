@@ -11646,6 +11646,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     left: 0;
     right: 0;
     margin: auto;
+    -webkit-transition: all 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
   }
 }
 
@@ -12580,8 +12584,45 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 4em;
 }
 
+.section-about-team .container .owl-dots {
+  display: none;
+}
+
+.section-about-team .container .owl-nav {
+  margin-top: 24px;
+}
+
+@media (max-width: 767px) {
+  .section-about-team .container .owl-carousel {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-about-team .container .owl-stage-outer {
+    margin-left: 0;
+  }
+}
+
 .section-about-team .team-member {
   text-align: center;
+}
+
+.section-about-team .team-member img {
+  max-height: 245px;
+}
+
+@media (max-width: 1200px) {
+  .section-about-team .team-member img {
+    max-height: 195px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-about-team .team-member img {
+    max-height: 320px;
+  }
 }
 
 .section-about-team .member-name {
