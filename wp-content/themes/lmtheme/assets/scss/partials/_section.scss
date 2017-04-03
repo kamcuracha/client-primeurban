@@ -557,6 +557,18 @@
     width: auto;
     max-height: inherit;
   }
+
+  &.alignleft {
+    float: left;
+    margin-top: 0;
+    padding-right: 24px;
+  }
+
+  &.alignright {
+    float: right;
+    margin-top: 0;
+    padding-left: 24px;
+  }
 }
 .section-connectivity .section-body {
   text-align: center;

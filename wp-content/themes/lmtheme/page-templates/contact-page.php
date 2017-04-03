@@ -50,11 +50,11 @@ get_header(); // Loads the header.php template. ?>
             <?php endif; ?>
 
             <?php if ( get_field('phone') ): ?>
-            <li><i class="fa fa-home" aria-hidden="true"></i> <span><?php the_field('phone'); ?></span></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span><?php the_field('phone'); ?></span></li>
             <?php endif; ?>
 
             <?php if ( get_field('email') ): ?>
-            <li><i class="fa fa-home" aria-hidden="true"></i> <span><?php the_field('email'); ?></span></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> <span><?php the_field('email'); ?></span></li>
             <?php endif; ?>
 
             <?php if ( get_field('address') ): ?>

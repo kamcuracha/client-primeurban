@@ -12647,6 +12647,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   max-height: inherit;
 }
 
+.section-services-xp img.alignleft {
+  float: left;
+  margin-top: 0;
+  padding-right: 24px;
+}
+
+.section-services-xp img.alignright {
+  float: right;
+  margin-top: 0;
+  padding-left: 24px;
+}
+
 .section-connectivity .section-body {
   text-align: center;
   padding-bottom: 6em;
