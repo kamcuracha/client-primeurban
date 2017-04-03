@@ -153,6 +153,15 @@ get_header(); // Loads the header.php template. ?>
   <?php endif; ?>
 </div>
 
+<?php
+  $args = array(
+    'posts_per_page' => 3,
+    'post_type' => 'news'
+  );
+  $news = new WP_Query($args);
+
+  if ($news->have_posts()):
+?>
 <div id="latest" class="section section-latest animatedParent">
   <div class="container">
 
@@ -160,53 +169,26 @@ get_header(); // Loads the header.php template. ?>
       <h3 id="comparison" class="section-title animated fadeInDownShort">Latest News</h3>
     </div>
     <div class="row animatedParent">
+      <?php while($news->have_posts()): $news->the_post(); ?>
       <div class="col-sm-12 col-md-4 item animated fadeInUpShort" data-id="1">
         <header class="entry-header">
           <div class="post-date">
-            <span class="posted">22 February 2017</span>
+            <span class="posted"><?php $date = new DateTime($post->post_date); echo $date->format('d F Y'); ?></span>
             <hr align="left" width="10%">
           </div> 
         </header>
         <div class="entry-content">
-          <h3 class="entry-title">Architecture design</h3> 
-          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
+          <h3 class="entry-title"><?php the_title(); ?></h3> 
+          <span><?php echo wp_trim_words(mb_strimwidth(get_the_content(), 0, 160, '...')); ?></span>
          </div>
          <footer class="entry-footer">
-           <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+           <a href="<?php the_permalink(); ?>">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
          </footer>
       </div>
-      <div class="col-sm-12 col-md-4 item animated fadeInUpShort" data-id="2">
-        <header class="entry-header">
-          <div class="post-date">
-            <span class="posted">23 February 2017</span>
-            <hr align="left" width="10%">
-          </div>
-        </header>
-        <div class="entry-content">
-          <h3 class="entry-title">Development update</h3> 
-          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
-         </div>
-         <footer class="entry-footer">
-           <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-         </footer>
-      </div>
-      <div class="col-sm-12 col-md-4 item animated fadeInUpShort" data-id="3">
-        <header class="entry-header">
-          <div class="post-date">
-            <span class="posted">12 February 2017</span>
-            <hr align="left" width="10%">
-          </div> 
-        </header>
-        <div class="entry-content">
-          <h3 class="entry-title">Property market</h3> 
-          <span>Lorem ipsum dolor sit amet, consectetur sed  amet adipisicing elit, do eiusmod tempor it sed incididunt ut labore et dolore, consectetur sed amet...</span>
-         </div>
-         <footer class="entry-footer">
-           <a href="#">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-         </footer>
-      </div>
+      <?php endwhile; ?>
     </div>
   </div>
 </div>
+<?php endif; ?>
 
 <?php get_footer(); // Loads the footer.php template. ?>

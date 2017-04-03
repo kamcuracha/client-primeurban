@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Single Projects
+ * Template Name: Single News
  */
 
 get_header(); // Loads the header.php template. ?>
@@ -29,13 +29,6 @@ get_header(); // Loads the header.php template. ?>
   </div>
 </div>
 
-<?php
-
-$term = wp_get_post_terms($post->ID, 'project_category');
-if($term[0]->parent != 0)
-    $parent = get_term($term[0]->parent, get_query_var('taxonomy') );
-?>
-
 <main <?php hybrid_attr( 'content' ); ?>>
 
 <?php if ( have_posts() ) : // Checks if any posts were found. ?>
@@ -44,7 +37,7 @@ if($term[0]->parent != 0)
 
         <?php the_post(); // Loads the post data. ?>
 
-        <div id="projects-all" class="section section-padded section-project-single">
+        <div id="news-all" class="section section-padded section-news-single">
             <div class="section-heading animatedParent">
                 <h3 class="section-title animated fadeInDownShort go"><?php the_title(); ?></h3>
                 <p class="animated fadeInUpShort go"><?php $content = get_the_content(); echo $content; ?></p>
