@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
             init: function() {
                 $('.owl-carousel').owlCarousel({
                     loop: true,
-                    margin: 15,
+                    margin: 10,
                     responsiveClass: true,
                     pagination: false,
                     responsive:{

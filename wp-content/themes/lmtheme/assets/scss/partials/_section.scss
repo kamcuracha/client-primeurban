@@ -551,6 +551,12 @@
   max-height: 270px;
   height: 300px;
   margin: 24px 0;
+
+  &.size-medium {
+    display: block;
+    width: auto;
+    max-height: inherit;
+  }
 }
 .section-connectivity .section-body {
   text-align: center;

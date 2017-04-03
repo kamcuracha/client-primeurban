@@ -3045,31 +3045,46 @@ jQuery(document).ready(function($) {
 
             },
             gmap: function() {
+				
                 if ( jQuery('#map-canvas').length != 0 ) {
+					
+                  var $el = jQuery('#map-canvas'),
+                    address = $el.data('title'),
+					geocoder,
+					map,
+					mapOptions = {
+					  zoom: 17,
+					  mapTypeId: google.maps.MapTypeId.ROADMAP
+					},
+					marker;
 
-                    var $el = jQuery('#map-canvas'),
-                        lat = parseInt($el.data('lat')) != 0 ? $el.data('lat'): -25.363882,
-                        lng = parseInt($el.data('lng')) != 0 ? $el.data('lng'): 131.044922,
-                        title = $el.data('title'),
-                        myLatlng = new google.maps.LatLng(lat, lng),
-                        mapOptions = {
-                            zoom: 15,
-                            center: myLatlng
-                        },
-                        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions),
-                        marker = new google.maps.Marker({
-                            position: myLatlng,
-                            map: map,
-                            title: title
-                        });
+				  function codeAddress() {
+					//var address = document.getElementById('address').value;
+					geocoder.geocode( { 'address': address}, function(results, status) {
+					  if (status == google.maps.GeocoderStatus.OK) {
+						map.setCenter(results[0].geometry.location);
+						if(marker)
+						  marker.setMap(null);
+						marker = new google.maps.Marker({
+							map: map,
+							position: results[0].geometry.location,
+							draggable: true
+						});
+						google.maps.event.addListener(marker, "dragend", function() {
+						  document.getElementById('lat').value = marker.getPosition().lat();
+						  document.getElementById('lng').value = marker.getPosition().lng();
+						});
+						document.getElementById('lat').value = marker.getPosition().lat();
+						document.getElementById('lng').value = marker.getPosition().lng();
+					  } else {
+						alert('Geocode was not successful for the following reason: ' + status);
+					  }
+					});
+				  }
 
-                    var infowindow = new google.maps.InfoWindow({
-                        content: title
-                    });
-
-                    google.maps.event.addListener(marker, 'click', function() {
-                        infowindow.open(map,marker);
-                    });
+				  geocoder = new google.maps.Geocoder();
+				  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+				  codeAddress();
 
                 }
             }

@@ -59,20 +59,24 @@ if($term[0]->parent != 0)
                         <?php the_field('info_2nd_column'); ?>
                     </div>
                 </div>
-                <?php if ( get_field('info_image') && get_field('info_image_2') && get_field('info_image_3') && get_field('info_image_4')) : ?>
+                <?php if ( (get_field('info_image') && get_field('info_image_2')) || (get_field('info_image_3') && get_field('info_image_4'))) : ?>
                 <div class="row row-images">
+                    <?php if ( get_field('info_image') && get_field('info_image_2')) : ?>
                     <div class="col-sm-7">
                         <img class="img-responsive" src="<?php the_field('info_image'); ?>" alt="">
                     </div>
                     <div class="col-sm-5">
                         <img class="img-responsive" src="<?php the_field('info_image_2'); ?>" alt="">
                     </div>
+                    <?php endif; ?>
+                    <?php if ( get_field('info_image_3') && get_field('info_image_4')) : ?>
                     <div class="col-sm-5">
                         <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
                     </div>
                     <div class="col-sm-7">
                         <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
                     </div>
+                    <?php endif; ?>
                 </div>
                 <?php endif; ?>
                 <div class="row">
