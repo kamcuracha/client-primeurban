@@ -303,3 +303,20 @@ if( isset( $_POST[ 'meta-checkbox' ] ) ) {
  
 }
 add_action( 'save_post', 'sm_meta_save' );
+
+function limit_string($string, $charlimit) 
+{ 
+    if(substr($string,$charlimit-1,1) != ' ') 
+    { 
+        $string = substr($string,'0',$charlimit); 
+        $array = explode(' ',$string); 
+        array_pop($array); 
+        $new_string = implode(' ',$array); 
+
+        return $new_string.'...'; 
+    } 
+    else 
+    {    
+        return substr($string,'0',$charlimit-1).'...'; 
+    } 
+} 
