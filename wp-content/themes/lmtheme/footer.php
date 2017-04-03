@@ -4,9 +4,11 @@
       <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-prime-urban.png" alt=""></a>
     </div>
     <div class="footer-social animated fadeInUpShort" data-id="2">
-      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <?php if( have_rows('links', 'option') ): ?>
+          <?php while( have_rows('links', 'option') ): the_row(); ?>
+              <a target="_blank" href="<?php the_sub_field('link'); ?>"><i class="fa fa-<?php the_sub_field('media'); ?>" aria-hidden="true"></i></a>
+          <?php endwhile; ?>
+      <?php endif; ?>
     </div>
     <?php hybrid_get_menu( 'secondary' );  ?>
   </div>
