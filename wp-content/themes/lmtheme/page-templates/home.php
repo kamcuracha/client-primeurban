@@ -179,7 +179,7 @@ get_header(); // Loads the header.php template. ?>
         </header>
         <div class="entry-content">
           <h3 class="entry-title"><?php the_title(); ?></h3> 
-          <span><?php echo limit_string(get_the_content(), 160); ?></span>
+          <span><?php echo strip_tags(limit_string(get_the_content(), 160)); ?></span>
          </div>
          <footer class="entry-footer">
            <a href="<?php the_permalink(); ?>">Read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
