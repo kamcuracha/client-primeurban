@@ -12177,6 +12177,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #898989;
 }
 
+.section-news-single hr {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.section-news-single .post-date {
+  color: #898989;
+  padding-bottom: 30px;
+}
+
+.section-news-single .news-content {
+  padding: 30px 0;
+  margin-bottom: 40px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.section-news-single .news-content p {
+  text-align: left;
+}
+
 .section-latest hr {
   margin-top: 5px;
   border-top-width: 3px;

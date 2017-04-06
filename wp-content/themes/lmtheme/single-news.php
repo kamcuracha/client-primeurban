@@ -10,7 +10,7 @@ get_header(); // Loads the header.php template. ?>
     <div class="container">
       <div class="masterhead-intro masterhead-intro-front animatedParent" data-sequence="500">
         <h2 class="h1 animated growIn go" data-id="1">
-          <?php echo get_the_title(); ?>
+          News
         </h2>
       </div>
     </div>
@@ -40,7 +40,12 @@ get_header(); // Loads the header.php template. ?>
         <div id="news-all" class="section section-padded section-news-single">
             <div class="section-heading animatedParent">
                 <h3 class="section-title animated fadeInDownShort go"><?php the_title(); ?></h3>
-                <p class="animated fadeInUpShort go"><?php $content = get_the_content(); echo $content; ?></p>
+                <hr align="center" width="15%">
+                <div class="post-date"><?php $date = new DateTime($post->post_date); echo $date->format('d F Y'); ?></div>
+                <?php if ( get_field('main_image') ): ?>
+                <img class="img-responsive" src="<?php echo the_field('main_image'); ?>" alt="">
+                <?php endif; ?>
+                <div class="news-content animated fadeInUpShort go"><?php the_content(); ?></div>
             </div>
             <div class="container">
                 <?php the_post_thumbnail( 'large', array('class' => 'img-responsive post-thumb') ); ?>
