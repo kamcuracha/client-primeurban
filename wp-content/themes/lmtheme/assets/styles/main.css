@@ -8317,6 +8317,10 @@ a.list-group-item-danger.active:focus {
   color: #333;
 }
 
+.card a:hover {
+  color: #c5d616;
+}
+
 .card-link {
   text-align: center;
   padding-bottom: 40px;
@@ -12657,6 +12661,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   float: right;
   margin-top: 0;
   padding-left: 24px;
+}
+
+.section-services-xp img.aligncenter {
+  margin: 0 auto;
 }
 
 .section-connectivity .section-body {

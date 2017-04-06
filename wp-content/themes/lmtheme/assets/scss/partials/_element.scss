@@ -3474,6 +3474,9 @@ a.list-group-item-danger.active:focus {
 .card a {
   color: #333;
 }
+.card a:hover {
+  color: #c5d616;
+}
 .card-link {
   text-align: center;
   padding-bottom: 40px;
