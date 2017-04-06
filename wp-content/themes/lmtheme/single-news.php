@@ -46,6 +46,12 @@ get_header(); // Loads the header.php template. ?>
                 <img class="img-responsive" src="<?php echo the_field('main_image'); ?>" alt="">
                 <?php endif; ?>
                 <div class="news-content animated fadeInUpShort go"><?php the_content(); ?></div>
+                <?php if( is_singular('news') ) { ?>
+                <div class="post-nav">
+                    <?php previous_post_link( '%link', '<div class="alignleft prev-next-post-nav">Prev</div>' ) ?>
+                    <?php next_post_link( '%link', '<div class="alignright prev-next-post-nav">Next</div>' ) ?>
+                </div>
+                <?php } ?>
             </div>
             <div class="container">
                 <?php the_post_thumbnail( 'large', array('class' => 'img-responsive post-thumb') ); ?>

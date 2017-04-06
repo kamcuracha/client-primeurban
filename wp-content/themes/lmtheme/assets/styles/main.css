@@ -8326,6 +8326,60 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 40px;
 }
 
+.post-nav {
+  display: block;
+  padding-bottom: 80px;
+}
+
+.post-nav > a > div {
+  padding: 12px 27px;
+  border: solid 1px #333;
+}
+
+.post-nav .alignleft {
+  float: left;
+}
+
+.post-nav .alignleft::before {
+  content: "\f177";
+  padding-right: 12px;
+  margin-left: -5px;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.post-nav .alignright {
+  float: right;
+}
+
+.post-nav .alignright::after {
+  content: "\f178";
+  padding-left: 12px;
+  margin-right: -5px;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.post-nav .prev-next-post-nav {
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.post-nav a {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.post-nav a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.post-nav a:hover div {
+  background-color: #c5d616;
+  border-color: #c5d616;
+}
+
 .features .features-item[data-color="black"]:hover {
   border-color: #7b797f;
 }
