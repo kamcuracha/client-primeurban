@@ -33,66 +33,29 @@ get_header(); // Loads the header.php template. ?>
 
 <?php if ( have_posts() ) : // Checks if any posts were found. ?>
 
-    <?php while ( have_posts() ) : // Begins the loop through found posts. ?>
+    <?php the_post(); // Loads the post data. ?>
 
-        <?php the_post(); // Loads the post data. ?>
-
-        <div id="news-all" class="section section-padded section-news-single">
+    <div id="news-all" class="section section-padded section-news-single">
+        <div class="container">
             <div class="section-heading animatedParent">
                 <h3 class="section-title animated fadeInDownShort go"><?php the_title(); ?></h3>
                 <hr align="center" width="15%">
-                <div class="post-date"><?php $date = new DateTime($post->post_date); echo $date->format('d F Y'); ?></div>
-                <?php if ( get_field('main_image') ): ?>
-                <img class="img-responsive" src="<?php echo the_field('main_image'); ?>" alt="">
-                <?php endif; ?>
-                <div class="news-content animated fadeInUpShort go"><?php the_content(); ?></div>
-                <?php if( is_singular('news') ) { ?>
-                <div class="post-nav">
-                    <?php previous_post_link( '%link', '<div class="alignleft prev-next-post-nav">Prev</div>' ) ?>
-                    <?php next_post_link( '%link', '<div class="alignright prev-next-post-nav">Next</div>' ) ?>
-                </div>
-                <?php } ?>
-            </div>
-            <div class="container">
-                <?php the_post_thumbnail( 'large', array('class' => 'img-responsive post-thumb') ); ?>
-                <div class="row">
-                    <div class="col-sm-6 animated fadeInLeftShort go">
-                        <?php the_field('info_1st_column'); ?>
-                    </div>
-                    <div class="col-sm-6 animated fadeInRightShort go">
-                        <?php the_field('info_2nd_column'); ?>
-                    </div>
-                </div>
-                <?php if ( (get_field('info_image') && get_field('info_image_2')) || (get_field('info_image_3') && get_field('info_image_4'))) : ?>
-                <div class="row row-images">
-                    <?php if ( get_field('info_image') && get_field('info_image_2')) : ?>
-                    <div class="col-sm-7">
-                        <img class="img-responsive" src="<?php the_field('info_image'); ?>" alt="">
-                    </div>
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="<?php the_field('info_image_2'); ?>" alt="">
-                    </div>
-                    <?php endif; ?>
-                    <?php if ( get_field('info_image_3') && get_field('info_image_4')) : ?>
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
-                    </div>
-                    <?php endif; ?>
-                </div>
-                <?php endif; ?>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 animated fadeInDownShort go">
-                        <?php the_field('info_footer'); ?>
-                    </div>
+                <div class="post-date"><?php $date = new DateTime($post->post_date); echo $date->format('d F Y'); ?>
                 </div>
             </div>
+            <div class="news-content animated fadeInUpShort go">
+            <?php if ( get_field('main_image') ): ?>
+            <img class="img-responsive" src="<?php echo the_field('main_image'); ?>" alt="">
+            <?php endif; ?>
+            <?php the_content(); ?></div>
+            <?php if( is_singular('news') ) { ?>
+            <div class="post-nav">
+                <?php next_post_link( '%link', '<div class="alignleft prev-next-post-nav">Newer</div>' ) ?>
+                <?php previous_post_link( '%link', '<div class="alignright prev-next-post-nav">Older</div>' ) ?>
+            </div>
+            <?php } ?>
         </div>
-
-
-    <?php endwhile; // End found posts loop. ?>
+    </div>
 
 <?php endif; // End check for posts. ?>
 

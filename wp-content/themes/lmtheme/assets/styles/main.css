@@ -12242,9 +12242,17 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .section-news-single .news-content {
-  padding: 30px 0;
+  padding-bottom: 30px;
   margin-bottom: 40px;
   border-bottom: solid 1px #eeeeee;
+}
+
+.section-news-single .news-content img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding-bottom: 20px;
+  width: 100%;
+  min-height: 400px;
 }
 
 .section-news-single .news-content p {
