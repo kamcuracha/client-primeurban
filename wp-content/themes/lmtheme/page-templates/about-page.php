@@ -90,16 +90,17 @@ get_header(); // Loads the header.php template. ?>
 </div>
 
 <?php if( have_rows('tabs') ): $rowctr = 1; ?>
-<div class="section section-padded section-about-vm">
+<div class="section section-about-vm">
   <div class="container">
     <?php while( have_rows('tabs') ): the_row(); ?>
     <div class="row animatedParent" id="tab-<?php the_sub_field('icon'); ?>-row">
       <div class="col-sm-12">
         <h3 class="section-title center"><?php the_sub_field('title'); ?></h3>
-        <p><?php the_sub_field('description'); ?></p>
+        <p class="center"><?php the_sub_field('description'); ?></p>
       </div>
     </div>
     <?php $rowctr++; endwhile; ?>
+      <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-about-vision.jpg" alt="">
   </div>
 </div>
 <?php endif; ?>

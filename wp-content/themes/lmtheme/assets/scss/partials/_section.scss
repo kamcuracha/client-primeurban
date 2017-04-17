@@ -383,8 +383,12 @@
   padding-top: 30px;
 }
 .section-about-vm {
-  background: url(../images/bg-about-vm.jpg) center bottom no-repeat;
+  //background: url(../images/bg-about-vm.jpg) center bottom no-repeat;
   background-size: cover;
+
+  img {
+    padding-bottom: 46px;
+  }
 }
 .section-services-xp {
   background: url(../images/bg-services-xp.jpg) center bottom no-repeat;
@@ -415,20 +419,23 @@
   left: 14px;
   z-index: -1;
 }
-.section-services-xp .col-xs-10 {
-  @media (min-width : 768px) {
-    min-height: 900px;
-  }
+
+.section-about-vm .col-sm-12 {
+  background: #fff;
+  padding: 0 40px 30px;
+  border-radius: 7px;
 }
-.section-about-vm .col-sm-12,
 .section-services-xp .col-xs-10 {
   background: #fff;
   padding: 30px 40px;
   border-radius: 7px;
-}
-.section-services-xp .col-xs-10 {
+
   @media (max-width: 560px) {
     border-radius: 0;
+  }
+
+  @media (min-width : 768px) {
+    min-height: 900px;
   }
 }
 .section-about-vm .about-tab,

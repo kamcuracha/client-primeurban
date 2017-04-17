@@ -12525,8 +12525,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .section-about-vm {
-  background: url(../images/bg-about-vm.jpg) center bottom no-repeat;
   background-size: cover;
+}
+
+.section-about-vm img {
+  padding-bottom: 46px;
 }
 
 .section-services-xp {
@@ -12560,13 +12563,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: -1;
 }
 
-@media (min-width: 768px) {
-  .section-services-xp .col-xs-10 {
-    min-height: 900px;
-  }
+.section-about-vm .col-sm-12 {
+  background: #fff;
+  padding: 0 40px 30px;
+  border-radius: 7px;
 }
 
-.section-about-vm .col-sm-12,
 .section-services-xp .col-xs-10 {
   background: #fff;
   padding: 30px 40px;
@@ -12576,6 +12578,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 @media (max-width: 560px) {
   .section-services-xp .col-xs-10 {
     border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-services-xp .col-xs-10 {
+    min-height: 900px;
   }
 }
 
