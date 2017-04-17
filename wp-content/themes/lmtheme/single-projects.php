@@ -50,7 +50,9 @@ if($term[0]->parent != 0)
                 <p class="animated fadeInUpShort go"><?php $content = get_the_content(); echo $content; ?></p>
             </div>
             <div class="container">
-                <?php the_post_thumbnail( 'large', array('class' => 'img-responsive post-thumb') ); ?>
+                <?php if ( get_field('hero_image') ) : ?>
+                    <img class="img-responsive post-thumb" src="<?php echo the_field('hero_image'); ?>" alt="">
+                <?php endif; ?>
                 <div class="row">
                     <div class="col-sm-6 animated fadeInLeftShort go">
                         <?php the_field('info_1st_column'); ?>

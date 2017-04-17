@@ -8284,6 +8284,8 @@ a.list-group-item-danger.active:focus {
   width: 100%;
   max-height: 375px;
   height: 360px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .card .card-title {
@@ -9244,8 +9246,8 @@ a.list-group-item-danger.active:focus {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
-  max-height: 640px;
-  height: 640px;
+  max-height: 480px !important;
+  height: 480px;
   margin-bottom: 3em;
 }
 

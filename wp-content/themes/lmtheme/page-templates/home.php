@@ -133,10 +133,10 @@ get_header(); // Loads the header.php template. ?>
       <div class="card card-1 animated fadeIn go" data-id="1">
         <a href="<?php the_permalink(); ?>">
           <div class="card-image">
-            <?php if ( has_post_thumbnail() ) : ?>
-              <?php the_post_thumbnail('medium_large', ['class' => 'img-responsive']); ?>
+            <?php if ( get_field('thumbnail_image') ) : ?>
+                <img class="img-responsive" src="<?php echo the_field('thumbnail_image'); ?>" alt="">
             <?php else : ?>
-              <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/no-thumbnail.jpg" alt="">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/no-thumbnail.jpg" alt="">
             <?php endif; ?>
           </div>
           <div class="card-title">
