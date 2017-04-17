@@ -121,6 +121,10 @@
   background-size: cover !important;
   background-repeat: no-repeat;
   background-position: bottom center;
+
+  .page-template-contact-page & {
+    background-position: top center;
+  }
 }
 
 .masterhead-img img {

@@ -144,12 +144,21 @@
 .section-qualities {
   padding-top: 30px;
 }
+.section-latest .item {
+  @media (max-width: 767px) {
+    padding-bottom: 27px;
+  }
+}
 .section-latest .section-heading {
   text-align: left;
   width: 100%;
   max-width: inherit;
   padding-top: 0;
   padding-bottom: 30px;
+
+  @media (max-width: 767px) {
+    padding-left: 0;
+  }
 }
 .section-latest .post-date {
   color: #898989;
@@ -200,6 +209,12 @@
 }
 .section-contact-us label {
   margin-bottom: 0;
+}
+
+.section-contact-us .frm_forms {
+  @media (max-width: 767px) {
+    padding-bottom: 27px;
+  }
 }
 .section-contact-us .contact {
   padding-left: 0;
