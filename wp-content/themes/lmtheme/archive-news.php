@@ -31,7 +31,16 @@ get_header(); // Loads the header.php template. ?>
 
 <main <?php hybrid_attr( 'content' ); ?>>
 
-<?php if ( have_posts() ) : // Checks if any posts were found. ?>
+<?php
+    $args = array(
+        'posts_per_page' => 1,
+        'orderby' => 'date',
+        'order' => 'DESC',
+        'post_type' => 'news'
+    );
+    $news = new WP_Query($args);
+
+    if ( $news->have_posts() ) : // Checks if any posts were found. ?>
 
     <?php the_post(); // Loads the post data. ?>
 
@@ -48,12 +57,10 @@ get_header(); // Loads the header.php template. ?>
             <img class="img-responsive" src="<?php echo the_field('main_image'); ?>" alt="">
             <?php endif; ?>
             <?php the_content(); ?></div>
-            <?php if( is_singular('news') ) { ?>
             <div class="post-nav">
                 <?php next_post_link( '%link', '<div class="alignleft prev-next-post-nav">Prev</div>' ) ?>
                 <?php previous_post_link( '%link', '<div class="alignright prev-next-post-nav">Next</div>' ) ?>
             </div>
-            <?php } ?>
         </div>
     </div>
 

@@ -13144,7 +13144,7 @@ table th[class*="col-"] {
 .t-footer {
   position: relative;
   /*background-color: #f8f8f8;*/
-  background: url(../images/bg-footer.jpg) center bottom no-repeat;
+  background: url(../images/bg-footer2.jpg) center bottom no-repeat;
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -13219,7 +13219,7 @@ table th[class*="col-"] {
 
 .prefooter-section {
   position: relative;
-  background: url(../images/bg-footer.jpg) center bottom no-repeat;
+  background: url(../images/bg-footer2.jpg) center bottom no-repeat;
   background-size: cover;
   padding-top: 4em;
   padding-bottom: 4em;
