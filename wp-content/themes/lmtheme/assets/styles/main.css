@@ -3296,6 +3296,10 @@ body {
   height: 525px;
 }
 
+.page-template-home .masterhead {
+  height: 640px;
+}
+
 .masterhead .h1 {
   margin: 0 0 15px;
   font-weight: 200;
@@ -3423,6 +3427,7 @@ body {
   background-position: bottom center;
 }
 
+.page-template-home .masterhead-img,
 .page-template-contact-page .masterhead-img {
   background-position: top center;
 }
@@ -8526,6 +8531,12 @@ a.list-group-item-danger.active:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .features-holder {
+    padding-top: 7px;
+  }
+}
+
 .features-holder-img {
   display: none;
 }
@@ -12191,12 +12202,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 1;
 }
 
+.section-pre-qualities .container {
+  padding-bottom: 0;
+}
+
 .section-pre-qualities .arrow-up {
   margin: 0 auto;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 80px 80px 80px;
+  border-width: 0 72px 72px 72px;
   border-color: transparent transparent #fff transparent;
 }
 
@@ -12210,7 +12225,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   position: relative;
   display: block;
   left: -41px;
-  top: 12px;
+  top: 18px;
   width: 84px;
 }
 

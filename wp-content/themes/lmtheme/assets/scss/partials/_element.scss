@@ -3639,9 +3639,8 @@ a.list-group-item-danger.active:focus {
   padding: 0;
   text-align: center;
   position: relative;
-}
-@media (min-width: 1200px) {
-  .features-holder {
+
+  @media (min-width: 1200px) {
     width: 330px;
     height: 560px;
     display: block;
@@ -3649,13 +3648,15 @@ a.list-group-item-danger.active:focus {
     border: 1px dashed #CBCBCB;
     border-radius: 160px;
   }
-}
-@media (max-width: 1199px) {
-  .features-holder {
+  @media (max-width: 1199px) {
     max-width: 930px;
     margin-bottom: 50px;
   }
+  @media (max-width: 767px) {
+    padding-top: 7px;
+  }
 }
+
 .features-holder-img {
   display: none;
 }
