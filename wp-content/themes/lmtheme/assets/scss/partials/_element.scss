@@ -3484,10 +3484,10 @@ a.list-group-item-danger.active:focus {
 
 .post-nav {
   display: block;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 
   & > a > div {
-    padding: 12px 27px;
+    padding: 11px 21px;
     border: solid 1px #333;
   }
 
@@ -3514,7 +3514,9 @@ a.list-group-item-danger.active:focus {
   }
 
   .prev-next-post-nav {
-    font-size: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -8328,11 +8328,11 @@ a.list-group-item-danger.active:focus {
 
 .post-nav {
   display: block;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .post-nav > a > div {
-  padding: 12px 27px;
+  padding: 11px 21px;
   border: solid 1px #333;
 }
 
@@ -8359,7 +8359,9 @@ a.list-group-item-danger.active:focus {
 }
 
 .post-nav .prev-next-post-nav {
-  font-size: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11672,7 +11674,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .home .navbar-fixed-top,
-.singular .navbar-fixed-top {
+.singular .navbar-fixed-top,
+.archive .navbar-fixed-top {
   background-color: transparent;
   box-shadow: none;
 }
@@ -12250,7 +12253,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .section-news-single .news-content img {
   -o-object-fit: cover;
   object-fit: cover;
-  padding-bottom: 20px;
+  padding-bottom: 27px;
   width: 100%;
   min-height: 400px;
 }
