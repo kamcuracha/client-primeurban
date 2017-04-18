@@ -81,10 +81,10 @@ get_header(); // Loads the header.php template. ?>
 
         <?php while( have_rows('qualities') ): the_row(); ?>
           
-        <div class="features-item <?php if($rowctr > 3) { echo "features-item-right"; } ?> features-item-<?php echo $rowctr; ?> animated <?php if($rowctr > 3) { echo "bounceInRight"; } else { echo "bounceInLeft"; } ?>" data-color="<?php the_sub_field('colour'); ?>" data-id="<?php echo $rowctr; ?>">
+        <div class="features-item <?php if($rowctr > 3) { echo "features-item-right"; } ?> features-item-<?php echo $rowctr; ?> animated <?php if($rowctr > 3) { echo "bounceInRight"; } else { echo "bounceInLeft"; } ?>" data-color="light-green" data-id="<?php echo $rowctr; ?>">
 
           <div class="features-item-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-key-<?php echo $rowctr; ?>.png" alt="">
           </div>
 
           <div class="features-item-body">

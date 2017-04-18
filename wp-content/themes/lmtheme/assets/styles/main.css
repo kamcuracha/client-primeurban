@@ -12420,6 +12420,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border: solid 1px #d4e517;
 }
 
+.section-project-single .container {
+  margin-bottom: 4em;
+}
+
 .section-project-single .row-images {
   padding: 3em 0;
 }
