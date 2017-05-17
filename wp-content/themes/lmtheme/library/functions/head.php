@@ -15,6 +15,7 @@ add_action( 'wp_head', 'hybrid_meta_charset',  0 );
 add_action( 'wp_head', 'hybrid_doctitle',      0 );
 add_action( 'wp_head', 'hybrid_meta_viewport', 1 );
 add_action( 'wp_head', 'hybrid_meta_template', 1 );
+add_action( 'wp_head', 'hybrid_link_favicon', 1  );
 add_action( 'wp_head', 'hybrid_link_pingback', 3 );
 
 /* Filter the WordPress title. */
@@ -66,6 +67,17 @@ function hybrid_doctitle() {
  */
 function hybrid_meta_viewport() {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1" />' . "\n";
+}
+
+/**
+ * Adds the link favicon to the header.
+ *
+ *
+ * @access public
+ */
+function hybrid_link_favicon() {
+	echo '<link rel="icon" type="image/x-icon" href="'.get_site_url().'/favicon.ico" />' . "\n";
+	echo '<link rel="icon" type="image/png" href="'.get_site_url().'/favicon.png" />' . "\n";
 }
 
 /**
