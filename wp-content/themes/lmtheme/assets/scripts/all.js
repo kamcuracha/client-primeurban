@@ -3044,6 +3044,13 @@ jQuery(document).ready(function($) {
                 // });
 
             },
+            owlCarousel: function() {
+                $(window).scroll(function() {
+                    clearTimeout($.data(this, "scrollCheck")), $.data(this, "scrollCheck", setTimeout(function() {
+                        $(window).scrollTop() > 160 ? $("body").addClass("navbar-shrink").trigger('shrinked') : $("body").removeClass("navbar-shrink").trigger('unshrinked')
+                    }, 10))
+                });
+            },
             gmap: function() {
 				
                 if ( jQuery('#map-canvas').length != 0 ) {
