@@ -12754,7 +12754,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   -webkit-box-align: center;
   align-items: center;
   overflow: hidden;
+  width: 245px;
   height: 245px;
+  margin: 0 auto;
 }
 
 .section-about-team .team-member img {
