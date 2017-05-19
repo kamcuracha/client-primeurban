@@ -583,16 +583,37 @@
 .section-about-team .team-member {
   text-align: center;
 
+  .member-img {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    height: 245px;
+  }
+
   img {
-    max-height: 245px;
+    z-index: 1;
+    -webkit-transition: -webkit-transform .3s ease-in;
+    transition: -webkit-transform .3s ease-in;
+    transition: transform .3s ease-in;
+    transition: transform .3s ease-in, -webkit-transform .3s ease-in;
+    max-width: 100%;
+    width: auto !important;
+    max-height: 100%;
+    position: static;
+    vertical-align: middle;
 
-    @media (max-width: 1200px) {
-      max-height: 195px;
-    }
-
-    @media (max-width: 600px) {
-      max-height: 320px;
-    }
+    //@media (max-width: 1200px) {
+    //  max-height: 195px;
+    //}
+    //
+    //@media (max-width: 600px) {
+    //  max-height: 320px;
+    //}
   }
 }
 .section-about-team .member-name {
