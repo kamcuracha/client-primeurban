@@ -47,7 +47,7 @@ get_header(); // Loads the header.php template. ?>
             <?php if ( get_sub_field('image') ) : ?>
             <img src="<?php the_sub_field('image'); ?>" alt="">
             <?php else: ?>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-member<?php echo $rowctr; ?>.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-alt-prime-urban.png" alt="">
             <?php endif; ?>
           </div>
           <div class="member-name"><?php the_sub_field('name'); ?></div>
