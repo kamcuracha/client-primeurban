@@ -101,6 +101,41 @@ if($term[0]->parent != 0)
                         <?php endif; ?>
                     </div>
                 <?php endif; ?>
+                <?php if( have_rows('image_gallery') ): $rowctr = 1; ?>
+
+                    <?php while( have_rows('image_gallery') ): the_row(); $rowval = $rowctr % 4; $fullrow = FALSE; ?>
+
+                        <?php if($rowval == 1 || $rowval == 3) : ?>
+                            <div class="row row-images">
+                        <?php endif; ?>
+
+                        <?php if($rowval == 1): ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_sub_field('image'); ?>" alt="">
+                            </div>
+                        <?php elseif($rowval == 2): ?>
+                            <div class="col-sm-5">
+                                <img class="img-responsive" src="<?php the_sub_field('image'); ?>" alt="">
+                            </div>
+                            <?php $fullrow = TRUE; ?>
+                        <?php elseif($rowval == 3): ?>
+                            <div class="col-sm-5">
+                                <img class="img-responsive" src="<?php the_sub_field('image'); ?>" alt="">
+                            </div>
+                        <?php elseif($rowval == 0): ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_sub_field('image'); ?>" alt="">
+                            </div>
+                            <?php $fullrow = TRUE; ?>
+                        <?php endif; ?>
+
+                        <?php if(($rowval == 2 || $rowval == 0) && $fullrow == TRUE) : ?>
+                            </div>
+                        <?php endif; ?>
+
+                    <?php $rowctr++; endwhile; ?>
+
+                <?php endif; ?>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 animated fadeInDownShort go">
                         <?php the_field('info_footer'); ?>
