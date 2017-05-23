@@ -103,6 +103,8 @@ if($term[0]->parent != 0)
                 <?php endif; ?>
                 <?php if( have_rows('image_gallery') ): $rowctr = 1; ?>
 
+                    <?php $rowcount = count(get_field('image_gallery')); //GET THE COUNT ?>
+
                     <?php while( have_rows('image_gallery') ): the_row(); $rowval = $rowctr % 4; $fullrow = FALSE; ?>
 
                         <?php if($rowval == 1 || $rowval == 3) : ?>
@@ -129,15 +131,15 @@ if($term[0]->parent != 0)
                             <?php $fullrow = TRUE; ?>
                         <?php endif; ?>
 
-                        <?php if(($rowval == 2 || $rowval == 0) && $fullrow == TRUE) : ?>
+                        <?php if((($rowval == 2 || $rowval == 0) && $fullrow == TRUE) || $rowctr == $rowcount ) : ?>
                             </div>
                         <?php endif; ?>
 
                     <?php $rowctr++; endwhile; ?>
 
                 <?php endif; ?>
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3 animated fadeInDownShort go">
+                <div class="row row-footer">
+                    <div class="col-sm-12 animated fadeInDownShort go">
                         <?php the_field('info_footer'); ?>
                     </div>
                 </div>

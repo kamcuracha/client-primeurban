@@ -12428,6 +12428,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin-bottom: 3em;
 }
 
+.section-project-single .row-footer p.center {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .section-project-single .row-images img {
   -o-object-fit: cover;
   object-fit: cover;
