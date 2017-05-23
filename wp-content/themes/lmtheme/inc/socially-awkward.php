@@ -54,7 +54,7 @@ function stargazer_register_styles() {
 	wp_enqueue_style( 'font-main', 'https://fonts.googleapis.com/css?family=Roboto:100,300,400' );
 	wp_register_style( 'theme-mediaelement', trailingslashit( get_template_directory_uri() ) . 'assets/styles/main.css' );
 	
-	if ( is_page_template( 'page-templates/about-page.php' ) ) {
+	if ( is_page_template( 'page-templates/about-page.php' ) || is_front_page() ) {
 		
 		wp_register_style( 'owl-carousel', trailingslashit( get_template_directory_uri() ) . 'assets/scripts/plugins/assets/owl.carousel.min.css' );
 		wp_register_style( 'owl-carousel-theme', trailingslashit( get_template_directory_uri() ) . 'assets/scripts/plugins/assets/owl.theme.default.min.css' );

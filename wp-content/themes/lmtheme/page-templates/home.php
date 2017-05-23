@@ -128,9 +128,9 @@ get_header(); // Loads the header.php template. ?>
     if ($featured->have_posts()):
   ?>
   <div class="container">
-    <div class="cards card-holder animatedParent">
+    <div class="cards card-holder owl-carousel animatedParent">
       <?php while($featured->have_posts()): $featured->the_post(); ?>
-      <div class="card card-1 animated fadeIn go" data-id="1">
+      <div class="card card-1 item animated fadeIn go" data-id="1">
         <a href="<?php the_permalink(); ?>">
           <div class="card-image">
             <?php if ( get_field('thumbnail_image') ) : ?>

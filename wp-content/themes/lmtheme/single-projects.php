@@ -53,7 +53,7 @@ if($term[0]->parent != 0)
                 <?php if ( get_field('hero_image') ) : ?>
                     <img class="img-responsive post-thumb" src="<?php echo the_field('hero_image'); ?>" alt="">
                 <?php endif; ?>
-                <div class="row">
+                <div class="row row-content">
                     <div class="col-sm-6 animated fadeInLeftShort go">
                         <?php the_field('info_1st_column'); ?>
                     </div>
@@ -61,25 +61,45 @@ if($term[0]->parent != 0)
                         <?php the_field('info_2nd_column'); ?>
                     </div>
                 </div>
-                <?php if ( (get_field('info_image') && get_field('info_image_2')) || (get_field('info_image_3') && get_field('info_image_4'))) : ?>
-                <div class="row row-images">
-                    <?php if ( get_field('info_image') && get_field('info_image_2')) : ?>
-                    <div class="col-sm-7">
-                        <img class="img-responsive" src="<?php the_field('info_image'); ?>" alt="">
+                <?php if (get_field('info_image') || get_field('info_image_2')) : ?>
+                    <div class="row row-images">
+                        <?php if ( get_field('info_image') && get_field('info_image_2')) : ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image'); ?>" alt="">
+                            </div>
+                            <div class="col-sm-5">
+                                <img class="img-responsive" src="<?php the_field('info_image_2'); ?>" alt="">
+                            </div>
+                        <?php elseif(get_field('info_image')) : ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image'); ?>" alt="">
+                            </div>
+                        <?php elseif(get_field('info_image_2')) : ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image_2'); ?>" alt="">
+                            </div>
+                        <?php endif; ?>
                     </div>
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="<?php the_field('info_image_2'); ?>" alt="">
+                <?php endif; ?>
+                <?php if (get_field('info_image_3') || get_field('info_image_4')) : ?>
+                    <div class="row row-images">
+                        <?php if ( get_field('info_image_3') && get_field('info_image_4')) : ?>
+                            <div class="col-sm-5">
+                                <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
+                            </div>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
+                            </div>
+                        <?php elseif(get_field('info_image_3')) : ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
+                            </div>
+                        <?php elseif(get_field('info_image_4')) : ?>
+                            <div class="col-sm-7">
+                                <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
+                            </div>
+                        <?php endif; ?>
                     </div>
-                    <?php endif; ?>
-                    <?php if ( get_field('info_image_3') && get_field('info_image_4')) : ?>
-                    <div class="col-sm-5">
-                        <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
-                    </div>
-                    <?php endif; ?>
-                </div>
                 <?php endif; ?>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 animated fadeInDownShort go">

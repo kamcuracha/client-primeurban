@@ -43,13 +43,13 @@ get_header(); // Loads the header.php template. ?>
       <?php while( have_rows('team_members') ): the_row(); ?>
       <div class="item animated fadeIn go" data-id="<?php echo $rowctr; ?>">
         <div class="team-member">
+          <?php if ( get_sub_field('image') ) : ?>
           <div class="member-img">
-            <?php if ( get_sub_field('image') ) : ?>
             <img src="<?php the_sub_field('image'); ?>" alt="">
-            <?php else: ?>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/no-thumbnail2.jpg" alt="">
-            <?php endif; ?>
           </div>
+          <!--            --><?php //else: ?>
+          <!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/no-thumbnail2.jpg" alt="">-->
+          <?php endif; ?>
           <div class="member-name"><?php the_sub_field('name'); ?></div>
           <div class="member-pos"><?php the_sub_field('title'); ?></div>
         </div>

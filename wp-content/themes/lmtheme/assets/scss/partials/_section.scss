@@ -302,9 +302,12 @@
 .section-project-single .container {
   margin-bottom: 4em;
 }
-.section-project-single .row-images {
-  padding: 3em 0;
+.section-project-single .row-content {
+  margin-bottom: 3em;
 }
+//.section-project-single .row-images {
+//  padding: 3em 0;
+//}
 .section-project-single .row-images img {
   object-fit: cover;
   width: 100%;
