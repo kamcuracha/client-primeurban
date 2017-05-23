@@ -91,11 +91,11 @@ if($term[0]->parent != 0)
                                 <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
                             </div>
                         <?php elseif(get_field('info_image_3')) : ?>
-                            <div class="col-sm-7">
+                            <div class="col-sm-5">
                                 <img class="img-responsive" src="<?php the_field('info_image_3'); ?>" alt="">
                             </div>
                         <?php elseif(get_field('info_image_4')) : ?>
-                            <div class="col-sm-7">
+                            <div class="col-sm-5">
                                 <img class="img-responsive" src="<?php the_field('info_image_4'); ?>" alt="">
                             </div>
                         <?php endif; ?>
